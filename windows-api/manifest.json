@@ -1,0 +1,801 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/docfx/THNETII.WinApi.DocFx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.HRESULT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.HRESULT.html",
+          "hash": "k33eKJ4t9RJBPu3jhAUs+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.HResultFacility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.HResultFacility.html",
+          "hash": "w4SGx22YXk5LjKXHVRtyhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.HResultSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.HResultSeverity.html",
+          "hash": "svUr91kceJV85y0PoltgJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Headers.WinUser.GRAYSTRINGPROC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Headers.WinUser.GRAYSTRINGPROC.html",
+          "hash": "DPXE48HyxMQYACoMU+kJOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Headers.WinUser.TIMERPROC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Headers.WinUser.TIMERPROC.html",
+          "hash": "kUJAdRZNZOXWJU2Vd6+xTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Headers.WinUser.WNDENUMPROC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Headers.WinUser.WNDENUMPROC.html",
+          "hash": "vM+wcFRZpCN+LJWL2YjzUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Headers.WinUser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Headers.WinUser.html",
+          "hash": "FCPTFsgUwGWAMoUnCrJiQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.NTFacility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.NTFacility.html",
+          "hash": "Z1X51mDtEAd4kjMqd8DMsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.NTSTATUS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.NTSTATUS.html",
+          "hash": "xSj96VEEN1jlPIA/H/C+pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.NTStatusSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.NTStatusSeverity.html",
+          "hash": "OS913WGjFS8F40ES63Z99g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.NativeLibraryNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.NativeLibraryNames.html",
+          "hash": "Lrp7R4A5cBCGkwnR3pxkEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.SdkVer.SdkVerConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.SdkVer.SdkVerConstants.html",
+          "hash": "rzwei71OBNMfF4Z5JvCmJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.SdkVer.SdkVerMacros.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.SdkVer.SdkVerMacros.html",
+          "hash": "Fq2yTCG22/XTMShgm8xF/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.SdkVer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.SdkVer.html",
+          "hash": "sT1PU3piZHXaGfscgcen2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Win32ErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Win32ErrorCode.html",
+          "hash": "Jlqg5nPZ2ABlG9WKC5YkKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.COMPARTMENT_ID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.COMPARTMENT_ID.html",
+          "hash": "l+XuYjhn80qRcJZQjVYUUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.GROUP_AFFINITY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.GROUP_AFFINITY.html",
+          "hash": "dgFyMtGbwWLKHwBKL25TEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.LIST_ENTRY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.LIST_ENTRY.html",
+          "hash": "Rvxec//ZEkk0Q37WyQD91Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.M128A.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.M128A.html",
+          "hash": "zTLKAubcxUOuLWE4x66K8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.OBJECTID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.OBJECTID.html",
+          "hash": "dsYziRzZeFbCFEvWrZQ9lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.PLIST_ENTRY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.PLIST_ENTRY.html",
+          "hash": "8hQu5UMHW+eQtfGOuU11kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.PROCESSOR_NUMBER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.PROCESSOR_NUMBER.html",
+          "hash": "C0HUayHzH7KFwczk2n2xGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.PRODUCT_TYPE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.PRODUCT_TYPE.html",
+          "hash": "iYD8q7xfQ1Fnb1ykOZDfOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.PSINGLE_LIST_ENTRY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.PSINGLE_LIST_ENTRY.html",
+          "hash": "ruuYA53ycRDzvy2uY3iG1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.SCOPE_RECORD_AMD64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.SCOPE_RECORD_AMD64.html",
+          "hash": "dF+YQPhR+3lcQ3icmmm8Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.SCOPE_TABLE_AMD64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.SCOPE_TABLE_AMD64.html",
+          "hash": "IbYQErw34n5wqkP9xI+vHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.SCOPE_TABLE_AMD64_MARSHAL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.SCOPE_TABLE_AMD64_MARSHAL.html",
+          "hash": "RHh0iQhia+VuFPOjUosztg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.SINGLE_LIST_ENTRY.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.SINGLE_LIST_ENTRY.html",
+          "hash": "N0nbTCi1xH22n3mGAwpF/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.VER_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.VER_FLAGS.html",
+          "hash": "jz2S6dCN7de1rz3bMVzPWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.WinNTConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.WinNTConstants.html",
+          "hash": "YooO4C9ElXOv8pIwOwNRCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.WinNTMacros.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.WinNTMacros.html",
+          "hash": "9+eyEJ/uWtwXvca/Cq1G+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.XSAVE_AREA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.XSAVE_AREA.html",
+          "hash": "XrgvufY03PGPhVC8SSOKPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.XSAVE_AREA_HEADER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.XSAVE_AREA_HEADER.html",
+          "hash": "5NzD+pWUQNE879iao49zxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.XSAVE_FORMAT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.XSAVE_FORMAT.html",
+          "hash": "oeZmXrPzmNOmso0FyEo+Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.XSAVE_FORMAT_WIN64.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.XSAVE_FORMAT_WIN64.html",
+          "hash": "dD5WvJlQLcU0P5Y7M/ZsPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.XSTATE_CONTEXT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.XSTATE_CONTEXT.html",
+          "hash": "+x36MTmIECz0HtpkfUWpCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.XSTATE_CONTEXT_X86.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.XSTATE_CONTEXT_X86.html",
+          "hash": "qBDpA7EQ7hHc7Rnv6FKozA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.WinNT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.WinNT.html",
+          "hash": "sns62hgK26kE3ySo0e4GGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.html",
+          "hash": "+PdL/5ShuXkVGNznU6TNyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.HResultConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.HResultConstants.html",
+          "hash": "gdBiLVQ3+RBerRk/vfWycg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.NTFacilityConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.NTFacilityConstants.html",
+          "hash": "LrVqTZhRO35sD49wbvrKjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.NTStatusConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.NTStatusConstants.html",
+          "hash": "28wtptZNREdgDX7vBHWPDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.NTStatusFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.NTStatusFunctions.html",
+          "hash": "NupgNQ61+NFG9HSsIRoKTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.StatusSeverityConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.StatusSeverityConstants.html",
+          "hash": "KzHWUfrvpjb23fHTAdXSRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.WinErrorConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.WinErrorConstants.html",
+          "hash": "OiZumHPOM492G3G7WUEK+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.WinErrorFacilityConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.WinErrorFacilityConstants.html",
+          "hash": "DjrdVmQ0Uw4Kntmv1wLF0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.WinErrorSeverityConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.WinErrorSeverityConstants.html",
+          "hash": "IGH9ENsLv1XiNTtEPzqkRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.WinNTConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.WinNTConstants.html",
+          "hash": "Mzbv4HOh0TIPlv+g9noT7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Constants.html",
+          "hash": "Yw1f9jRxU8cNpcnV0vIoBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html",
+          "hash": "DL7JPS5C+toS8JywhaNxxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.HResultFacility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.HResultFacility.html",
+          "hash": "pM0wUU2mxXd938L1QydveQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.HResultSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.HResultSeverity.html",
+          "hash": "vck98YZhmqzaiAOj2JqegA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.NTFacility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.NTFacility.html",
+          "hash": "NOr6Yjs+Z6FvilSo7RfbPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.NTSTATUS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.NTSTATUS.html",
+          "hash": "ubVppuwOQ7LjGDWjEt160w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.NTStatusSeverity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.NTStatusSeverity.html",
+          "hash": "hM1+qRUi4npcrrqmyik5DA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Win32ErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.Win32ErrorCode.html",
+          "hash": "12i5fwNObMTAPHlPsydWuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WindowsProtocols.WindowsErrorCodes.html",
+          "hash": "pydksohsD/NyYCy10c3MDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "EHpDq2H5KJW4+vLLiBHszQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "n6i+9BamfQfFxx+dSIdxjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "uUZkmD3pQ2SHnTdotFJxmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "E89O0uzKI6tDqQRxGmdjgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
