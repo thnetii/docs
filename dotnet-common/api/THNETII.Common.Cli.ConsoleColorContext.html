@@ -1,0 +1,872 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ConsoleColorContext
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ConsoleColorContext
+   ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="THNETII.Common.Cli.ConsoleColorContext">
+  
+  
+  <h1 id="THNETII_Common_Cli_ConsoleColorContext" data-uid="THNETII.Common.Cli.ConsoleColorContext" class="text-break">Class ConsoleColorContext
+  </h1>
+  <div class="markdown level0 summary"><p>Contains the state of current and original Console foreground and background color settings.</p>
+<p>The context should be used in a <code>using</code>-block to ensure proper resetting of console colors.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">ConsoleColorContext</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="THNETII.Common.Cli.html">THNETII.Common.Cli</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.Common.Cli.dll</h6>
+  <h5 id="THNETII_Common_Cli_ConsoleColorContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class ConsoleColorContext : IDisposable</code></pre>
+  </div>
+  <h5 id="THNETII_Common_Cli_ConsoleColorContext_examples"><strong>Examples</strong></h5>
+  <pre><code>using System;
+using THNETII.Common.Cli;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine(&quot;This text is written normally.&quot;);
+        using (var context = new ConsoleColorContext(ConsoleColor.Red))
+        {
+            Console.WriteLine(&quot;This text is written using red foreground coloring.&quot;);
+        }
+        Console.WriteLine(&quot;This text is written normally again.&quot;);
+    }
+}</code></pre>
+
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext__ctor_System_Nullable_System_ConsoleColor__System_Nullable_System_ConsoleColor__.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.%23ctor(System.Nullable%7BSystem.ConsoleColor%7D%2CSystem.Nullable%7BSystem.ConsoleColor%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L179">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext__ctor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.#ctor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext__ctor_System_Nullable_System_ConsoleColor__System_Nullable_System_ConsoleColor__" data-uid="THNETII.Common.Cli.ConsoleColorContext.#ctor(System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor})">ConsoleColorContext(Nullable&lt;ConsoleColor&gt;, Nullable&lt;ConsoleColor&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new Console Color context with the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a> values,
+applying the requested colors immediately and configuring the context to reset the colors on disposal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsoleColorContext(ConsoleColor? fgColor = default(ConsoleColor? ), ConsoleColor? bgColor = default(ConsoleColor? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>&gt;</td>
+        <td><span class="parametername">fgColor</span></td>
+        <td><p>The foreground console color to set, or <code>null</code> if the foreground color should not be modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>&gt;</td>
+        <td><span class="parametername">bgColor</span></td>
+        <td><p>The background console color to set, or <code>null</code> if the background color should not be modified.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.securityexception">SecurityException</a></td>
+        <td><p>The user does not have permission to get or set the current value of either <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred while attempting to read from or write to the current value of either <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>The color specified for either the foreground color or the background color is not a valid member of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>.
+The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a> property contains the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a> thrown from the set invocation to <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext__ctor_System_Nullable_System_ConsoleColor__System_Nullable_System_ConsoleColor__System_Nullable_System_ConsoleColor__System_Nullable_System_ConsoleColor__System_Boolean_.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.%23ctor(System.Nullable%7BSystem.ConsoleColor%7D%2CSystem.Nullable%7BSystem.ConsoleColor%7D%2CSystem.Nullable%7BSystem.ConsoleColor%7D%2CSystem.Nullable%7BSystem.ConsoleColor%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L150">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext__ctor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.#ctor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext__ctor_System_Nullable_System_ConsoleColor__System_Nullable_System_ConsoleColor__System_Nullable_System_ConsoleColor__System_Nullable_System_ConsoleColor__System_Boolean_" data-uid="THNETII.Common.Cli.ConsoleColorContext.#ctor(System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor},System.Nullable{System.ConsoleColor},System.Boolean)">ConsoleColorContext(Nullable&lt;ConsoleColor&gt;, Nullable&lt;ConsoleColor&gt;, Nullable&lt;ConsoleColor&gt;, Nullable&lt;ConsoleColor&gt;, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new Console Color context with the specified <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a> values,
+and optionally applies the requested colors immediately.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsoleColorContext(ConsoleColor? fgColor, ConsoleColor? bgColor, ConsoleColor? fgColorOriginal, ConsoleColor? bgColorOriginal, bool set = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>&gt;</td>
+        <td><span class="parametername">fgColor</span></td>
+        <td><p>The foreground console color to set, or <code>null</code> if the foreground color should not be modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>&gt;</td>
+        <td><span class="parametername">bgColor</span></td>
+        <td><p>The background console color to set, or <code>null</code> if the background color should not be modified.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>&gt;</td>
+        <td><span class="parametername">fgColorOriginal</span></td>
+        <td><p>The original foregorund console color to reset to when the context is disposed, or <code>null</code> if the foreground color should not be reset.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>&gt;</td>
+        <td><span class="parametername">bgColorOriginal</span></td>
+        <td><p>The original background console color to reset to when the context is disposed, or <code>null</code> if the background color should not be reset.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">set</span></td>
+        <td><p>If <code>true</code> (default), the context will be applied by calling <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Set">Set()</a> immediately. If <code>false</code>, <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Set">Set()</a> must be invoked manually at an appropiate time.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>The color specified for either the foreground color or the background color is not a valid member of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>.
+The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a> property contains the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a> thrown from the set invocation to <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.securityexception">SecurityException</a></td>
+        <td><p>The user does not have permission to set the current value of either <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred while attempting to write to the current value of either <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_BackgroundColor.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.BackgroundColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L109">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_BackgroundColor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.BackgroundColor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_BackgroundColor" data-uid="THNETII.Common.Cli.ConsoleColorContext.BackgroundColor">BackgroundColor</h4>
+  <div class="markdown level1 summary"><p>The background color to use while this context is active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsoleColor BackgroundColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></td>
+        <td><p>
+If <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ChangeBackgroundColor">ChangeBackgroundColor</a> is <code>true</code>, the
+property value is the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a> value that is set
+as the background console color when <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Set">Set()</a> is called.
+</p>
+<p>
+If <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ChangeBackgroundColor">ChangeBackgroundColor</a> is <code>false</code>, the current
+value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a> is returned.
+</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.securityexception">SecurityException</a></td>
+        <td><p>The user does not have permission to get the current value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred while attempting to read the current value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_ChangeBackgroundColor.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.ChangeBackgroundColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L91">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_ChangeBackgroundColor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.ChangeBackgroundColor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_ChangeBackgroundColor" data-uid="THNETII.Common.Cli.ConsoleColorContext.ChangeBackgroundColor">ChangeBackgroundColor</h4>
+  <div class="markdown level1 summary"><p>Whether calling <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Set">Set()</a> will change set the value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ChangeBackgroundColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the context will set the foreground color; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_ChangeForegroundColor.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.ChangeForegroundColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L43">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_ChangeForegroundColor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.ChangeForegroundColor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_ChangeForegroundColor" data-uid="THNETII.Common.Cli.ConsoleColorContext.ChangeForegroundColor">ChangeForegroundColor</h4>
+  <div class="markdown level1 summary"><p>Whether this context is configured to set <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> when <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Set">Set()</a> is invoked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ChangeForegroundColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the context will set the foreground color; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_ForegroundColor.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.ForegroundColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L61">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_ForegroundColor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.ForegroundColor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_ForegroundColor" data-uid="THNETII.Common.Cli.ConsoleColorContext.ForegroundColor">ForegroundColor</h4>
+  <div class="markdown level1 summary"><p>The foreground color to use while this context is active.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsoleColor ForegroundColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></td>
+        <td><p>
+If <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ChangeForegroundColor">ChangeForegroundColor</a> is <code>true</code>, the
+property value is the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a> value that is set
+as the foreground console color when <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Set">Set()</a> is called.
+</p>
+<p>
+If <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ChangeForegroundColor">ChangeForegroundColor</a> is <code>false</code>, the current
+value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> is returned.
+</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.securityexception">SecurityException</a></td>
+        <td><p>The user does not have permission to get the current value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred while attempting to read the current value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_OriginalBackgroundColor.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.OriginalBackgroundColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L133">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_OriginalBackgroundColor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.OriginalBackgroundColor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_OriginalBackgroundColor" data-uid="THNETII.Common.Cli.ConsoleColorContext.OriginalBackgroundColor">OriginalBackgroundColor</h4>
+  <div class="markdown level1 summary"><p>The background color to reset to when this context is disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsoleColor OriginalBackgroundColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></td>
+        <td><p>
+If <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ResetForegroundColor">ResetForegroundColor</a> is <code>true</code>, the
+property value is the original <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a> value to which
+the background console color will be reset when <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Reset">Reset()</a> is called.
+</p>
+<p>
+If <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ResetForegroundColor">ResetForegroundColor</a> is <code>false</code>, the current
+value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a> is returned.
+</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.securityexception">SecurityException</a></td>
+        <td><p>The user does not have permission to get the current value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred while attempting to read the current value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_OriginalForegroundColor.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.OriginalForegroundColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L85">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_OriginalForegroundColor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.OriginalForegroundColor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_OriginalForegroundColor" data-uid="THNETII.Common.Cli.ConsoleColorContext.OriginalForegroundColor">OriginalForegroundColor</h4>
+  <div class="markdown level1 summary"><p>The foreground color to reset to when this context is disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConsoleColor OriginalForegroundColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a></td>
+        <td><p>
+If <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ResetForegroundColor">ResetForegroundColor</a> is <code>true</code>, the
+property value is the original <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a> value to which
+the foreground console color will be reset when <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Reset">Reset()</a> is called.
+</p>
+<p>
+If <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ResetForegroundColor">ResetForegroundColor</a> is <code>false</code>, the current
+value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> is returned.
+</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.securityexception">SecurityException</a></td>
+        <td><p>The user does not have permission to get the current value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred while attempting to read the current value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_ResetBackgroundColor.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.ResetBackgroundColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L115">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_ResetBackgroundColor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.ResetBackgroundColor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_ResetBackgroundColor" data-uid="THNETII.Common.Cli.ConsoleColorContext.ResetBackgroundColor">ResetBackgroundColor</h4>
+  <div class="markdown level1 summary"><p>Whether this context is configured to reset <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a> to its original value when <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Reset">Reset()</a> is invoked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ResetBackgroundColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the context will reset the foreground color; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_ResetForegroundColor.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.ResetForegroundColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L67">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_ResetForegroundColor_" data-uid="THNETII.Common.Cli.ConsoleColorContext.ResetForegroundColor*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_ResetForegroundColor" data-uid="THNETII.Common.Cli.ConsoleColorContext.ResetForegroundColor">ResetForegroundColor</h4>
+  <div class="markdown level1 summary"><p>Whether this context is configured to reset <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> to its original value when <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Reset">Reset()</a> is invoked.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ResetForegroundColor { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the context will reset the foreground color; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_Dispose.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L246">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_Dispose_" data-uid="THNETII.Common.Cli.ConsoleColorContext.Dispose*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_Dispose" data-uid="THNETII.Common.Cli.ConsoleColorContext.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Calls <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Reset">Reset()</a>, but is guaranteed to be executed only
+once. Subsequent calls to <a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Dispose">Dispose()</a> will have no effect.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <h5 id="THNETII_Common_Cli_ConsoleColorContext_Dispose_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_Reset">Reset()</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_Finalize.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.Finalize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L256">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_Finalize_" data-uid="THNETII.Common.Cli.ConsoleColorContext.Finalize*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_Finalize" data-uid="THNETII.Common.Cli.ConsoleColorContext.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"><p>Disposes the object at garbage collection. If the context has already
+been disposed, this finalizer has no effect.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_Reset.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L233">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_Reset_" data-uid="THNETII.Common.Cli.ConsoleColorContext.Reset*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_Reset" data-uid="THNETII.Common.Cli.ConsoleColorContext.Reset">Reset()</h4>
+  <div class="markdown level1 summary"><p>Resets the foreground and background console colors to the orginal values
+configured in the context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
+  </div>
+  <h5 id="THNETII_Common_Cli_ConsoleColorContext_Reset_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method can be called multiple times.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>The color specified for either the foreground color or the background color is not a valid member of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>.
+The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a> property contains the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a> thrown from the set invocation to <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.securityexception">SecurityException</a></td>
+        <td><p>The user does not have permission to set the current value of either <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred while attempting to write to the current value of either <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Cli_ConsoleColorContext_Reset_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ResetForegroundColor">ResetForegroundColor</a></div>
+      <div><a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_OriginalForegroundColor">OriginalForegroundColor</a></div>
+      <div><a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ResetBackgroundColor">ResetBackgroundColor</a></div>
+      <div><a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_OriginalBackgroundColor">OriginalBackgroundColor</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext_Set.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext.Set%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L198">View Source</a>
+  </span>
+  <a id="THNETII_Common_Cli_ConsoleColorContext_Set_" data-uid="THNETII.Common.Cli.ConsoleColorContext.Set*"></a>
+  <h4 id="THNETII_Common_Cli_ConsoleColorContext_Set" data-uid="THNETII.Common.Cli.ConsoleColorContext.Set">Set()</h4>
+  <div class="markdown level1 summary"><p>Sets the foreground and background console colors according to values
+configured in the context.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Set()</code></pre>
+  </div>
+  <h5 id="THNETII_Common_Cli_ConsoleColorContext_Set_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method can be called multiple times.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>The color specified for either the foreground color or the background color is not a valid member of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.consolecolor">ConsoleColor</a>.
+The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a> property contains the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a> thrown from the set invocation to <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.securityexception">SecurityException</a></td>
+        <td><p>The user does not have permission to set the current value of either <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred while attempting to write to the current value of either <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.foregroundcolor#System_Console_ForegroundColor">ForegroundColor</a> or <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.console.backgroundcolor#System_Console_BackgroundColor">BackgroundColor</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Cli_ConsoleColorContext_Set_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ChangeForegroundColor">ChangeForegroundColor</a></div>
+      <div><a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ForegroundColor">ForegroundColor</a></div>
+      <div><a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_ChangeBackgroundColor">ChangeBackgroundColor</a></div>
+      <div><a class="xref" href="THNETII.Common.Cli.ConsoleColorContext.html#THNETII_Common_Cli_ConsoleColorContext_BackgroundColor">BackgroundColor</a></div>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="THNETII.Common.ArgumentExtensions.html#THNETII_Common_ArgumentExtensions_ThrowIfNull__1___0_System_String_">ArgumentExtensions.ThrowIfNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.Common.CommonExtensions.html#THNETII_Common_CommonExtensions_NotNull__1___0___0_">CommonExtensions.NotNull&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.Common.CommonExtensions.html#THNETII_Common_CommonExtensions_NotNull__1___0_System_Func___0__">CommonExtensions.NotNull&lt;T&gt;(T, Func&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.Common.CommonExtensions.html#THNETII_Common_CommonExtensions_TryNotNull__1___0___0__">CommonExtensions.TryNotNull&lt;T&gt;(T, out T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Cli_ConsoleColorContext.md&amp;value=---%0Auid%3A%20THNETII.Common.Cli.ConsoleColorContext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Cli/ConsoleColorContext.cs/#L30" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

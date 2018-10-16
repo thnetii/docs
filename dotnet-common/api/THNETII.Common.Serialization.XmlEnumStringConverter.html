@@ -1,0 +1,784 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class XmlEnumStringConverter
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class XmlEnumStringConverter
+   ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter">
+  
+  
+  <h1 id="THNETII_Common_Serialization_XmlEnumStringConverter" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter" class="text-break">Class XmlEnumStringConverter
+  </h1>
+  <div class="markdown level0 summary"><p>Helper class that provides Enum-String Conversions that honour the
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.serialization.xmlenumattribute">XmlEnumAttribute</a> applied to values of an enumeration type.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">XmlEnumStringConverter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="THNETII.Common.Serialization.html">THNETII.Common.Serialization</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.Common.Serialization.dll</h6>
+  <h5 id="THNETII_Common_Serialization_XmlEnumStringConverter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class XmlEnumStringConverter</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Serialization_XmlEnumStringConverter_Parse__1_System_String_.md&amp;value=---%0Auid%3A%20THNETII.Common.Serialization.XmlEnumStringConverter.Parse%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Serialization/XmlEnumStringConverter.cs/#L78">View Source</a>
+  </span>
+  <a id="THNETII_Common_Serialization_XmlEnumStringConverter_Parse_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.Parse*"></a>
+  <h4 id="THNETII_Common_Serialization_XmlEnumStringConverter_Parse__1_System_String_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.Parse``1(System.String)">Parse&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>Converts the string representation of the constant name, serialization name or the numeric value of one
+or more enumerated constants to an equivalent enumerated value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+<p>This operation is always case-insensitive using ordinal string comparison.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T Parse&lt;T&gt;(string s)
+    where T : struct, Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>A string containing the name, serialization name or value to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The converted value as an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The enumeration type to convert to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Serialization_XmlEnumStringConverter_Parse__1_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The serialization name refers to the value specified in for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.serialization.xmlenumattribute.name#System_Xml_Serialization_XmlEnumAttribute_Name">Name</a> member of an
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.serialization.xmlenumattribute">XmlEnumAttribute</a> applied to one of the enumerated constants of the <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> enumeration type.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault__1_System_String_.md&amp;value=---%0Auid%3A%20THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Serialization/XmlEnumStringConverter.cs/#L98">View Source</a>
+  </span>
+  <a id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault*"></a>
+  <h4 id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault__1_System_String_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault``1(System.String)">ParseOrDefault&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>Attempts to convert the string representation of the constant name, serialization name or numeric value of
+one or more enumerated constants to an equivalent enumerated value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+<p>This operation is always case-insensitive using ordinal string comparison.</p>
+<p>Returns the default value for <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> in case the string cannot be converted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ParseOrDefault&lt;T&gt;(string s)
+    where T : struct, Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>A string containing the name, serialization name or value to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The converted value as an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>, or the default value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>
+if <code data-dev-comment-type="paramref" class="paramref">s</code> cannot be converted to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The enumeration type to convert to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault__1_System_String___0_.md&amp;value=---%0Auid%3A%20THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault%60%601(System.String%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Serialization/XmlEnumStringConverter.cs/#L115">View Source</a>
+  </span>
+  <a id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault*"></a>
+  <h4 id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault__1_System_String___0_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault``1(System.String,``0)">ParseOrDefault&lt;T&gt;(String, T)</h4>
+  <div class="markdown level1 summary"><p>Attempts to convert the string representation of the constant name, serialization name or numeric value of
+one or more enumerated constants to an equivalent enumerated value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+<p>This operation is always case-insensitive using ordinal string comparison.</p>
+<p>Returns the specified alternate value in case the string cannot be converted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ParseOrDefault&lt;T&gt;(string s, T default)
+    where T : struct, Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>A string containing the name, serialization name or value to convert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">default</span></td>
+        <td><p>The default value to return if <code data-dev-comment-type="paramref" class="paramref">s</code> cannot be converted to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The converted value as an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>, or <code data-dev-comment-type="paramref" class="paramref">default</code>
+if <code data-dev-comment-type="paramref" class="paramref">s</code> cannot be converted to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The enumeration type to convert to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault__1_System_String_System_Func___0__.md&amp;value=---%0Auid%3A%20THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault%60%601(System.String%2CSystem.Func%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Serialization/XmlEnumStringConverter.cs/#L138">View Source</a>
+  </span>
+  <a id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault*"></a>
+  <h4 id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault__1_System_String_System_Func___0__" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault``1(System.String,System.Func{``0})">ParseOrDefault&lt;T&gt;(String, Func&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Attempts to convert the string representation of the constant name, serialization name or numeric value of
+one or more enumerated constants to an equivalent enumerated value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+<p>This operation is always case-insensitive using ordinal string comparison.</p>
+<p>Returns the specified alternate value in case the string cannot be converted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ParseOrDefault&lt;T&gt;(string s, Func&lt;T&gt; defaultFactory)
+    where T : struct, Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>A string containing the name, serialization name or value to convert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-1">Func</a>&lt;T&gt;</td>
+        <td><span class="parametername">defaultFactory</span></td>
+        <td><p>The factory that produces the value to return if <code data-dev-comment-type="paramref" class="paramref">s</code> cannot be converted to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The converted value as an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>, or the return value from <code data-dev-comment-type="paramref" class="paramref">defaultFactory</code>
+if <code data-dev-comment-type="paramref" class="paramref">s</code> cannot be converted to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The enumeration type to convert to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">defaultFactory</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault__1_System_String_System_Func_System_String___0__.md&amp;value=---%0Auid%3A%20THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault%60%601(System.String%2CSystem.Func%7BSystem.String%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Serialization/XmlEnumStringConverter.cs/#L163">View Source</a>
+  </span>
+  <a id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault*"></a>
+  <h4 id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrDefault__1_System_String_System_Func_System_String___0__" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrDefault``1(System.String,System.Func{System.String,``0})">ParseOrDefault&lt;T&gt;(String, Func&lt;String, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Attempts to convert the string representation of the constant name, serialization name or numeric value of
+one or more enumerated constants to an equivalent enumerated value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+<p>This operation is always case-insensitive using ordinal string comparison.</p>
+<p>Returns the specified alternate value in case the string cannot be converted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ParseOrDefault&lt;T&gt;(string s, Func&lt;string, T&gt; defaultFactory)
+    where T : struct, Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>A string containing the name, serialization name or value to convert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, T&gt;</td>
+        <td><span class="parametername">defaultFactory</span></td>
+        <td><p>The factory that produces the value to return if <code data-dev-comment-type="paramref" class="paramref">s</code> cannot be converted to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The converted value as an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>, or the return value from <code data-dev-comment-type="paramref" class="paramref">defaultFactory</code>
+if <code data-dev-comment-type="paramref" class="paramref">s</code> cannot be converted to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The enumeration type to convert to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">defaultFactory</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrNull__1_System_String_.md&amp;value=---%0Auid%3A%20THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrNull%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Serialization/XmlEnumStringConverter.cs/#L186">View Source</a>
+  </span>
+  <a id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrNull_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrNull*"></a>
+  <h4 id="THNETII_Common_Serialization_XmlEnumStringConverter_ParseOrNull__1_System_String_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ParseOrNull``1(System.String)">ParseOrNull&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>Attempts to convert the string representation of the constant name, serialization name or numeric value of
+one or more enumerated constants to an equivalent enumerated value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+<p>This operation is always case-insensitive using ordinal string comparison.</p>
+<p>Returns <code>null</code> in case the string cannot be converted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T? ParseOrNull&lt;T&gt;(string s)
+    where T : struct, Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>A string containing the name, serialization name or value to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;T&gt;</td>
+        <td><p>The converted value as an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>, or <code>null</code>
+if <code data-dev-comment-type="paramref" class="paramref">s</code> cannot be converted to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The enumeration type to convert to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Serialization_XmlEnumStringConverter_ToString__1___0_.md&amp;value=---%0Auid%3A%20THNETII.Common.Serialization.XmlEnumStringConverter.ToString%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Serialization/XmlEnumStringConverter.cs/#L226">View Source</a>
+  </span>
+  <a id="THNETII_Common_Serialization_XmlEnumStringConverter_ToString_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ToString*"></a>
+  <h4 id="THNETII_Common_Serialization_XmlEnumStringConverter_ToString__1___0_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.ToString``1(``0)">ToString&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Returns the serialized name or the default string representation of the specified value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToString&lt;T&gt;(T value)
+    where T : struct, Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> to serialize.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p>A string containing either the serialization name if the constant equal to <code data-dev-comment-type="paramref" class="paramref">value</code>
+has an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.xml.serialization.xmlenumattribute">XmlEnumAttribute</a> applied to it; otherwise, the return value of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.enum.tostring#System_Enum_ToString">ToString()</a> for
+the specified value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The enumeration type to convert from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Serialization_XmlEnumStringConverter_TryParse__1_System_String___0__.md&amp;value=---%0Auid%3A%20THNETII.Common.Serialization.XmlEnumStringConverter.TryParse%60%601(System.String%2C%60%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Serialization/XmlEnumStringConverter.cs/#L207">View Source</a>
+  </span>
+  <a id="THNETII_Common_Serialization_XmlEnumStringConverter_TryParse_" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.TryParse*"></a>
+  <h4 id="THNETII_Common_Serialization_XmlEnumStringConverter_TryParse__1_System_String___0__" data-uid="THNETII.Common.Serialization.XmlEnumStringConverter.TryParse``1(System.String,``0@)">TryParse&lt;T&gt;(String, out T)</h4>
+  <div class="markdown level1 summary"><p>Attempts to convert the string representation of the constant name, serialization name or numeric value of
+one or more enumerated constants to an equivalent enumerated value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+<p>This operation is always case-insensitive using ordinal string comparison.</p>
+<p>Returns <code>null</code> in case the string cannot be converted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool TryParse&lt;T&gt;(string s, out T value)
+    where T : struct, Enum</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>A string containing the name, serialization name or value to convert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The converted value of <code data-dev-comment-type="paramref" class="paramref">s</code> if the method returns <code>true</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">s</code> was successfully converted to a value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The enumeration type to convert to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Serialization_XmlEnumStringConverter_TryParse__1_System_String___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If this method returns <code>false</code>, the out-value of the <code data-dev-comment-type="paramref" class="paramref">value</code> parameter is not defined.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Serialization_XmlEnumStringConverter.md&amp;value=---%0Auid%3A%20THNETII.Common.Serialization.XmlEnumStringConverter%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common.Serialization/XmlEnumStringConverter.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

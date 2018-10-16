@@ -1,0 +1,2052 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CopyIOStream
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CopyIOStream
+   ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="THNETII.Common.IO.CopyIOStream">
+  
+  
+  <h1 id="THNETII_Common_IO_CopyIOStream" data-uid="THNETII.Common.IO.CopyIOStream" class="text-break">Class CopyIOStream
+  </h1>
+  <div class="markdown level0 summary"><p>A wrapper Stream implementation around another <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a> instance that supports automatic
+copying of read and written data into a secondary Copy-Stream.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject">MarshalByRefObject</a></div>
+    <div class="level2"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></div>
+    <div class="level3"><span class="xref">CopyIOStream</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.null">Stream.Null</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.beginread#System_IO_Stream_BeginRead_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">Stream.BeginRead(Byte[], Int32, Int32, AsyncCallback, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.beginwrite#System_IO_Stream_BeginWrite_System_Byte___System_Int32_System_Int32_System_AsyncCallback_System_Object_">Stream.BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.close#System_IO_Stream_Close">Stream.Close()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copyto#System_IO_Stream_CopyTo_System_IO_Stream_">Stream.CopyTo(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copyto#System_IO_Stream_CopyTo_System_IO_Stream_System_Int32_">Stream.CopyTo(Stream, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copytoasync#System_IO_Stream_CopyToAsync_System_IO_Stream_">Stream.CopyToAsync(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copytoasync#System_IO_Stream_CopyToAsync_System_IO_Stream_System_Int32_">Stream.CopyToAsync(Stream, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.copytoasync#System_IO_Stream_CopyToAsync_System_IO_Stream_System_Int32_System_Threading_CancellationToken_">Stream.CopyToAsync(Stream, Int32, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.createwaithandle#System_IO_Stream_CreateWaitHandle">Stream.CreateWaitHandle()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose">Stream.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.endread#System_IO_Stream_EndRead_System_IAsyncResult_">Stream.EndRead(IAsyncResult)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.endwrite#System_IO_Stream_EndWrite_System_IAsyncResult_">Stream.EndWrite(IAsyncResult)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.flushasync#System_IO_Stream_FlushAsync">Stream.FlushAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.objectinvariant#System_IO_Stream_ObjectInvariant">Stream.ObjectInvariant()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.readasync#System_IO_Stream_ReadAsync_System_Byte___System_Int32_System_Int32_">Stream.ReadAsync(Byte[], Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.readbyte#System_IO_Stream_ReadByte">Stream.ReadByte()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.synchronized#System_IO_Stream_Synchronized_System_IO_Stream_">Stream.Synchronized(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writeasync#System_IO_Stream_WriteAsync_System_Byte___System_Int32_System_Int32_">Stream.WriteAsync(Byte[], Int32, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writebyte#System_IO_Stream_WriteByte_System_Byte_">Stream.WriteByte(Byte)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.getlifetimeservice#System_MarshalByRefObject_GetLifetimeService">MarshalByRefObject.GetLifetimeService()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.initializelifetimeservice#System_MarshalByRefObject_InitializeLifetimeService">MarshalByRefObject.InitializeLifetimeService()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.marshalbyrefobject.memberwiseclone#System_MarshalByRefObject_MemberwiseClone_System_Boolean_">MarshalByRefObject.MemberwiseClone(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="THNETII.Common.IO.html">THNETII.Common.IO</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.Common.dll</h6>
+  <h5 id="THNETII_Common_IO_CopyIOStream_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CopyIOStream : Stream, IDisposable</code></pre>
+  </div>
+  <h5 id="THNETII_Common_IO_CopyIOStream_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Usage of this type is useful in situations where a non-seekable stream is consumed, but applications need to keep a record
+of the processed data.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream__ctor_System_IO_Stream_System_IO_Stream_System_IO_Stream_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.%23ctor(System.IO.Stream%2CSystem.IO.Stream%2CSystem.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L73">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream__ctor_" data-uid="THNETII.Common.IO.CopyIOStream.#ctor*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream__ctor_System_IO_Stream_System_IO_Stream_System_IO_Stream_" data-uid="THNETII.Common.IO.CopyIOStream.#ctor(System.IO.Stream,System.IO.Stream,System.IO.Stream)">CopyIOStream(Stream, Stream, Stream)</h4>
+  <div class="markdown level1 summary"><p>Creates a new stream wrapper around the specified base stream, writing data to either the read-copy stream or write-copy stream on every IO operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyIOStream(Stream baseStream, Stream readCopy, Stream writeCopy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">baseStream</span></td>
+        <td><p>The origin stream to wrap. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">readCopy</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on read operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">writeCopy</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on write operations.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseStream</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream__ctor_System_IO_Stream_System_IO_Stream_System_IO_Stream_System_Boolean_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.%23ctor(System.IO.Stream%2CSystem.IO.Stream%2CSystem.IO.Stream%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L83">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream__ctor_" data-uid="THNETII.Common.IO.CopyIOStream.#ctor*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream__ctor_System_IO_Stream_System_IO_Stream_System_IO_Stream_System_Boolean_" data-uid="THNETII.Common.IO.CopyIOStream.#ctor(System.IO.Stream,System.IO.Stream,System.IO.Stream,System.Boolean)">CopyIOStream(Stream, Stream, Stream, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new stream wrapper around the specified base stream, writing data to either the read-copy stream or write-copy stream on every IO operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyIOStream(Stream baseStream, Stream readCopy, Stream writeCopy, bool closeStreams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">baseStream</span></td>
+        <td><p>The origin stream to wrap. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">readCopy</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on read operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">writeCopy</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on write operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">closeStreams</span></td>
+        <td><p>A boolean value that indicates whether to close the base- and copy-streams when the wrapper is closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseStream</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream__ctor_System_IO_Stream_System_IO_Stream_System_IO_Stream_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.%23ctor(System.IO.Stream%2CSystem.IO.Stream%2CSystem.IO.Stream%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L95">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream__ctor_" data-uid="THNETII.Common.IO.CopyIOStream.#ctor*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream__ctor_System_IO_Stream_System_IO_Stream_System_IO_Stream_System_Boolean_System_Boolean_" data-uid="THNETII.Common.IO.CopyIOStream.#ctor(System.IO.Stream,System.IO.Stream,System.IO.Stream,System.Boolean,System.Boolean)">CopyIOStream(Stream, Stream, Stream, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new stream wrapper around the specified base stream, writing data to either the read-copy stream or write-copy stream on every IO operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyIOStream(Stream baseStream, Stream readCopy, Stream writeCopy, bool closeBaseStream, bool closeCopyStreams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">baseStream</span></td>
+        <td><p>The origin stream to wrap. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">readCopy</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on read operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">writeCopy</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on write operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">closeBaseStream</span></td>
+        <td><p>A boolean value that indicates whether to close the base stream when the wrapper is closed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">closeCopyStreams</span></td>
+        <td><p>A boolean value that indicates whether to close the copy streams when the wrapper is closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseStream</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream__ctor_System_IO_Stream_System_IO_Stream_System_IO_Stream_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.%23ctor(System.IO.Stream%2CSystem.IO.Stream%2CSystem.IO.Stream%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L108">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream__ctor_" data-uid="THNETII.Common.IO.CopyIOStream.#ctor*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream__ctor_System_IO_Stream_System_IO_Stream_System_IO_Stream_System_Boolean_System_Boolean_System_Boolean_" data-uid="THNETII.Common.IO.CopyIOStream.#ctor(System.IO.Stream,System.IO.Stream,System.IO.Stream,System.Boolean,System.Boolean,System.Boolean)">CopyIOStream(Stream, Stream, Stream, Boolean, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new stream wrapper around the specified base stream, writing data to either the read-copy stream or write-copy stream on every IO operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CopyIOStream(Stream baseStream, Stream readCopy, Stream writeCopy, bool closeBaseStream, bool closeReadCopy, bool closeWriteCopy)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">baseStream</span></td>
+        <td><p>The origin stream to wrap. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">readCopy</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on read operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">writeCopy</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on write operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">closeBaseStream</span></td>
+        <td><p>A boolean value that indicates whether to close the base stream when the wrapper is closed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">closeReadCopy</span></td>
+        <td><p>A boolean value that indicates whether to close the read-copy stream when the wrapper is closed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">closeWriteCopy</span></td>
+        <td><p>A boolean value that indicates whether to close the write-copy stream when the wrapper is closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseStream</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_BaseStream.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.BaseStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L124">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_BaseStream_" data-uid="THNETII.Common.IO.CopyIOStream.BaseStream*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_BaseStream" data-uid="THNETII.Common.IO.CopyIOStream.BaseStream">BaseStream</h4>
+  <div class="markdown level1 summary"><p>Gets the origin stream on which IO operations are performed when IO operations on this instance are called.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Stream BaseStream { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><p>The non-<code>null</code> <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a> instance that was passed to the <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> constructor when this instance was created.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CanRead.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CanRead%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L166">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CanRead_" data-uid="THNETII.Common.IO.CopyIOStream.CanRead*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CanRead" data-uid="THNETII.Common.IO.CopyIOStream.CanRead">CanRead</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the stream wrapper supports reading.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanRead { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the origin steam is readable and the read-copy stream is either <code>null</code> or writable; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.canread#System_IO_Stream_CanRead">Stream.CanRead</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CanSeek.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CanSeek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L177">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CanSeek_" data-uid="THNETII.Common.IO.CopyIOStream.CanSeek*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CanSeek" data-uid="THNETII.Common.IO.CopyIOStream.CanSeek">CanSeek</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the stream wrapper supports seeking.</p>
+<p>The <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> wrapper class does not support seeking, even if the wrapped origin stream does. This property always returns <code>false</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanSeek { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>false</code> as <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> does not support seeking.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.canseek#System_IO_Stream_CanSeek">Stream.CanSeek</a></div>
+  <h5 id="THNETII_Common_IO_CopyIOStream_CanSeek_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Seeking is not supported by the <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> class to ensure consistent write and read copies or the origin stream.
+However, if <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_BaseStream">BaseStream</a> supports seeking, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.seek#System_IO_Stream_Seek_System_Int64_System_IO_SeekOrigin_">Seek(Int64, SeekOrigin)</a> can still be called on the origin stream.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CanTimeout.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CanTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L189">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CanTimeout_" data-uid="THNETII.Common.IO.CopyIOStream.CanTimeout*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CanTimeout" data-uid="THNETII.Common.IO.CopyIOStream.CanTimeout">CanTimeout</h4>
+  <div class="markdown level1 summary"><p>Gets a value that determines whether the stream wrapper can time out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanTimeout { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the origin stream or either one of the copy streams can time out; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.cantimeout#System_IO_Stream_CanTimeout">Stream.CanTimeout</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CanWrite.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CanWrite%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L183">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CanWrite_" data-uid="THNETII.Common.IO.CopyIOStream.CanWrite*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CanWrite" data-uid="THNETII.Common.IO.CopyIOStream.CanWrite">CanWrite</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the stream wrapper supports writing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool CanWrite { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the origin steam is writable and the write-copy stream is either <code>null</code> or writable; otherwise <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.canwrite#System_IO_Stream_CanWrite">Stream.CanWrite</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CloseBaseStream.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CloseBaseStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L148">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CloseBaseStream_" data-uid="THNETII.Common.IO.CopyIOStream.CloseBaseStream*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CloseBaseStream" data-uid="THNETII.Common.IO.CopyIOStream.CloseBaseStream">CloseBaseStream</h4>
+  <div class="markdown level1 summary"><p>Gets a value that determines whether the origin stream is closed when this instance is closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CloseBaseStream { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_BaseStream">BaseStream</a> is closed when <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose">Dispose()</a> is called; <code>false</code>, if <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_BaseStream">BaseStream</a> is left open when this instance is diposed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CloseReadCopy.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CloseReadCopy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L154">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CloseReadCopy_" data-uid="THNETII.Common.IO.CopyIOStream.CloseReadCopy*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CloseReadCopy" data-uid="THNETII.Common.IO.CopyIOStream.CloseReadCopy">CloseReadCopy</h4>
+  <div class="markdown level1 summary"><p>Gets a value that determines whether the read-copy stream is closed when this instance is closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CloseReadCopy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_ReadCopy">ReadCopy</a> is closed when <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose">Dispose()</a> is called; <code>false</code>, if <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_ReadCopy">ReadCopy</a> is left open when this instance is diposed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CloseWriteCopy.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CloseWriteCopy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L160">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CloseWriteCopy_" data-uid="THNETII.Common.IO.CopyIOStream.CloseWriteCopy*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CloseWriteCopy" data-uid="THNETII.Common.IO.CopyIOStream.CloseWriteCopy">CloseWriteCopy</h4>
+  <div class="markdown level1 summary"><p>Gets a value that determines whether the write-copy stream is closed when this instance is closed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool CloseWriteCopy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_WriteCopy">WriteCopy</a> is closed when <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose">Dispose()</a> is called; <code>false</code>, if <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_WriteCopy">WriteCopy</a> is left open when this instance is diposed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_Length.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L197">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_Length_" data-uid="THNETII.Common.IO.CopyIOStream.Length*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_Length" data-uid="THNETII.Common.IO.CopyIOStream.Length">Length</h4>
+  <div class="markdown level1 summary"><p>Gets the length, in bytes, of the orgin stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long Length { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><p>A long value representing the length of the stream in bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.length#System_IO_Stream_Length">Stream.Length</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>The origin stream does not support seeking.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
+        <td><p>Methods were called after the origin stream was closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_Position.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.Position%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L207">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_Position_" data-uid="THNETII.Common.IO.CopyIOStream.Position*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_Position" data-uid="THNETII.Common.IO.CopyIOStream.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Gets the position within the origin stream.
+Setting this property is not supported and will cause a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a> to be thrown.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long Position { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><p>The current position within the stream as a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a> valued offset from the beginning of the stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.position#System_IO_Stream_Position">Stream.Position</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>The origin stream does not support seeking.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
+        <td><p>Methods were called after the origin stream was closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_ReadCopy.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.ReadCopy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L133">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_ReadCopy_" data-uid="THNETII.Common.IO.CopyIOStream.ReadCopy*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_ReadCopy" data-uid="THNETII.Common.IO.CopyIOStream.ReadCopy">ReadCopy</h4>
+  <div class="markdown level1 summary"><p>Gets the stream to which the wrapper writes data that is read from the origin stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Stream ReadCopy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a> instance that was passed to the <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> constructor when this instance was created;
+or <code>null</code> if the wrapper does not copy data on read operations.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_ReadTimeout.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.ReadTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L218">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_ReadTimeout_" data-uid="THNETII.Common.IO.CopyIOStream.ReadTimeout*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_ReadTimeout" data-uid="THNETII.Common.IO.CopyIOStream.ReadTimeout">ReadTimeout</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value, in miliseconds, that determines how long the wrapper will attempt to read from the origin stream
+before timing out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int ReadTimeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.readtimeout#System_IO_Stream_ReadTimeout">ReadTimeout</a> of the orgin stream or the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writetimeout#System_IO_Stream_WriteTimeout">WriteTimeout</a> of the read-copy stream, whichever is smallest.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.readtimeout#System_IO_Stream_ReadTimeout">Stream.ReadTimeout</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_WriteCopy.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.WriteCopy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L142">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_WriteCopy_" data-uid="THNETII.Common.IO.CopyIOStream.WriteCopy*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_WriteCopy" data-uid="THNETII.Common.IO.CopyIOStream.WriteCopy">WriteCopy</h4>
+  <div class="markdown level1 summary"><p>Gets the stream to which the wrapper writes data that is written to the origin stream.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Stream WriteCopy { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a> instance that was passed to the <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> constructor when this instance was created;
+or <code>null</code> if the wrapper does not copy data on write operations.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_WriteTimeout.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.WriteTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L235">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_WriteTimeout_" data-uid="THNETII.Common.IO.CopyIOStream.WriteTimeout*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_WriteTimeout" data-uid="THNETII.Common.IO.CopyIOStream.WriteTimeout">WriteTimeout</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value, in miliseconds, that determines how long the wrapper will attempt to write to the origin stream
+before timing out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int WriteTimeout { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writetimeout#System_IO_Stream_WriteTimeout">WriteTimeout</a> of the orgin stream or the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writetimeout#System_IO_Stream_WriteTimeout">WriteTimeout</a> of the write-copy stream, whichever is smallest.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writetimeout#System_IO_Stream_WriteTimeout">Stream.WriteTimeout</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CreateReadCopy_System_IO_Stream_System_IO_Stream_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CreateReadCopy(System.IO.Stream%2CSystem.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L26">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CreateReadCopy_" data-uid="THNETII.Common.IO.CopyIOStream.CreateReadCopy*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CreateReadCopy_System_IO_Stream_System_IO_Stream_" data-uid="THNETII.Common.IO.CopyIOStream.CreateReadCopy(System.IO.Stream,System.IO.Stream)">CreateReadCopy(Stream, Stream)</h4>
+  <div class="markdown level1 summary"><p>Creates a new stream wrapper around the specified base stream, writing data to the copy stream on every read operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CopyIOStream CreateReadCopy(Stream baseStream, Stream copyStream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">baseStream</span></td>
+        <td><p>The origin stream to wrap. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">copyStream</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on read operations.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a></td>
+        <td><p>A new initialized <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> instance that wraps around the specified base stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseStream</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CreateReadCopy_System_IO_Stream_System_IO_Stream_System_Boolean_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CreateReadCopy(System.IO.Stream%2CSystem.IO.Stream%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L36">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CreateReadCopy_" data-uid="THNETII.Common.IO.CopyIOStream.CreateReadCopy*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CreateReadCopy_System_IO_Stream_System_IO_Stream_System_Boolean_" data-uid="THNETII.Common.IO.CopyIOStream.CreateReadCopy(System.IO.Stream,System.IO.Stream,System.Boolean)">CreateReadCopy(Stream, Stream, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new stream wrapper around the specified base stream, writing data to the copy stream on every read operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CopyIOStream CreateReadCopy(Stream baseStream, Stream copyStream, bool closeStreams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">baseStream</span></td>
+        <td><p>The origin stream to wrap. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">copyStream</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on read operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">closeStreams</span></td>
+        <td><p>A boolean value that indicates whether to close the base- and copy-stream when the wrapper is closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a></td>
+        <td><p>A new initialized <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> instance that wraps around the specified base stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseStream</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CreateWriteCopy_System_IO_Stream_System_IO_Stream_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CreateWriteCopy(System.IO.Stream%2CSystem.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L49">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CreateWriteCopy_" data-uid="THNETII.Common.IO.CopyIOStream.CreateWriteCopy*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CreateWriteCopy_System_IO_Stream_System_IO_Stream_" data-uid="THNETII.Common.IO.CopyIOStream.CreateWriteCopy(System.IO.Stream,System.IO.Stream)">CreateWriteCopy(Stream, Stream)</h4>
+  <div class="markdown level1 summary"><p>Creates a new stream wrapper around the specified base stream, writing data to the copy stream on every write operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CopyIOStream CreateWriteCopy(Stream baseStream, Stream copyStream)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">baseStream</span></td>
+        <td><p>The origin stream to wrap. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">copyStream</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on write operations.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a></td>
+        <td><p>A new initialized <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> instance that wraps around the specified base stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseStream</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_CreateWriteCopy_System_IO_Stream_System_IO_Stream_System_Boolean_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.CreateWriteCopy(System.IO.Stream%2CSystem.IO.Stream%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L59">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_CreateWriteCopy_" data-uid="THNETII.Common.IO.CopyIOStream.CreateWriteCopy*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_CreateWriteCopy_System_IO_Stream_System_IO_Stream_System_Boolean_" data-uid="THNETII.Common.IO.CopyIOStream.CreateWriteCopy(System.IO.Stream,System.IO.Stream,System.Boolean)">CreateWriteCopy(Stream, Stream, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Creates a new stream wrapper around the specified base stream, writing data to the copy stream on every write operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CopyIOStream CreateWriteCopy(Stream baseStream, Stream copyStream, bool closeStreams)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">baseStream</span></td>
+        <td><p>The origin stream to wrap. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td><span class="parametername">copyStream</span></td>
+        <td><p>The copy stream to which data from the base stream will be written on write operations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">closeStreams</span></td>
+        <td><p>A boolean value that indicates whether to close the base- and copy-stream when the wrapper is closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a></td>
+        <td><p>A new initialized <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> instance that wraps around the specified base stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">baseStream</code> is <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L252">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_Dispose_" data-uid="THNETII.Common.IO.CopyIOStream.Dispose*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_Dispose_System_Boolean_" data-uid="THNETII.Common.IO.CopyIOStream.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Releases the base stream and the read and write copy streams if configured to do so.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">disposing</span></td>
+        <td><p><code>true</code> to release both managed and unmanaged resources; <code>false</code> to release only unmanaged resources.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose_System_Boolean_">Stream.Dispose(Boolean)</a></div>
+  <h5 id="THNETII_Common_IO_CopyIOStream_Dispose_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The <code data-dev-comment-type="paramref" class="paramref">disposing</code> parameter is not used by the <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> implementation. It is passed as is to the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.dispose#System_IO_Stream_Dispose_System_Boolean_">Dispose(Boolean)</a> method of the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a> base class.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_Flush.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.Flush%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L270">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_Flush_" data-uid="THNETII.Common.IO.CopyIOStream.Flush*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_Flush" data-uid="THNETII.Common.IO.CopyIOStream.Flush">Flush()</h4>
+  <div class="markdown level1 summary"><p>Clears all buffers in the origin stream and both copy streams and causes any buffered data to be written to the underlying I/O medium.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Flush()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.flush#System_IO_Stream_Flush">Stream.Flush()</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurred.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_FlushAsync_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.FlushAsync(System.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L281">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_FlushAsync_" data-uid="THNETII.Common.IO.CopyIOStream.FlushAsync*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_FlushAsync_System_Threading_CancellationToken_" data-uid="THNETII.Common.IO.CopyIOStream.FlushAsync(System.Threading.CancellationToken)">FlushAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously clears all buffers in the origin stream and both copy streams and causes any buffered data to be written to the underlying I/O medium.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task FlushAsync(CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The token to monitor for cancellation requests.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.flushasync#System_IO_Stream_FlushAsync_System_Threading_CancellationToken_">Stream.FlushAsync(CancellationToken)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_Read_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.Read(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L319">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_Read_" data-uid="THNETII.Common.IO.CopyIOStream.Read*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_Read_System_Byte___System_Int32_System_Int32_" data-uid="THNETII.Common.IO.CopyIOStream.Read(System.Byte[],System.Int32,System.Int32)">Read(Byte[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Reads a sequence of bytes from the base stream and advances the position within the stream by the number of bytes read.</p>
+<p>A copy of the read bytes is written to the <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_ReadCopy">ReadCopy</a> stream if it is specified.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Read(byte[] buffer, int offset, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>An array of bytes. When this method returns, the buffer contains the specified
+byte array with the values between <code data-dev-comment-type="paramref" class="paramref">offset</code> and <code>(<code data-dev-comment-type="paramref" class="paramref">offset</code> + <code data-dev-comment-type="paramref" class="paramref">count</code> - 1)</code> replaced by
+the bytes read from the current source.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The zero-based byte offset in <code data-dev-comment-type="paramref" class="paramref">buffer</code> at which to begin storing the data read
+from the current stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>The maximum number of bytes to be read from the stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The total number of bytes read into the buffer. This can be less than the number
+of bytes requested if that many bytes are not currently available, or 0 (zero)
+if the end of the stream has been reached.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.read#System_IO_Stream_Read_System_Byte___System_Int32_System_Int32_">Stream.Read(Byte[], Int32, Int32)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">offset</code> and <code data-dev-comment-type="paramref" class="paramref">count</code> is larger than the buffer length.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">buffer</code> is <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">offset</code> or <code data-dev-comment-type="paramref" class="paramref">count</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occurs.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>The source stream does not support reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
+        <td><p>Methods were called after the stream was closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_ReadAsync_System_Byte___System_Int32_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.ReadAsync(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L348">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_ReadAsync_" data-uid="THNETII.Common.IO.CopyIOStream.ReadAsync*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_ReadAsync_System_Byte___System_Int32_System_Int32_System_Threading_CancellationToken_" data-uid="THNETII.Common.IO.CopyIOStream.ReadAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">ReadAsync(Byte[], Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously reads a sequence of bytes from the origin stream, advances the position within the stream by the number of bytes read, and monitors cancellation requests.</p>
+<p>The read bytes are asynchronously written to <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_ReadCopy">ReadCopy</a> if it is non-<code>null</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task&lt;int&gt; ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>The buffer to write the data into.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The byte offset in <code data-dev-comment-type="paramref" class="paramref">buffer</code> at which to begin writing data from the stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>The maximum number of bytes to read.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The token to monitor for cancellation requests. The default value is <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken.none#System_Threading_CancellationToken_None">None</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td><p>A task that represents the asynchronous read operation. The value of the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1.result#System_Threading_Tasks_Task_1_Result">Result</a> of the returned
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task&lt;TResult&gt;</a> contains the total number of bytes read into the buffer. The result value can be less than the
+number of bytes requested if the number of bytes currently available is less than the requested number,
+or it can be <code>0</code> (zero) if the end of the stream has been reached.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.readasync#System_IO_Stream_ReadAsync_System_Byte___System_Int32_System_Int32_System_Threading_CancellationToken_">Stream.ReadAsync(Byte[], Int32, Int32, CancellationToken)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">buffer</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">offset</code> or <code data-dev-comment-type="paramref" class="paramref">count</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">offset</code> and <code data-dev-comment-type="paramref" class="paramref">count</code> is larger than the buffer length.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>The stream does not support reading.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
+        <td><p>The stream has been disposed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>The stream is currently in use by a previous read operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_Seek_System_Int64_System_IO_SeekOrigin_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.Seek(System.Int64%2CSystem.IO.SeekOrigin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L413">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_Seek_" data-uid="THNETII.Common.IO.CopyIOStream.Seek*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_Seek_System_Int64_System_IO_SeekOrigin_" data-uid="THNETII.Common.IO.CopyIOStream.Seek(System.Int64,System.IO.SeekOrigin)">Seek(Int64, SeekOrigin)</h4>
+  <div class="markdown level1 summary"><p>Always throws a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override long Seek(long offset, SeekOrigin origin)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>Ignored. A byte offset relative to the <code data-dev-comment-type="paramref" class="paramref">origin</code> parameter.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.seekorigin">SeekOrigin</a></td>
+        <td><span class="parametername">origin</span></td>
+        <td><p>Ignored. A value of type <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.seekorigin">SeekOrigin</a> indicating the reference point used to obtain the new position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><p>The new position within the current stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.seek#System_IO_Stream_Seek_System_Int64_System_IO_SeekOrigin_">Stream.Seek(Int64, SeekOrigin)</a></div>
+  <h5 id="THNETII_Common_IO_CopyIOStream_Seek_System_Int64_System_IO_SeekOrigin__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Instances derived from <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> by default do not support seeking in order to keep the read and write copies consistent.
+However, if the source stream is seekable you can call <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.seek#System_IO_Stream_Seek_System_Int64_System_IO_SeekOrigin_">Seek(Int64, SeekOrigin)</a> on the <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_BaseStream">BaseStream</a> member. Note that doing so
+can potentially create garbled or discontinuous content in the read and/or write copies on subsequent I/O operations.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>Instances of <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> do not support seeking.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_SetLength_System_Int64_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.SetLength(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L427">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_SetLength_" data-uid="THNETII.Common.IO.CopyIOStream.SetLength*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_SetLength_System_Int64_" data-uid="THNETII.Common.IO.CopyIOStream.SetLength(System.Int64)">SetLength(Int64)</h4>
+  <div class="markdown level1 summary"><p>Always throws a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void SetLength(long value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Ignored. The desired length of the current stream in bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.setlength#System_IO_Stream_SetLength_System_Int64_">Stream.SetLength(Int64)</a></div>
+  <h5 id="THNETII_Common_IO_CopyIOStream_SetLength_System_Int64__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Instances derived from <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> by default do not support setting the length.
+However, if the underlying streams support it, you can call <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.setlength#System_IO_Stream_SetLength_System_Int64_">SetLength(Int64)</a> individually on the
+<a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_BaseStream">BaseStream</a>, <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_ReadCopy">ReadCopy</a> and <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_WriteCopy">WriteCopy</a> members. Note that doing so
+must take into account that <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_SetLength_System_Int64_">SetLength(Int64)</a> might not succeed on all three members.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>Instances of <a class="xref" href="THNETII.Common.IO.CopyIOStream.html">CopyIOStream</a> do not support setting the length of the stream.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_Write_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.Write(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L372">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_Write_" data-uid="THNETII.Common.IO.CopyIOStream.Write*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_Write_System_Byte___System_Int32_System_Int32_" data-uid="THNETII.Common.IO.CopyIOStream.Write(System.Byte[],System.Int32,System.Int32)">Write(Byte[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Writes a sequence of bytes to the origin stream and advances the current position within this stream by the number of bytes written.</p>
+<p>The bytes written are also written to <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_WriteCopy">WriteCopy</a> if it is non-<code>null</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Write(byte[] buffer, int offset, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>An array of bytes. This method copies <code data-dev-comment-type="paramref" class="paramref">count</code> bytes from <code data-dev-comment-type="paramref" class="paramref">buffer</code> to the target streams.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The zero-based byte offset in <code data-dev-comment-type="paramref" class="paramref">buffer</code> at which to begin copying bytes to the target streams.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>The number of bytes to be written to the target streams.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.write#System_IO_Stream_Write_System_Byte___System_Int32_System_Int32_">Stream.Write(Byte[], Int32, Int32)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">offset</code> and <code data-dev-comment-type="paramref" class="paramref">count</code> is greater than the buffer length.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">buffer</code>  is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">offset</code> or <code data-dev-comment-type="paramref" class="paramref">count</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.ioexception">IOException</a></td>
+        <td><p>An I/O error occured, such as the specified file cannot be found.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>The stream does not support writing.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
+        <td><p><a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_Write_System_Byte___System_Int32_System_Int32_">Write(Byte[], Int32, Int32)</a> was called after the stream was closed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream_WriteAsync_System_Byte___System_Int32_System_Int32_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream.WriteAsync(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L394">View Source</a>
+  </span>
+  <a id="THNETII_Common_IO_CopyIOStream_WriteAsync_" data-uid="THNETII.Common.IO.CopyIOStream.WriteAsync*"></a>
+  <h4 id="THNETII_Common_IO_CopyIOStream_WriteAsync_System_Byte___System_Int32_System_Int32_System_Threading_CancellationToken_" data-uid="THNETII.Common.IO.CopyIOStream.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">WriteAsync(Byte[], Int32, Int32, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Asynchronously writes a sequence of bytes to the origin stream and advances the current position within this stream by the number of bytes written.</p>
+<p>The bytes written are also asynchronously written to <a class="xref" href="THNETII.Common.IO.CopyIOStream.html#THNETII_Common_IO_CopyIOStream_WriteCopy">WriteCopy</a> if it is non-<code>null</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>The buffer to write data from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The zero-based byte offset in <code data-dev-comment-type="paramref" class="paramref">buffer</code> from which to begin copying bytes to the stream.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>The maximum number of bytes to write.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The token to monitor for cancellation requests. The default value is <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken.none#System_Threading_CancellationToken_None">None</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
+        <td><p>A task that represents the asynchronous write operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream.writeasync#System_IO_Stream_WriteAsync_System_Byte___System_Int32_System_Int32_System_Threading_CancellationToken_">Stream.WriteAsync(Byte[], Int32, Int32, CancellationToken)</a></div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">buffer</code> is null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">offset</code> or <code data-dev-comment-type="paramref" class="paramref">count</code> is negative.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>The sum of <code data-dev-comment-type="paramref" class="paramref">offset</code> and <code data-dev-comment-type="paramref" class="paramref">count</code> is larger than the buffer length.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.notsupportedexception">NotSupportedException</a></td>
+        <td><p>The stream does not support writing.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.objectdisposedexception">ObjectDisposedException</a></td>
+        <td><p>The stream has been disposed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>The stream is currently in use by a previous write operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="THNETII.Common.ArgumentExtensions.html#THNETII_Common_ArgumentExtensions_ThrowIfNull__1___0_System_String_">ArgumentExtensions.ThrowIfNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.Common.CommonExtensions.html#THNETII_Common_CommonExtensions_NotNull__1___0___0_">CommonExtensions.NotNull&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.Common.CommonExtensions.html#THNETII_Common_CommonExtensions_NotNull__1___0_System_Func___0__">CommonExtensions.NotNull&lt;T&gt;(T, Func&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.Common.CommonExtensions.html#THNETII_Common_CommonExtensions_TryNotNull__1___0___0__">CommonExtensions.TryNotNull&lt;T&gt;(T, out T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_IO_CopyIOStream.md&amp;value=---%0Auid%3A%20THNETII.Common.IO.CopyIOStream%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/IO/CopyIOStream.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
