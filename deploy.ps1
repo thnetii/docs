@@ -1,32 +1,25 @@
 param (
-    [string]$Username,
     [string]$Authorization,
     [string]$RepositoryOwner = "thnetii",
     [string]$RepositoryName = "docs",
     [string]$ArtifactName = [System.Guid]::NewGuid().ToString(),
     [string]$MergeTargetBranch = "master",
-    [string]$Author
+    [string]$GitUserName = "Unknown User",
+    [string]$GitUserEmail = "unknown@unknown.com"
 )
 
-[uri] $RepositorBaseUrl = "https://github.com/$RepositoryOwner/$RepositoryName.git"
+Write-Host "AUTHORIZATION: basic $Authorization"
+
+[uri] $RepositoryUrl = "https://github.com/$RepositoryOwner/$RepositoryName.git"
 $git = Get-Command -CommandType Application "git" | Select-Object -First 1
 
+& "$git" config user.name "$GitUserName"
+& "$git" config user.Email "$GitUserEmail"
 & "$git" status
 & "$git" checkout -b "$ArtifactName"
 & "$git" add -f .
-if ($Author) {
-    & "$git" commit --allow-empty -m "Artifact Deployment: $ArtifactName" --author "$Author"
-} else {
-    & "$git" commit --allow-empty -m "Artifact Deployment: $ArtifactName"
-}
-$pushTarget = $RepositorBaseUrl
-if ($Username) {
-    $uriBuilder = New-Object System.UriBuilder $pushTarget
-    $uriBuilder.UserName = $Username
-    $uriBuilder.Password = $Authorization
-    $pushTarget = $uriBuilder.Uri
-}
-& "$git" push -f "$pushTarget" "$ArtifactName"
+& "$git" commit --allow-empty -m "Artifact Deployment: $ArtifactName"
+& "$git" -c http.extraheader="AUTHORIZATION: basic $Authorization" push -f "$RepositoryUrl" "$ArtifactName"
 
 $pullJson = @{
     title = "Merge $ArtifactName into $MergeTargetBranch"
@@ -37,7 +30,7 @@ $pullJson = @{
 } | ConvertTo-Json
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 [uri] $pullUri = "https://api.github.com/repos/$RepositoryOwner/$RepositoryName/pulls"
-$githubAuthorizationHeader = @{ "Authorization" = "token $Authorization" }
+$githubAuthorizationHeader = @{ "Authorization" = "basic $Authorization" }
 $pullResponse = Invoke-RestMethod -Uri $pullUri  -Method Post -ContentType "application/json" `
     -Headers $githubAuthorizationHeader `
     -Body $pullJson -Verbose
