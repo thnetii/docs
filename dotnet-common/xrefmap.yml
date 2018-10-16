@@ -3861,52 +3861,6 @@ references:
   isSpec: "True"
   fullName: THNETII.Networking.Http.MediaTypeHeaderValueExtensions.IsXml
   nameWithType: MediaTypeHeaderValueExtensions.IsXml
-- uid: THNETII.Networking.Http.UriExtensions
-  name: UriExtensions
-  href: api/THNETII.Networking.Http.UriExtensions.html
-  commentId: T:THNETII.Networking.Http.UriExtensions
-  fullName: THNETII.Networking.Http.UriExtensions
-  nameWithType: UriExtensions
-- uid: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})
-  name: WithQuery(Uri, IEnumerable<KeyValuePair<String, String>>)
-  href: api/THNETII.Networking.Http.UriExtensions.html#THNETII_Networking_Http_UriExtensions_WithQuery_System_Uri_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___
-  commentId: M:THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}})
-  name.vb: WithQuery(Uri, IEnumerable(Of KeyValuePair(Of String, String)))
-  fullName: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri, System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String, System.String>>)
-  fullName.vb: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri, System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of System.String, System.String)))
-  nameWithType: UriExtensions.WithQuery(Uri, IEnumerable<KeyValuePair<String, String>>)
-  nameWithType.vb: UriExtensions.WithQuery(Uri, IEnumerable(Of KeyValuePair(Of String, String)))
-- uid: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri,System.Collections.Generic.KeyValuePair{System.String,System.String}[])
-  name: WithQuery(Uri, KeyValuePair<String, String>[])
-  href: api/THNETII.Networking.Http.UriExtensions.html#THNETII_Networking_Http_UriExtensions_WithQuery_System_Uri_System_Collections_Generic_KeyValuePair_System_String_System_String____
-  commentId: M:THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri,System.Collections.Generic.KeyValuePair{System.String,System.String}[])
-  name.vb: WithQuery(Uri, KeyValuePair(Of String, String)())
-  fullName: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri, System.Collections.Generic.KeyValuePair<System.String, System.String>[])
-  fullName.vb: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri, System.Collections.Generic.KeyValuePair(Of System.String, System.String)())
-  nameWithType: UriExtensions.WithQuery(Uri, KeyValuePair<String, String>[])
-  nameWithType.vb: UriExtensions.WithQuery(Uri, KeyValuePair(Of String, String)())
-- uid: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri,System.Collections.Specialized.NameValueCollection)
-  name: WithQuery(Uri, NameValueCollection)
-  href: api/THNETII.Networking.Http.UriExtensions.html#THNETII_Networking_Http_UriExtensions_WithQuery_System_Uri_System_Collections_Specialized_NameValueCollection_
-  commentId: M:THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri,System.Collections.Specialized.NameValueCollection)
-  fullName: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri, System.Collections.Specialized.NameValueCollection)
-  nameWithType: UriExtensions.WithQuery(Uri, NameValueCollection)
-- uid: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri,System.ValueTuple{System.String,System.String}[])
-  name: WithQuery(Uri, (String param, String value)[])
-  href: api/THNETII.Networking.Http.UriExtensions.html#THNETII_Networking_Http_UriExtensions_WithQuery_System_Uri_System_ValueTuple_System_String_System_String____
-  commentId: M:THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri,System.ValueTuple{System.String,System.String}[])
-  name.vb: WithQuery(Uri, (param As String, value As String)())
-  fullName: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri, System.ValueTuple<System.String, System.String>[])
-  fullName.vb: THNETII.Networking.Http.UriExtensions.WithQuery(System.Uri, System.ValueTuple(Of System.String, System.String)())
-  nameWithType: UriExtensions.WithQuery(Uri, (String param, String value)[])
-  nameWithType.vb: UriExtensions.WithQuery(Uri, (param As String, value As String)())
-- uid: THNETII.Networking.Http.UriExtensions.WithQuery*
-  name: WithQuery
-  href: api/THNETII.Networking.Http.UriExtensions.html#THNETII_Networking_Http_UriExtensions_WithQuery_
-  commentId: Overload:THNETII.Networking.Http.UriExtensions.WithQuery
-  isSpec: "True"
-  fullName: THNETII.Networking.Http.UriExtensions.WithQuery
-  nameWithType: UriExtensions.WithQuery
 - uid: THNETII.Security.JOSE
   name: THNETII.Security.JOSE
   href: api/THNETII.Security.JOSE.html
