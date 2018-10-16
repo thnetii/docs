@@ -1,0 +1,1183 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Bitfield32
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Bitfield32
+   ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="THNETII.InteropServices.Bitwise.Bitfield32">
+  
+  
+  <h1 id="THNETII_InteropServices_Bitwise_Bitfield32" data-uid="THNETII.InteropServices.Bitwise.Bitfield32" class="text-break">Class Bitfield32
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a 32-bit bitfield.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Bitfield32</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="THNETII.InteropServices.Bitwise.IBitfield-1.html">IBitfield</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>&gt;</div>
+    <div><a class="xref" href="THNETII.InteropServices.Bitwise.IBitfield-1.html">IBitfield</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="THNETII.InteropServices.Bitwise.html">THNETII.InteropServices.Bitwise</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.InteropServices.Bitwise.dll</h6>
+  <h5 id="THNETII_InteropServices_Bitwise_Bitfield32_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Bitfield32 : IBitfield&lt;uint&gt;, IBitfield&lt;int&gt;</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.MaximumBits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L13">View Source</a>
+  </span>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.MaximumBits">MaximumBits</h4>
+  <div class="markdown level1 summary"><p>The maximum number of bits for storage values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const int MaximumBits = 32</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_InverseMask.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.InverseMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L114">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_InverseMask_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.InverseMask*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_InverseMask" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.InverseMask">InverseMask</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating the bits that are ignored by read/write accesses through this definition.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint InverseMask { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><p>The bitwise inverse of <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask">Mask</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_Mask.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.Mask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L108">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_Mask_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Mask*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_Mask" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Mask">Mask</h4>
+  <div class="markdown level1 summary"><p>Gets the mask that is used to access the relevant bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Mask { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><p>A value where all bits that the definition grants access to are set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.ShiftAmount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L120">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.ShiftAmount*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.ShiftAmount">ShiftAmount</h4>
+  <div class="markdown level1 summary"><p>Gets the number of bits in- and output values are shifted by.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int ShiftAmount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>A non-negative integer number that does not exceed <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits">MaximumBits</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_DefineFromMask_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L44">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_DefineFromMask_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_DefineFromMask_System_Int32_System_Int32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.Int32,System.Int32)">DefineFromMask(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Defines a bitfield from the specified mask, optionally shifting the
+in- and output values by the specified amount.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Bitfield32 DefineFromMask(int mask, int shiftAmount = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">mask</span></td>
+        <td><p>The bitmask to use for the bitfield.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">shiftAmount</span></td>
+        <td><p>The number of bits to shift in and output values by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html">Bitfield32</a></td>
+        <td><p>A 32-bit bitfield definition with the specified mask and shit amount.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">shiftAmount</code> is negative or exceeds <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits">MaximumBits</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_DefineFromMask_System_UInt32_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.UInt32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L55">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_DefineFromMask_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_DefineFromMask_System_UInt32_System_Int32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.UInt32,System.Int32)">DefineFromMask(UInt32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Defines a bitfield from the specified mask, optionally shifting the
+in- and output values by the specified amount.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Bitfield32 DefineFromMask(uint mask, int shiftAmount = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">mask</span></td>
+        <td><p>The bitmask to use for the bitfield.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">shiftAmount</span></td>
+        <td><p>The number of bits to shift in and output values by.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html">Bitfield32</a></td>
+        <td><p>A 32-bit bitfield definition with the specified mask and shit amount.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">shiftAmount</code> is negative or exceeds <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits">MaximumBits</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_DefineHigherBits_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.DefineHigherBits(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L97">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_DefineHigherBits_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineHigherBits*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_DefineHigherBits_System_Int32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineHigherBits(System.Int32)">DefineHigherBits(Int32)</h4>
+  <div class="markdown level1 summary"><p>Defines a bitfield granting access to the specified number of high
+bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Bitfield32 DefineHigherBits(int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>The number of bits to grant access to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html">Bitfield32</a></td>
+        <td><p>A 32-bit bitfield that uses a mask where the <code data-dev-comment-type="paramref" class="paramref">count</code> highest bits are set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is negative or exceeds <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits">MaximumBits</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_DefineLowerBits_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.DefineLowerBits(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L65">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_DefineLowerBits_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineLowerBits*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_DefineLowerBits_System_Int32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineLowerBits(System.Int32)">DefineLowerBits(Int32)</h4>
+  <div class="markdown level1 summary"><p>Defines a bitfield granting access to the specified number of lower
+bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Bitfield32 DefineLowerBits(int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>The number of bits to grant access to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html">Bitfield32</a></td>
+        <td><p>A 32-bit bitfield that uses a mask where the <code data-dev-comment-type="paramref" class="paramref">count</code> lower bits are set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is negative or exceeds <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits">MaximumBits</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_DefineMiddleBits_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.DefineMiddleBits(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L77">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_DefineMiddleBits_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineMiddleBits*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_DefineMiddleBits_System_Int32_System_Int32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineMiddleBits(System.Int32,System.Int32)">DefineMiddleBits(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Defines a bitfield granting access to the specified number of
+consecutive bits starting at the specified offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Bitfield32 DefineMiddleBits(int offset, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The 0-based index of the lowest bit to grant access to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>The number of bits to grant access to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html">Bitfield32</a></td>
+        <td><p>A 32-bit bitfield that uses a mask where <code data-dev-comment-type="paramref" class="paramref">count</code> bits starting a the <code data-dev-comment-type="paramref" class="paramref">offset</code> bit are set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">offset</code> is negative or exceeds <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits">MaximumBits</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">count</code> is negative or exceeds the remaining number of bits.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_DefineRemainingBits_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.DefineRemainingBits(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L87">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_DefineRemainingBits_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineRemainingBits*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_DefineRemainingBits_System_Int32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineRemainingBits(System.Int32)">DefineRemainingBits(Int32)</h4>
+  <div class="markdown level1 summary"><p>Defines a bitfield grating access to all remaining bits starting
+from the specified offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Bitfield32 DefineRemainingBits(int offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The 0-based index of the lowest bit to grant access to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html">Bitfield32</a></td>
+        <td><p>A 32-bit bitfield that uses a mask where all bits starting from the bit at position <code data-dev-comment-type="paramref" class="paramref">offset</code> are set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">offset</code> is negative or exceeds <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits">MaximumBits</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_DefineSingleBit_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.DefineSingleBit(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L22">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_DefineSingleBit_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineSingleBit*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_DefineSingleBit_System_Int32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.DefineSingleBit(System.Int32)">DefineSingleBit(Int32)</h4>
+  <div class="markdown level1 summary"><p>Defines a bitfield granting access only to the bit with the
+specified index.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Bitfield32 DefineSingleBit(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>The zero based index of the bit to access.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html">Bitfield32</a></td>
+        <td><p>A 32-bit bitfield definition grating access only to the specified bit.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">index</code> is negative or exceeds <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits">MaximumBits</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_Read_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.Read(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L174">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_Read_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Read*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_Read_System_Int32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Read(System.Int32)">Read(Int32)</h4>
+  <div class="markdown level1 summary"><p>Extracts the bits as defined by this defintion from the specified
+storage value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Read(int storage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">storage</span></td>
+        <td><p>The value to extract bits from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The bitwise AND between <code data-dev-comment-type="paramref" class="paramref">storage</code> and
+<a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask">Mask</a>, logically shifted downwards (to the right) by
+<a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount">ShiftAmount</a> bits.</p>
+<p><code>(<code data-dev-comment-type="paramref" class="paramref">storage</code> &amp; <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask">Mask</a>) >> <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount">ShiftAmount</a></code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_InteropServices_Bitwise_Bitfield32_Read_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Since this operation is performed at bit-level, all logical
+intructions treat the operands as unsigned values. E.g. the shift
+is performed as a logical shift rather than an arithmetric one.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_Read_System_UInt32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.Read(System.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L156">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_Read_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Read*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_Read_System_UInt32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Read(System.UInt32)">Read(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Extracts the bits as defined by this defintion from the specified
+storage value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Read(uint storage)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">storage</span></td>
+        <td><p>The value to extract bits from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><p>The bitwise AND between <code data-dev-comment-type="paramref" class="paramref">storage</code> and
+<a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask">Mask</a> shifted downwards (to the right) by
+<a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount">ShiftAmount</a> bits.</p>
+<p><code>(<code data-dev-comment-type="paramref" class="paramref">storage</code> &amp; <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask">Mask</a>) >> <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount">ShiftAmount</a></code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_InteropServices_Bitwise_Bitfield32_Read_System_UInt32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Since this operation is performed at bit-level, all logical
+intructions treat the operands as unsigned values. E.g. the shift
+is performed as a logical shift rather than an arithmetric one.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_Write_System_Int32__System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.Write(System.Int32%40%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L236">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_Write_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Write*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_Write_System_Int32__System_Int32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Write(System.Int32@,System.Int32)">Write(ref Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the bits as definied by this definition in the specified storage
+value, preserving the previous bit setting of all other bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Write(ref int storage, int value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">storage</span></td>
+        <td><p>A reference to the storage value to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The bit pattern to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The resulting value of <code data-dev-comment-type="paramref" class="paramref">storage</code> of the operation
+has completed.</p>
+<p><code>(<code data-dev-comment-type="paramref" class="paramref">storage</code> &amp; <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_InverseMask">InverseMask</a>) | ((<code data-dev-comment-type="paramref" class="paramref">value</code> &lt;&lt; <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount">ShiftAmount</a>) | <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask">Mask</a>)</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_InteropServices_Bitwise_Bitfield32_Write_System_Int32__System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><code data-dev-comment-type="paramref" class="paramref">value</code> is first shifted upwards (to the left) to
+move it into the position where it can OR-ed with <code data-dev-comment-type="paramref" class="paramref">storage</code>.
+In order to prevent setting additional bits, the shifted value is
+AND-ed with <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask">Mask</a>.</p>
+<p>
+The value of <code data-dev-comment-type="paramref" class="paramref">storage</code> is AND-ed with <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_InverseMask">InverseMask</a>
+to clear all writable bits. The result is then OR-ed with the
+shifted masked <code data-dev-comment-type="paramref" class="paramref">value</code> and becomes the new value of
+<code data-dev-comment-type="paramref" class="paramref">storage</code>.
+</p>
+<p>
+Since this operation is performed at bit-level, all logical
+intructions treat the operands as unsigned values. E.g. the shift
+is performed as a logical shift rather than an arithmetric one.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_Write_System_UInt32__System_UInt32_.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.Write(System.UInt32%40%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L205">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_Write_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Write*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_Write_System_UInt32__System_UInt32_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.Write(System.UInt32@,System.UInt32)">Write(ref UInt32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Sets the bits as definied by this definition in the specified storage
+value, preserving the previous bit setting of all other bits.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint Write(ref uint storage, uint value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">storage</span></td>
+        <td><p>A reference to the storage value to write to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The bit pattern to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><p>The resulting value of <code data-dev-comment-type="paramref" class="paramref">storage</code> of the operation
+has completed.</p>
+<p><code>(<code data-dev-comment-type="paramref" class="paramref">storage</code> &amp; <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_InverseMask">InverseMask</a>) | ((<code data-dev-comment-type="paramref" class="paramref">value</code> &lt;&lt; <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount">ShiftAmount</a>) | <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask">Mask</a>)</code></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_InteropServices_Bitwise_Bitfield32_Write_System_UInt32__System_UInt32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><code data-dev-comment-type="paramref" class="paramref">value</code> is first shifted upwards (to the left) to
+move it into the position where it can OR-ed with <code data-dev-comment-type="paramref" class="paramref">storage</code>.
+In order to prevent setting additional bits, the shifted value is
+AND-ed with <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask">Mask</a>.</p>
+<p>
+The value of <code data-dev-comment-type="paramref" class="paramref">storage</code> is AND-ed with <a class="xref" href="THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_InverseMask">InverseMask</a>
+to clear all writable bits. The result is then OR-ed with the
+shifted masked <code data-dev-comment-type="paramref" class="paramref">value</code> and becomes the new value of
+<code data-dev-comment-type="paramref" class="paramref">storage</code>.
+</p>
+<p>
+Since this operation is performed at bit-level, all logical
+intructions treat the operands as unsigned values. E.g. the shift
+is performed as a logical shift rather than an arithmetric one.
+</p>
+</div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__InverseMask.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.THNETII%23InteropServices%23Bitwise%23IBitfield%7BSystem%23Int32%7D%23InverseMask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L124">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__InverseMask_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#InverseMask*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__InverseMask" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#InverseMask">IBitfield&lt;Int32&gt;.InverseMask</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IBitfield&lt;int&gt;.InverseMask { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__Mask.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.THNETII%23InteropServices%23Bitwise%23IBitfield%7BSystem%23Int32%7D%23Mask%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L122">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__Mask_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#Mask*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__Mask" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#Mask">IBitfield&lt;Int32&gt;.Mask</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IBitfield&lt;int&gt;.Mask { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__MaximumBits.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.THNETII%23InteropServices%23Bitwise%23IBitfield%7BSystem%23Int32%7D%23MaximumBits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L102">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__MaximumBits_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#MaximumBits*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__MaximumBits" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#MaximumBits">IBitfield&lt;Int32&gt;.MaximumBits</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IBitfield&lt;int&gt;.MaximumBits { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_UInt32__MaximumBits.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32.THNETII%23InteropServices%23Bitwise%23IBitfield%7BSystem%23UInt32%7D%23MaximumBits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L100">View Source</a>
+  </span>
+  <a id="THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_UInt32__MaximumBits_" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#UInt32}#MaximumBits*"></a>
+  <h4 id="THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_UInt32__MaximumBits" data-uid="THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#UInt32}#MaximumBits">IBitfield&lt;UInt32&gt;.MaximumBits</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">int IBitfield&lt;uint&gt;.MaximumBits { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="THNETII.InteropServices.Bitwise.IBitfield-1.html">IBitfield&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.InteropServices.Bitwise.IBitfield-1.html">IBitfield&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/thnetii/interopservices/new/master/apiSpec/new?filename=THNETII_InteropServices_Bitwise_Bitfield32.md&amp;value=---%0Auid%3A%20THNETII.InteropServices.Bitwise.Bitfield32%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/thnetii/interopservices/blob/master/src/THNETII.InteropServices.Bitwise/Bitfield32.cs/#L8" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
