@@ -1,0 +1,1194 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct HRESULT
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct HRESULT
+   ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT">
+  
+  
+  <h1 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT" class="text-break">Struct HRESULT
+  </h1>
+  <div class="markdown level0 summary"><p>The <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> is a data type used to represent error and warning conditions.</p>
+<p><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a>s are numerical error codes. Various bits within an HRESULT encode information about the nature of the error code, and where it came from. </p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a>&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.html">THNETII.WindowsProtocols.WindowsErrorCodes</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.WindowsProtocols.WindowsErrorCodes.dll</h6>
+  <h5 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct HRESULT : IEquatable&lt;HRESULT&gt;, IEquatable&lt;int&gt;</code></pre>
+  </div>
+  <h5 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+<a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a>s are 32 bit values layed out as follows:
+<pre><code> 3 3 2 2 2 2 2 2 2 2 2 2 1 1 1 1 1 1 1 1 1 1
+ 1 0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0 9 8 7 6 5 4 3 2 1 0
++-+-+-+-+-+---------------------+-------------------------------+
+|S|R|C|N|r|    Facility         |               Code            |
++-+-+-+-+-+---------------------+-------------------------------+</code></pre>
+where
+<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td><code>S</code></td><td>
+Severity – indicates success/fail
+<table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td><code>0</code> (zero)</td><td>Success</td></tr><tr><td><code>1</code></td><td>Fail (COERROR)</td></tr></tbody></table>
+</td></tr><tr><td><code>R</code></td><td>reserved portion of the facility code, corresponds to NT&apos;s second severity bit.</td></tr><tr><td><code>C</code></td><td>reserved portion of the facility code, corresponds to NT&apos;s C field.</td></tr><tr><td><code>N</code></td><td>reserved portion of the facility code. Used to indicate a mapped NT status value.</td></tr><tr><td><code>r</code></td><td>
+reserved portion of the facility code. Reserved for internal
+use. Used to indicate <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> values that are not status
+values, but are instead message ids for display strings.
+</td></tr><tr><td>Facility</td><td>is the facility code</td></tr><tr><td>Code</td><td>is the facility&apos;s status code</td></tr></tbody></table>
+</p>
+<p>
+The <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> numbering space is vendor-extensible. Vendors can supply their own values for this field, as long as the C bit (<code>0x20000000</code>) is set, indicating it is a customer code.
+</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L153">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT__ctor_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.#ctor*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT__ctor_System_Int32_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.#ctor(System.Int32)">HRESULT(Int32)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> with the specified integer value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HRESULT(int code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">code</span></td>
+        <td><p>The HRESULT error code as a 32-bit integer value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT__ctor_System_UInt32_.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.%23ctor(System.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L159">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT__ctor_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.#ctor*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT__ctor_System_UInt32_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.#ctor(System.UInt32)">HRESULT(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> with the specified integer value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HRESULT(uint code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">code</span></td>
+        <td><p>The HRESULT error code as an unsigned 32-bit integer value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Code.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Code%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L85">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Code_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Code*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Code" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Code">Code</h4>
+  <div class="markdown level1 summary"><p>Gets the the facility's status code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Code { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>An integer value containing the status code that is specific to the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Facility">Facility</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Facility.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Facility%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L91">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Facility_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Facility*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Facility" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Facility">Facility</h4>
+  <div class="markdown level1 summary"><p>Indicates the system service that is responsible for the error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HResultFacility Facility { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HResultFacility.html">HResultFacility</a></td>
+        <td><p>A value from the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HResultFacility.html">HResultFacility</a> enumeration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsCustomerCode.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsCustomerCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L112">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsCustomerCode_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsCustomerCode*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsCustomerCode" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsCustomerCode">IsCustomerCode</h4>
+  <div class="markdown level1 summary"><p>Whether the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value is a customer-defined value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCustomerCode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>false</code> is the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value is Microsoft-defined; <code>true</code> if it is Customer-defined.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsFailure.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsFailure%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L124">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsFailure_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsFailure*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsFailure" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsFailure">IsFailure</h4>
+  <div class="markdown level1 summary"><p>Whether the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value indicates a failed operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFailure { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the operation failed; <code>false</code> if not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsMessageId.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsMessageId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L100">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsMessageId_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsMessageId*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsMessageId" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsMessageId">IsMessageId</h4>
+  <div class="markdown level1 summary"><p>Whether the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value is not a status value, but a message id for display string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMessageId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>false</code> if the current <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> is a normal status value;
+<code>true</code> if it is a display string message ID.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsNTMapped.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsNTMapped%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L106">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsNTMapped_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsNTMapped*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsNTMapped" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsNTMapped">IsNTMapped</h4>
+  <div class="markdown level1 summary"><p>Whether the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value is a <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.NTSTATUS.html">NTSTATUS</a> value mapped to an <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNTMapped { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> is a mapped <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.NTSTATUS.html">NTSTATUS</a> value; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsSuccess.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsSuccess%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L118">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsSuccess_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsSuccess*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_IsSuccess" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.IsSuccess">IsSuccess</h4>
+  <div class="markdown level1 summary"><p>Whether the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value indicates a successful operation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSuccess { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if successful; <code>false</code> if not.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_NTStatusSeverity.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.NTStatusSeverity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L131">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_NTStatusSeverity_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.NTStatusSeverity*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_NTStatusSeverity" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.NTStatusSeverity">NTStatusSeverity</h4>
+  <div class="markdown level1 summary"><p>Gets the severity for a mapped <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.NTSTATUS.html">NTSTATUS</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NTStatusSeverity NTStatusSeverity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.NTStatusSeverity.html">NTStatusSeverity</a></td>
+        <td><p>A <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.NTStatusSeverity.html">NTStatusSeverity</a> value provide one extra bit of information compared to <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Severity">Severity</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_NTStatusSeverity_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Severity">Severity</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Severity.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Severity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L137">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Severity_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Severity*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Severity" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Severity">Severity</h4>
+  <div class="markdown level1 summary"><p>Indicates success or failure</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HResultSeverity Severity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HResultSeverity.html">HResultSeverity</a></td>
+        <td><p><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HResultSeverity.html#THNETII_WindowsProtocols_WindowsErrorCodes_HResultSeverity_Success">Success</a> if successful; otherwise, <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HResultSeverity.html#THNETII_WindowsProtocols_WindowsErrorCodes_HResultSeverity_Error">Error</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L79">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Value*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Value">Value</h4>
+  <div class="markdown level1 summary"><p>The full 32-bit integer value of of the system error code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Value { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The entire value as a signed 32-bit integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Equals_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Equals(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L248">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Equals_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Equals*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Equals_System_Int32_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Equals(System.Int32)">Equals(Int32)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the current instance is equal to a 32-bit integer value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(int code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">code</span></td>
+        <td><p>The integer to compare with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> property of this instance is equal to <code data-dev-comment-type="paramref" class="paramref">code</code>;<br>
+otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Equals_System_Object_.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L219">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Equals_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Equals*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Equals_System_Object_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the current instance is equal to a specified object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current instance is logically equal to <code data-dev-comment-type="paramref" class="paramref">obj</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Equals_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Equals(THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L238">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Equals_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Equals*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Equals_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.Equals(THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT)">Equals(HRESULT)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the current value is equal to another <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(HRESULT hr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><span class="parametername">hr</span></td>
+        <td><p>The Windows Error code to compare with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> property of this instance is equal to the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> property of <code data-dev-comment-type="paramref" class="paramref">hr</code>;<br>
+otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_FromWin32_System_Int32_.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.FromWin32(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L273">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_FromWin32_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.FromWin32*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_FromWin32_System_Int32_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.FromWin32(System.Int32)">FromWin32(Int32)</h4>
+  <div class="markdown level1 summary"><p>Converts the Win32 Error Code to an <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value using the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HResultFacility.html#THNETII_WindowsProtocols_WindowsErrorCodes_HResultFacility_Win32">Win32</a> facility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HRESULT FromWin32(int x)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The raw Win32 Error Code to convert.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">x</code> mapped to an <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value with a <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Facility">Facility</a> of <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HResultFacility.html#THNETII_WindowsProtocols_WindowsErrorCodes_HResultFacility_Win32">Win32</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_GetException.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.GetException%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L147">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_GetException_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.GetException*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_GetException" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.GetException">GetException()</h4>
+  <div class="markdown level1 summary"><p>Converts the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> error code to a corresponding managed
+<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a> instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Exception GetException()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><p>A regular .NET Exception instance if <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> can be mapped to a .NET <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a>;
+otherwise, a non-specific <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.comexception">COMException</a> is returned.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_GetHashCode.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L192">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_GetHashCode_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.GetHashCode*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_GetHashCode" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code for this instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p>The value obtained from calling <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">GetHashCode()</a> on <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_ToString.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L255">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_ToString_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.ToString*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_ToString" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a string representing the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> as a 32-bit numeric value
+in capitalized prefixed hexadecimal notation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><p><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> formatted in capitalized 8 digit hexadecimal notation, prefixed with <code>0x</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Equality_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Equality(THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT%2CTHNETII.WindowsProtocols.WindowsErrorCodes.HRESULT)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L200">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Equality_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Equality*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Equality_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Equality(THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT,THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT)">Equality(HRESULT, HRESULT)</h4>
+  <div class="markdown level1 summary"><p>Checks whether two <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(HRESULT left, HRESULT right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left side operand of the comparison.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right side operand of the comparison.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> property of <code data-dev-comment-type="paramref" class="paramref">left</code> equals the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> of <code data-dev-comment-type="paramref" class="paramref">right</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Explicit_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT__System_Int32.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Explicit(THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT)~System.Int32%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L185">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Explicit_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Explicit*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Explicit_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT__System_Int32" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Explicit(THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT)~System.Int32">Explicit(HRESULT to Int32)</h4>
+  <div class="markdown level1 summary"><p>Casting operator converting the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> to a 32-bit
+integer value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator int (HRESULT e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><span class="parametername">e</span></td>
+        <td><p>The error code to cast.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Explicit_THNETII_WindowsProtocols_WindowsErrorCodes_Win32ErrorCode__THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Explicit(THNETII.WindowsProtocols.WindowsErrorCodes.Win32ErrorCode)~THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L262">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Explicit_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Explicit*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Explicit_THNETII_WindowsProtocols_WindowsErrorCodes_Win32ErrorCode__THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Explicit(THNETII.WindowsProtocols.WindowsErrorCodes.Win32ErrorCode)~THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT">Explicit(Win32ErrorCode to HRESULT)</h4>
+  <div class="markdown level1 summary"><p>Casts the Win32 Error Code to an <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value using the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HResultFacility.html#THNETII_WindowsProtocols_WindowsErrorCodes_HResultFacility_Win32">Win32</a> facility.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator HRESULT(Win32ErrorCode x)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.Win32ErrorCode.html">Win32ErrorCode</a></td>
+        <td><span class="parametername">x</span></td>
+        <td><p>The raw Win32 Error Code to cast.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">x</code> mapped to an <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value with a <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Facility">Facility</a> of <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HResultFacility.html#THNETII_WindowsProtocols_WindowsErrorCodes_HResultFacility_Win32">Win32</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Implicit_System_Int32__THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Implicit(System.Int32)~THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L166">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Implicit_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Implicit*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Implicit_System_Int32__THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Implicit(System.Int32)~THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT">Implicit(Int32 to HRESULT)</h4>
+  <div class="markdown level1 summary"><p>Implicityly casts the 32-bit integer value to a <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator HRESULT(int code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">code</span></td>
+        <td><p>The HRESULT error code as a 32-bit integer value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><p>A <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> whose <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> is equal to <code data-dev-comment-type="paramref" class="paramref">code</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Implicit_System_UInt32__THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Implicit(System.UInt32)~THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L175">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Implicit_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Implicit*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Implicit_System_UInt32__THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Implicit(System.UInt32)~THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT">Implicit(UInt32 to HRESULT)</h4>
+  <div class="markdown level1 summary"><p>Implicityly casts the unsigned 32-bit integer value to a <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator HRESULT(uint code)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td><span class="parametername">code</span></td>
+        <td><p>The HRESULT error code as an unsigned 32-bit integer value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><p>A <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> whose <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> is bitwise equal to <code data-dev-comment-type="paramref" class="paramref">code</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Inequality_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Inequality(THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT%2CTHNETII.WindowsProtocols.WindowsErrorCodes.HRESULT)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L209">View Source</a>
+  </span>
+  <a id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Inequality_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Inequality*"></a>
+  <h4 id="THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_op_Inequality_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_" data-uid="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.op_Inequality(THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT,THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT)">Inequality(HRESULT, HRESULT)</h4>
+  <div class="markdown level1 summary"><p>Checks whether two <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a> value are not equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(HRESULT left, HRESULT right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left side operand of the comparison.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html">HRESULT</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right side operand of the comparison.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> property of <code data-dev-comment-type="paramref" class="paramref">left</code> is not equal to the <a class="xref" href="THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.html#THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT_Value">Value</a> of <code data-dev-comment-type="paramref" class="paramref">right</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WindowsProtocols_WindowsErrorCodes_HRESULT.md&amp;value=---%0Auid%3A%20THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WindowsProtocols.WindowsErrorCodes/HRESULT.cs/#L64" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
