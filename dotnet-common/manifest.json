@@ -1,0 +1,968 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/fra006/Documents/Source/GitHub/thnetii-dotnet-common/docfx/THNETII.Common.DocFx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.ArgumentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.ArgumentExtensions.html",
+          "hash": "Blu7I6csbqvodYzHYMKc6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Cli.ConsoleColorContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Cli.ConsoleColorContext.html",
+          "hash": "ykIpH42/yN93AmW0CI6AVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Cli.ConsoleUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Cli.ConsoleUtils.html",
+          "hash": "oeMw9Xzd12JXdpD07FBWJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Cli.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Cli.html",
+          "hash": "cUzr5/8MRnKQPEbwRoKGmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Collections.Generic.KeyValuePairExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Collections.Generic.KeyValuePairExtensions.html",
+          "hash": "QD+hKYt3x16VSrCCtEcNSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Collections.Generic.ReferenceEqualityComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Collections.Generic.ReferenceEqualityComparer-1.html",
+          "hash": "/L1B1cl5PyiSgecYeX/yTg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Collections.Generic.WeakReferenceEqualityComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Collections.Generic.WeakReferenceEqualityComparer-1.html",
+          "hash": "aPm8acIAF92A0Hs3+umVkw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Collections.Generic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Collections.Generic.html",
+          "hash": "9XPJjer45Vg5K22tG9oz/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.CommonExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.CommonExtensions.html",
+          "hash": "aROeqcBfrJ4GxBUu5r2z2Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.ConversionTuple-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.ConversionTuple-2.html",
+          "hash": "GReXa44AZwcCyGG+kvQfpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.DuplexConversionTuple-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.DuplexConversionTuple-2.html",
+          "hash": "eLV0zbdVjub0SegxYxxVHA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.IO.CopyIOStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.IO.CopyIOStream.html",
+          "hash": "/PJ0DpyzgZjmCS9f11V4KQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.IO.html",
+          "hash": "nheGuzlPPvMOEKnAcweu4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Linq.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Linq.EnumerableExtensions.html",
+          "hash": "sk0yxZfkNuBLdFmIYdCSbQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Linq.SpanLinqExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Linq.SpanLinqExtensions.html",
+          "hash": "r/NOGdrv/aOS/jSdiTONtw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Linq.StringLinqExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Linq.StringLinqExtensions.html",
+          "hash": "zf15bJr2PYtz5dri8hzsXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Linq.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Linq.html",
+          "hash": "Panc00pA8x/vvYe0r4oEGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Maybe-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Maybe-1.html",
+          "hash": "sDKDUZT2aYll0UTJd9A/jA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Maybe.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Maybe.html",
+          "hash": "fXLS58a255aa0v+5jssXlw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.ProcessExitCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.ProcessExitCode.html",
+          "hash": "ueymkMStIqjTAL2BTlt9Gg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.RefFunc-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.RefFunc-1.html",
+          "hash": "3DN0KX7AuCTVS6yHIJ6iow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.RefReadOnlyFunc-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.RefReadOnlyFunc-1.html",
+          "hash": "zWqeukajvSxW22QVClkbrg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Serialization.BooleanStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Serialization.BooleanStringConverter.html",
+          "hash": "T4syhq283Y+pKAN5oJmjHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Serialization.EnumStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Serialization.EnumStringConverter.html",
+          "hash": "9XGKRp+ch1BCxBkXu/QLpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Serialization.XmlEnumStringConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Serialization.XmlEnumStringConverter.html",
+          "hash": "Onej8Uvw8cZJ19ApQ+VWTg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.Serialization.html",
+          "hash": "cHNGqumH+roO904drAOiQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.StringCommonExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.StringCommonExtensions.html",
+          "hash": "wB6Zp1cgsRY5NuEXHCEDMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.StringEditDistanceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.StringEditDistanceExtensions.html",
+          "hash": "J0jDo9m/573tMxDy9VDidA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Common.html",
+          "hash": "NYsraY71MvGFzmH7fqhTfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Configuration.ConfigurationServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Configuration.ConfigurationServiceCollectionExtensions.html",
+          "hash": "3VC2qt7zXmxZC8BFqWGneg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Configuration.html",
+          "hash": "j2zi0P732OpxIJAvWZvDqg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServiceCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServiceCollection-1.html",
+          "hash": "/2XjK4KGHQ9IUEoxqvtf6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServiceCollection-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServiceCollection-2.html",
+          "hash": "pYwBUMsj2EtZpgQZSXIppw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServiceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServiceCollection.html",
+          "hash": "DpZu+mrmhNlFGQxVUBZ5+g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServicesContainer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServicesContainer-2.html",
+          "hash": "q3Jw9DFnuwU9YXA+t3bc1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.NestedScopedServicesManager-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedScopedServicesManager-2.html",
+          "hash": "Soj2sdXiz2JpJP/xlBhBHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServiceCollection-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServiceCollection-2.html",
+          "hash": "WnqhwSpfHDMw300Yw7Cx6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServiceCollectionExtensions.html",
+          "hash": "sR9CUyuC67/FB8JYmSBcGw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServicesServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServicesServiceCollectionExtensions.html",
+          "hash": "kRqFN88W2BPqyWvlvbRaVw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServicesServiceProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServicesServiceProviderExtensions.html",
+          "hash": "dkErwAjFZLTCNLp1keagXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.NestedSingletonServicesManager-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedSingletonServicesManager-2.html",
+          "hash": "HCbvz4SKZie6RRTk7Ox0IQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.RootServiceProviderAccessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.RootServiceProviderAccessor.html",
+          "hash": "8X10mMADy6TUTAIjMPKnDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.RootServicesAddBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.RootServicesAddBehavior.html",
+          "hash": "ds3mDmViK1kGBjsUOwEd+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.Nesting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.Nesting.html",
+          "hash": "mYZcNXu5EsoJCrwCcs1Upg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.ServiceCollectionServiceProviderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.ServiceCollectionServiceProviderExtensions.html",
+          "hash": "re3JcrCAVUcw1n75tQEJWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.DependencyInjection.html",
+          "hash": "ln4hXXYlYsiQ5eCSpxH8Sw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Logging.EventSource.EventLevelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Logging.EventSource.EventLevelExtensions.html",
+          "hash": "q+jZsW2G3m4YA1x1OlIBHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Logging.EventSource.LoggingEventSourceListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Logging.EventSource.LoggingEventSourceListener.html",
+          "hash": "zSp9gPGUks7bGDbYsZ3qcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Logging.EventSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Logging.EventSource.html",
+          "hash": "hywCdE7l0WMi42aklcNC6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Networking.Http.HttpContentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Networking.Http.HttpContentExtensions.html",
+          "hash": "nAXrTq3xoTYYtkK8/TLI5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Networking.Http.HttpWellKnownMediaType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Networking.Http.HttpWellKnownMediaType.html",
+          "hash": "vZ6AVgo+Tl/aGKYvnafgyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Networking.Http.MediaTypeHeaderValueExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Networking.Http.MediaTypeHeaderValueExtensions.html",
+          "hash": "04WMnv0qLFOHoBdlc/yJ7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Networking.Http.UriExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Networking.Http.UriExtensions.html",
+          "hash": "32trZyxvZ2ikpK9+8QO0gA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Networking.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Networking.Http.html",
+          "hash": "neV7sDbflOEjQp2ipVsfgQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.Base64UrlEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.Base64UrlEncoder.html",
+          "hash": "Zpzb6vnLLNYBq42YS1AfLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JoseEcDsaExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JoseEcDsaExtensions.html",
+          "hash": "tFegRO0dH+BU3f1zHvAN8w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JoseMediaTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JoseMediaTypes.html",
+          "hash": "NdZh90C0R9sm74Deu1HA7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JoseRsaExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JoseRsaExtensions.html",
+          "hash": "Ria5n3y7632QH8KawNoLgw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonEcWebKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonEcWebKey.html",
+          "hash": "V7QUaFmtLcWCVWZ4/SCYAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonOctWebKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonOctWebKey.html",
+          "hash": "DJ09OMQrW3AoB4cS2pVfbw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonRsaWebKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonRsaWebKey.html",
+          "hash": "8v6T0XgkI1NXsmKmkdBM+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonWebAlgorithm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonWebAlgorithm.html",
+          "hash": "9FlMc9ptfR7iSmzIpEFa6w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonWebKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonWebKey.html",
+          "hash": "FCPLcUP1naws3WvCOiW+Rg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonWebKeyConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonWebKeyConverter.html",
+          "hash": "iEURZY7ywOffTBNcWzuLEQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonWebKeyType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonWebKeyType.html",
+          "hash": "/Ml5YHLcJiWB5EOE6S1Lvg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonWebKeyUse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonWebKeyUse.html",
+          "hash": "IOx5Cu5QZ/pM6IGC+yF0mg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonWebOctExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonWebOctExtensions.html",
+          "hash": "XQrvCmG7180HIXeTI4WFgg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonWebSignature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonWebSignature.html",
+          "hash": "ltVxDAmasOnIRmGTycewKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonWebSignatureFlat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonWebSignatureFlat.html",
+          "hash": "M9ui9xgKE1mMgYbLmxnYjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.JsonWebSignatureHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.JsonWebSignatureHeader.html",
+          "hash": "lc7Q2NbfglghZGoHCJQ4HA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.Security.JOSE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.Security.JOSE.html",
+          "hash": "1z5vBO0YAo14a7w+o9oSWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "qeJ+oSlB93kBAv3yvBSmoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "mY1RRWUcQFaISmWb9pFeLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "LApPykZXllkDaGLQrQa1IA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "cTPfdsdaGz++4qCikJIvGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

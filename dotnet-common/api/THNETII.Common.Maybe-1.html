@@ -1,0 +1,1241 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct Maybe&lt;T&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct Maybe&lt;T&gt;
+   ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="THNETII.Common.Maybe`1">
+  
+  
+  <h1 id="THNETII_Common_Maybe_1" data-uid="THNETII.Common.Maybe`1" class="text-break">Struct Maybe&lt;T&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> which may or may not be assigned.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;T&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="THNETII.Common.html">THNETII.Common</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.Common.dll</h6>
+  <h5 id="THNETII_Common_Maybe_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public struct Maybe&lt;T&gt; : IEquatable&lt;Maybe&lt;T&gt;&gt;, IEquatable&lt;T&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The underlying value type of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> generic type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>This type is similar to the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable&lt;T&gt;</a> type, but also allows for marking a reference as unset.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1__ctor__0_.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L156">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1__ctor_" data-uid="THNETII.Common.Maybe`1.#ctor*"></a>
+  <h4 id="THNETII_Common_Maybe_1__ctor__0_" data-uid="THNETII.Common.Maybe`1.#ctor(`0)">Maybe(T)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> structure to the specified value.<br>
+The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> property of the new structure will evaluate to <code>true</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Maybe(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of the initialized <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_HasValue.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.HasValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L125">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_HasValue_" data-uid="THNETII.Common.Maybe`1.HasValue*"></a>
+  <h4 id="THNETII_Common_Maybe_1_HasValue" data-uid="THNETII.Common.Maybe`1.HasValue">HasValue</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> has a valid value of its
+underlying type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if a value of its underlying type has been assigned
+to the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a>; <code>false</code> if the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a>
+has no value assigned to it.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_NoValue.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.NoValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L112">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_NoValue_" data-uid="THNETII.Common.Maybe`1.NoValue*"></a>
+  <h4 id="THNETII_Common_Maybe_1_NoValue" data-uid="THNETII.Common.Maybe`1.NoValue">NoValue</h4>
+  <div class="markdown level1 summary"><p>Gets a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value where the value of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is unset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Maybe&lt;T&gt; NoValue { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><p>The default value of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_Value.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L136">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_Value_" data-uid="THNETII.Common.Maybe`1.Value*"></a>
+  <h4 id="THNETII_Common_Maybe_1_Value" data-uid="THNETII.Common.Maybe`1.Value">Value</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the underlying value of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> structure.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Value { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>A value of the underlying type of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> structure.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_Value_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Setting the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property will always set the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a>
+property to <code>true</code>.</p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a></td>
+        <td><p>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> property is <code>false</code> while attempting to get the value of the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_Clear.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L166">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_Clear_" data-uid="THNETII.Common.Maybe`1.Clear*"></a>
+  <h4 id="THNETII_Common_Maybe_1_Clear" data-uid="THNETII.Common.Maybe`1.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Clears the assigned underlying value (if any) and sets the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a>
+property to <code>false</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_Equals__0_.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.Equals(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L230">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_Equals_" data-uid="THNETII.Common.Maybe`1.Equals*"></a>
+  <h4 id="THNETII_Common_Maybe_1_Equals__0_" data-uid="THNETII.Common.Maybe`1.Equals(`0)">Equals(T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the current instance is equal to the specified value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(T otherValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">otherValue</span></td>
+        <td><p>The value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current instance has a value and that value is equal to <code data-dev-comment-type="paramref" class="paramref">otherValue</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_Equals__0__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Equality between a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> and a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is commutative and determined by satisfying all of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value returns <code>true</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is equal to the value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</li></ol>
+</p>
+<p>
+If <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>,
+<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is compared using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals(T)</a> method.
+Otherwise, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> is used.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_Equals_System_Object_.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L198">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_Equals_" data-uid="THNETII.Common.Maybe`1.Equals*"></a>
+  <h4 id="THNETII_Common_Maybe_1_Equals_System_Object_" data-uid="THNETII.Common.Maybe`1.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the current instance is equal to the specified object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current instance is equal to <code data-dev-comment-type="paramref" class="paramref">obj</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a></div>
+  <h5 id="THNETII_Common_Maybe_1_Equals_System_Object__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Equality between two <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values is determined by satisfying any of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values returns <code>false</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values returns <code>true</code> and <br>the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> is equal.</li></ol>
+</p>
+<p>
+Equality between a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> and a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is commutative and determined by satisfying all of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value returns <code>true</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is equal to the value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</li></ol>
+</p>
+<p>
+If <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>,
+<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is compared using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals(T)</a> method.
+Otherwise, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> is used.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_Equals_THNETII_Common_Maybe__0__.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.Equals(THNETII.Common.Maybe%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L261">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_Equals_" data-uid="THNETII.Common.Maybe`1.Equals*"></a>
+  <h4 id="THNETII_Common_Maybe_1_Equals_THNETII_Common_Maybe__0__" data-uid="THNETII.Common.Maybe`1.Equals(THNETII.Common.Maybe{`0})">Equals(Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the current instance is equal to the specified <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Maybe&lt;T&gt; otherMaybe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">otherMaybe</span></td>
+        <td><p>The <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current instance has a value and that value is equal to <code data-dev-comment-type="paramref" class="paramref">otherMaybe</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_Equals_THNETII_Common_Maybe__0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Equality between two <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values is determined by satisfying any of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values returns <code>false</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values returns <code>true</code> and <br>the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> is equal.</li></ol>
+</p>
+<p>
+If <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>,
+<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is compared using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals(T)</a> method.
+Otherwise, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> is used.
+</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_GetHashCode.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L277">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_GetHashCode_" data-uid="THNETII.Common.Maybe`1.GetHashCode*"></a>
+  <h4 id="THNETII_Common_Maybe_1_GetHashCode" data-uid="THNETII.Common.Maybe`1.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns a hash code for the current instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><p><code>0</code> (zero) if <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> is <code>false</code> or <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is <code>null</code>; otherwise, the value obtained by invoking <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">GetHashCode()</a> on <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_GetValueOrDefault.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.GetValueOrDefault%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L288">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_GetValueOrDefault_" data-uid="THNETII.Common.Maybe`1.GetValueOrDefault*"></a>
+  <h4 id="THNETII_Common_Maybe_1_GetValueOrDefault" data-uid="THNETII.Common.Maybe`1.GetValueOrDefault">GetValueOrDefault()</h4>
+  <div class="markdown level1 summary"><p>Retrieves the assigned underlying value of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> structure
+or the default value of the underlying type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetValueOrDefault()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The value of the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property if the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a>
+property is <code>true</code>; otherwise the default value of the underlying
+type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_GetValueOrDefault__0_.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.GetValueOrDefault(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L300">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_GetValueOrDefault_" data-uid="THNETII.Common.Maybe`1.GetValueOrDefault*"></a>
+  <h4 id="THNETII_Common_Maybe_1_GetValueOrDefault__0_" data-uid="THNETII.Common.Maybe`1.GetValueOrDefault(`0)">GetValueOrDefault(T)</h4>
+  <div class="markdown level1 summary"><p>Retrieves the assigned underlying value of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> structure
+or the specified default value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T GetValueOrDefault(T default)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">default</span></td>
+        <td><p>The value to return if the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> is <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The value of the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property if the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a>
+property evaluates to <code>true</code>; otherwise the value of the <code data-dev-comment-type="paramref" class="paramref">default</code>
+parameter.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_ToString.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L323">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_ToString_" data-uid="THNETII.Common.Maybe`1.ToString*"></a>
+  <h4 id="THNETII_Common_Maybe_1_ToString" data-uid="THNETII.Common.Maybe`1.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a> representing the current <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><table><thead><tr><th><a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a></th><th>Return Value</th></tr></thead><tbody><tr><td><code>true</code></td><td>
+<ul><li>The empty string (<code>&quot;&quot;</code>) if <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is a reference type and <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is <code>null</code>.</li><li>The return value from invoking <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">ToString()</a> on <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a>.</li></ul>
+</td></tr><tr><td><code>false</code></td><td>The string <code>Maybe&lt;<code data-dev-comment-type="typeparamref" class="typeparamref">T</code>>.<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_NoValue">NoValue</a></code>, with <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> replaced by the string representation of the type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</td></tr></tbody></table>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#System_ValueType_ToString">ValueType.ToString()</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_op_Equality__0_THNETII_Common_Maybe__0__.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.op_Equality(%600%2CTHNETII.Common.Maybe%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L423">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_op_Equality_" data-uid="THNETII.Common.Maybe`1.op_Equality*"></a>
+  <h4 id="THNETII_Common_Maybe_1_op_Equality__0_THNETII_Common_Maybe__0__" data-uid="THNETII.Common.Maybe`1.op_Equality(`0,THNETII.Common.Maybe{`0})">Equality(T, Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is equal to a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(T value, Maybe&lt;T&gt; maybe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The comparand of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">maybe</span></td>
+        <td><p>The <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> comparand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">maybe</code> has a value and that value is equal to <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_op_Equality__0_THNETII_Common_Maybe__0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Equality between a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> and a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is commutative and determined by satisfying all of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value returns <code>true</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is equal to the value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</li></ol>
+</p>
+<p>
+If <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>,
+<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is compared using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals(T)</a> method.
+Otherwise, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> is used.
+</p>
+</div>
+  <h5 id="THNETII_Common_Maybe_1_op_Equality__0_THNETII_Common_Maybe__0___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Equals__0_">Equals(T)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_op_Equality_THNETII_Common_Maybe__0___0_.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.op_Equality(THNETII.Common.Maybe%7B%600%7D%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L399">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_op_Equality_" data-uid="THNETII.Common.Maybe`1.op_Equality*"></a>
+  <h4 id="THNETII_Common_Maybe_1_op_Equality_THNETII_Common_Maybe__0___0_" data-uid="THNETII.Common.Maybe`1.op_Equality(THNETII.Common.Maybe{`0},`0)">Equality(Maybe&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is equal to a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Maybe&lt;T&gt; maybe, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">maybe</span></td>
+        <td><p>The <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> comparand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The comparand of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">maybe</code> has a value and that value is equal to <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_op_Equality_THNETII_Common_Maybe__0___0__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Equality between a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> and a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is commutative and determined by satisfying all of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value returns <code>true</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is equal to the value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</li></ol>
+</p>
+<p>
+If <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>,
+<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is compared using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals(T)</a> method.
+Otherwise, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> is used.
+</p>
+</div>
+  <h5 id="THNETII_Common_Maybe_1_op_Equality_THNETII_Common_Maybe__0___0__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Equals__0_">Equals(T)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_op_Equality_THNETII_Common_Maybe__0__THNETII_Common_Maybe__0__.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.op_Equality(THNETII.Common.Maybe%7B%600%7D%2CTHNETII.Common.Maybe%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L351">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_op_Equality_" data-uid="THNETII.Common.Maybe`1.op_Equality*"></a>
+  <h4 id="THNETII_Common_Maybe_1_op_Equality_THNETII_Common_Maybe__0__THNETII_Common_Maybe__0__" data-uid="THNETII.Common.Maybe`1.op_Equality(THNETII.Common.Maybe{`0},THNETII.Common.Maybe{`0})">Equality(Maybe&lt;T&gt;, Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Maybe&lt;T&gt; left, Maybe&lt;T&gt; right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The conversion tuple instance on the left side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The conversion tuple instance on the right side of the operator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">left</code> is equal to <code data-dev-comment-type="paramref" class="paramref">right</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_op_Equality_THNETII_Common_Maybe__0__THNETII_Common_Maybe__0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Equality between two <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values is determined by satisfying any of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values returns <code>false</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values returns <code>true</code> and <br>the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> is equal.</li></ol>
+</p>
+<p>
+If <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>,
+<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is compared using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals(T)</a> method.
+Otherwise, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> is used.
+</p>
+</div>
+  <h5 id="THNETII_Common_Maybe_1_op_Equality_THNETII_Common_Maybe__0__THNETII_Common_Maybe__0___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Equals_THNETII_Common_Maybe__0__">Equals(Maybe&lt;T&gt;)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_op_Explicit_THNETII_Common_Maybe__0____0.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.op_Explicit(THNETII.Common.Maybe%7B%600%7D)~%600%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L491">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_op_Explicit_" data-uid="THNETII.Common.Maybe`1.op_Explicit*"></a>
+  <h4 id="THNETII_Common_Maybe_1_op_Explicit_THNETII_Common_Maybe__0____0" data-uid="THNETII.Common.Maybe`1.op_Explicit(THNETII.Common.Maybe{`0})~`0">Explicit(Maybe&lt;T&gt; to T)</h4>
+  <div class="markdown level1 summary"><p>Casts the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value to a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator T(Maybe&lt;T&gt; maybe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">maybe</span></td>
+        <td><p>The <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> to cast.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> of <code data-dev-comment-type="paramref" class="paramref">maybe</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidcastexception">InvalidCastException</a></td>
+        <td><p><code data-dev-comment-type="paramref" class="paramref">maybe</code> does not have a value. <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception#System_Exception_InnerException">InnerException</a> contains the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.invalidoperationexception">InvalidOperationException</a> thrown by accessing the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of <code data-dev-comment-type="paramref" class="paramref">maybe</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_op_Implicit__0__THNETII_Common_Maybe__0_.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.op_Implicit(%600)~THNETII.Common.Maybe%7B%600%7D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L482">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_op_Implicit_" data-uid="THNETII.Common.Maybe`1.op_Implicit*"></a>
+  <h4 id="THNETII_Common_Maybe_1_op_Implicit__0__THNETII_Common_Maybe__0_" data-uid="THNETII.Common.Maybe`1.op_Implicit(`0)~THNETII.Common.Maybe{`0}">Implicit(T to Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Implicityly casts a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> to a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Maybe&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> to cast.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><p>A <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> whose <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> property is <code>true</code> and whose <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is equal to <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_op_Implicit__0__THNETII_Common_Maybe__0__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Maybe.html#THNETII_Common_Maybe_Create__1___0_">Create&lt;T&gt;(T)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_op_Inequality__0_THNETII_Common_Maybe__0__.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.op_Inequality(%600%2CTHNETII.Common.Maybe%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L471">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_op_Inequality_" data-uid="THNETII.Common.Maybe`1.op_Inequality*"></a>
+  <h4 id="THNETII_Common_Maybe_1_op_Inequality__0_THNETII_Common_Maybe__0__" data-uid="THNETII.Common.Maybe`1.op_Inequality(`0,THNETII.Common.Maybe{`0})">Inequality(T, Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is not equal to a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(T value, Maybe&lt;T&gt; maybe)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The comparand of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">maybe</span></td>
+        <td><p>The <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> comparand.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">maybe</code> does not have a value or if the value is not equal to <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_op_Inequality__0_THNETII_Common_Maybe__0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Inequality between a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> and a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is commutative and determined by satisfying any of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value returns <code>false</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is not equal to the value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</li></ol>
+</p>
+<p>
+If <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>,
+<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is compared using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals(T)</a> method.
+Otherwise, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> is used.
+</p>
+</div>
+  <h5 id="THNETII_Common_Maybe_1_op_Inequality__0_THNETII_Common_Maybe__0___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Equals__0_">Equals(T)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_op_Inequality_THNETII_Common_Maybe__0___0_.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.op_Inequality(THNETII.Common.Maybe%7B%600%7D%2C%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L447">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_op_Inequality_" data-uid="THNETII.Common.Maybe`1.op_Inequality*"></a>
+  <h4 id="THNETII_Common_Maybe_1_op_Inequality_THNETII_Common_Maybe__0___0_" data-uid="THNETII.Common.Maybe`1.op_Inequality(THNETII.Common.Maybe{`0},`0)">Inequality(Maybe&lt;T&gt;, T)</h4>
+  <div class="markdown level1 summary"><p>Determines whether a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is not equal to a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Maybe&lt;T&gt; maybe, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">maybe</span></td>
+        <td><p>The <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> comparand.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The comparand of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">maybe</code> does not have a value or if the value is not equal to <code data-dev-comment-type="paramref" class="paramref">value</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_op_Inequality_THNETII_Common_Maybe__0___0__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Inequality between a <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> and a value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> is commutative and determined by satisfying any of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value returns <code>false</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of the <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is not equal to the value of type <code data-dev-comment-type="typeparamref" class="typeparamref">T</code>.</li></ol>
+</p>
+<p>
+If <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>,
+<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is compared using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals(T)</a> method.
+Otherwise, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> is used.
+</p>
+</div>
+  <h5 id="THNETII_Common_Maybe_1_op_Inequality_THNETII_Common_Maybe__0___0__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Equals__0_">Equals(T)</a></div>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1_op_Inequality_THNETII_Common_Maybe__0__THNETII_Common_Maybe__0__.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601.op_Inequality(THNETII.Common.Maybe%7B%600%7D%2CTHNETII.Common.Maybe%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L375">View Source</a>
+  </span>
+  <a id="THNETII_Common_Maybe_1_op_Inequality_" data-uid="THNETII.Common.Maybe`1.op_Inequality*"></a>
+  <h4 id="THNETII_Common_Maybe_1_op_Inequality_THNETII_Common_Maybe__0__THNETII_Common_Maybe__0__" data-uid="THNETII.Common.Maybe`1.op_Inequality(THNETII.Common.Maybe{`0},THNETII.Common.Maybe{`0})">Inequality(Maybe&lt;T&gt;, Maybe&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values are not equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Maybe&lt;T&gt; left, Maybe&lt;T&gt; right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The conversion tuple instance on the left side of the operator.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.Maybe-1.html">Maybe</a>&lt;T&gt;</td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The conversion tuple instance on the right side of the operator.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if <code data-dev-comment-type="paramref" class="paramref">left</code> is not equal to <code data-dev-comment-type="paramref" class="paramref">right</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_Maybe_1_op_Inequality_THNETII_Common_Maybe__0__THNETII_Common_Maybe__0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Inequality between two <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values is determined by satisfying any of the following criteria:
+<ol><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> property of one <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> value is <code>true</code> while the other is <code>false</code>.</li><li>The <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_HasValue">HasValue</a> of both <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> values returns <code>true</code> and <br>the <a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> property of of one <a class="xref" href="THNETII.Common.Maybe-1.html">Maybe&lt;T&gt;</a> is not equal to the other.</li></ol>
+</p>
+<p>
+If <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>,
+<a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Value">Value</a> is compared using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_">Equals(T)</a> method.
+Otherwise, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Equals(Object)</a> is used.
+</p>
+</div>
+  <h5 id="THNETII_Common_Maybe_1_op_Inequality_THNETII_Common_Maybe__0__THNETII_Common_Maybe__0___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.Maybe-1.html#THNETII_Common_Maybe_1_Equals_THNETII_Common_Maybe__0__">Equals(Maybe&lt;T&gt;)</a></div>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_Maybe_1.md&amp;value=---%0Auid%3A%20THNETII.Common.Maybe%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/Maybe.cs/#L104" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,911 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DuplexConversionTuple&lt;TRaw, TConvert&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DuplexConversionTuple&lt;TRaw, TConvert&gt;
+   ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="THNETII.Common.DuplexConversionTuple`2">
+  
+  
+  <h1 id="THNETII_Common_DuplexConversionTuple_2" data-uid="THNETII.Common.DuplexConversionTuple`2" class="text-break">Class DuplexConversionTuple&lt;TRaw, TConvert&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>A two-way caching conversion tuple that converts values between the <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> and <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> types.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="THNETII.Common.ConversionTuple-2.html">ConversionTuple</a>&lt;TRaw, TConvert&gt;</div>
+    <div class="level2"><span class="xref">DuplexConversionTuple&lt;TRaw, TConvert&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="THNETII.Common.ConversionTuple-2.html">ConversionTuple</a>&lt;TRaw, TConvert&gt;&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html">DuplexConversionTuple</a>&lt;TRaw, TConvert&gt;&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_sync">ConversionTuple&lt;TRaw, TConvert&gt;.sync</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_cacheInitalized">ConversionTuple&lt;TRaw, TConvert&gt;.cacheInitalized</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_rawValue">ConversionTuple&lt;TRaw, TConvert&gt;.rawValue</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_cache">ConversionTuple&lt;TRaw, TConvert&gt;.cache</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">ConversionTuple&lt;TRaw, TConvert&gt;.RawValue</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_ConvertedValue">ConversionTuple&lt;TRaw, TConvert&gt;.ConvertedValue</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_ClearCache">ConversionTuple&lt;TRaw, TConvert&gt;.ClearCache()</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_GetEqualityCheckFunction__1">ConversionTuple&lt;TRaw, TConvert&gt;.GetEqualityCheckFunction&lt;T&gt;()</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_Equals_System_Object_">ConversionTuple&lt;TRaw, TConvert&gt;.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_GetHashCode">ConversionTuple&lt;TRaw, TConvert&gt;.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_Equals_THNETII_Common_ConversionTuple__0__1__">ConversionTuple&lt;TRaw, TConvert&gt;.Equals(ConversionTuple&lt;TRaw, TConvert&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="THNETII.Common.html">THNETII.Common</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.Common.dll</h6>
+  <h5 id="THNETII_Common_DuplexConversionTuple_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DuplexConversionTuple&lt;TRaw, TConvert&gt; : ConversionTuple&lt;TRaw, TConvert&gt;, IEquatable&lt;ConversionTuple&lt;TRaw, TConvert&gt;&gt;, IEquatable&lt;DuplexConversionTuple&lt;TRaw, TConvert&gt;&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TRaw</span></td>
+        <td><p>The type of the source value.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TConvert</span></td>
+        <td><p>The type of the converted value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Collections_Generic_IEqualityComparer__0__System_Func__1__0__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.%23ctor(System.Func%7B%600%2C%601%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%600%7D%2CSystem.Func%7B%601%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L69">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2__ctor_" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Collections_Generic_IEqualityComparer__0__System_Func__1__0__" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor(System.Func{`0,`1},System.Collections.Generic.IEqualityComparer{`0},System.Func{`1,`0})">DuplexConversionTuple(Func&lt;TRaw, TConvert&gt;, IEqualityComparer&lt;TRaw&gt;, Func&lt;TConvert, TRaw&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new duplex conversion tuple with the specified conversion functions for both directions. Uses the specified equality comparer to detect changes for the raw value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuplexConversionTuple(Func&lt;TRaw, TConvert&gt; rawConvert, IEqualityComparer&lt;TRaw&gt; rawEqualityComparer, Func&lt;TConvert, TRaw&gt; rawReverseConvert)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">rawConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TRaw&gt;</td>
+        <td><span class="parametername">rawEqualityComparer</span></td>
+        <td><p>An optional equality comparer, to check whether the cached value of <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> has been changed. Specify <code>null</code> to use default equality checks.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TConvert, TRaw&gt;</td>
+        <td><span class="parametername">rawReverseConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Either <code data-dev-comment-type="paramref" class="paramref">rawConvert</code> or <code data-dev-comment-type="paramref" class="paramref">rawReverseConvert</code> are <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Collections_Generic_IEqualityComparer__0__System_Func__1__0__System_Collections_Generic_IEqualityComparer__1__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.%23ctor(System.Func%7B%600%2C%601%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%600%7D%2CSystem.Func%7B%601%2C%600%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L110">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2__ctor_" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Collections_Generic_IEqualityComparer__0__System_Func__1__0__System_Collections_Generic_IEqualityComparer__1__" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor(System.Func{`0,`1},System.Collections.Generic.IEqualityComparer{`0},System.Func{`1,`0},System.Collections.Generic.IEqualityComparer{`1})">DuplexConversionTuple(Func&lt;TRaw, TConvert&gt;, IEqualityComparer&lt;TRaw&gt;, Func&lt;TConvert, TRaw&gt;, IEqualityComparer&lt;TConvert&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new duplex conversion tuple with the specified conversion functions for both directions. Uses the specified equality comparers to detect changes for the raw and converted values.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuplexConversionTuple(Func&lt;TRaw, TConvert&gt; rawConvert, IEqualityComparer&lt;TRaw&gt; rawEqualityComparer, Func&lt;TConvert, TRaw&gt; rawReverseConvert, IEqualityComparer&lt;TConvert&gt; convertedEqualityComparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">rawConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TRaw&gt;</td>
+        <td><span class="parametername">rawEqualityComparer</span></td>
+        <td><p>An optional equality comparer, to check whether the cached value of <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> has been changed. Specify <code>null</code> to use default equality checks.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TConvert, TRaw&gt;</td>
+        <td><span class="parametername">rawReverseConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TConvert&gt;</td>
+        <td><span class="parametername">convertedEqualityComparer</span></td>
+        <td><p>An optional equality comparer, to check whether the cached value of <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> has been changed. Specify <code>null</code> to use default equality checks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Either <code data-dev-comment-type="paramref" class="paramref">rawConvert</code> or <code data-dev-comment-type="paramref" class="paramref">rawReverseConvert</code> are <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Collections_Generic_IEqualityComparer__0__System_Func__1__0__System_Func__1__1_System_Boolean__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.%23ctor(System.Func%7B%600%2C%601%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%600%7D%2CSystem.Func%7B%601%2C%600%7D%2CSystem.Func%7B%601%2C%601%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L132">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2__ctor_" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Collections_Generic_IEqualityComparer__0__System_Func__1__0__System_Func__1__1_System_Boolean__" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor(System.Func{`0,`1},System.Collections.Generic.IEqualityComparer{`0},System.Func{`1,`0},System.Func{`1,`1,System.Boolean})">DuplexConversionTuple(Func&lt;TRaw, TConvert&gt;, IEqualityComparer&lt;TRaw&gt;, Func&lt;TConvert, TRaw&gt;, Func&lt;TConvert, TConvert, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new duplex conversion tuple with the specified conversion functions for both directions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuplexConversionTuple(Func&lt;TRaw, TConvert&gt; rawConvert, IEqualityComparer&lt;TRaw&gt; rawEqualityComparer, Func&lt;TConvert, TRaw&gt; rawReverseConvert, Func&lt;TConvert, TConvert, bool&gt; convertedEquals)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">rawConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TRaw&gt;</td>
+        <td><span class="parametername">rawEqualityComparer</span></td>
+        <td><p>An optional equality comparer, to check whether the cached value of <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> has been changed. Specify <code>null</code> to use default equality checks.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TConvert, TRaw&gt;</td>
+        <td><span class="parametername">rawReverseConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TConvert, TConvert, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="parametername">convertedEquals</span></td>
+        <td><p>The equality comparison function to use to check whether the cached value of <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> has been changed. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Either <code data-dev-comment-type="paramref" class="paramref">rawConvert</code>, <code data-dev-comment-type="paramref" class="paramref">rawReverseConvert</code> or <code data-dev-comment-type="paramref" class="paramref">convertedEquals</code> are <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__0__0_System_Boolean__System_Func__1__0__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.%23ctor(System.Func%7B%600%2C%601%7D%2CSystem.Func%7B%600%2C%600%2CSystem.Boolean%7D%2CSystem.Func%7B%601%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L79">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2__ctor_" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__0__0_System_Boolean__System_Func__1__0__" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor(System.Func{`0,`1},System.Func{`0,`0,System.Boolean},System.Func{`1,`0})">DuplexConversionTuple(Func&lt;TRaw, TConvert&gt;, Func&lt;TRaw, TRaw, Boolean&gt;, Func&lt;TConvert, TRaw&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new duplex conversion tuple with the specified conversion functions for both directrions. Uses the specified comparison function to detect changes for the raw value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuplexConversionTuple(Func&lt;TRaw, TConvert&gt; rawConvert, Func&lt;TRaw, TRaw, bool&gt; rawEquals, Func&lt;TConvert, TRaw&gt; rawReverseConvert)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">rawConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TRaw, TRaw, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="parametername">rawEquals</span></td>
+        <td><p>The equality comparison function to use to check whether the cached value of <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> has been changed. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TConvert, TRaw&gt;</td>
+        <td><span class="parametername">rawReverseConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Either <code data-dev-comment-type="paramref" class="paramref">rawConvert</code>, <code data-dev-comment-type="paramref" class="paramref">rawEquals</code> or <code data-dev-comment-type="paramref" class="paramref">rawReverseConvert</code> are <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__0__0_System_Boolean__System_Func__1__0__System_Collections_Generic_IEqualityComparer__1__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.%23ctor(System.Func%7B%600%2C%601%7D%2CSystem.Func%7B%600%2C%600%2CSystem.Boolean%7D%2CSystem.Func%7B%601%2C%600%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L121">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2__ctor_" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__0__0_System_Boolean__System_Func__1__0__System_Collections_Generic_IEqualityComparer__1__" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor(System.Func{`0,`1},System.Func{`0,`0,System.Boolean},System.Func{`1,`0},System.Collections.Generic.IEqualityComparer{`1})">DuplexConversionTuple(Func&lt;TRaw, TConvert&gt;, Func&lt;TRaw, TRaw, Boolean&gt;, Func&lt;TConvert, TRaw&gt;, IEqualityComparer&lt;TConvert&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new duplex conversion tuple with the specified conversion functions for both directions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuplexConversionTuple(Func&lt;TRaw, TConvert&gt; rawConvert, Func&lt;TRaw, TRaw, bool&gt; rawEquals, Func&lt;TConvert, TRaw&gt; rawReverseConvert, IEqualityComparer&lt;TConvert&gt; convertedEqualityComparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">rawConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TRaw, TRaw, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="parametername">rawEquals</span></td>
+        <td><p>The equality comparison function to use to check whether the cached value of <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> has been changed. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TConvert, TRaw&gt;</td>
+        <td><span class="parametername">rawReverseConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TConvert&gt;</td>
+        <td><span class="parametername">convertedEqualityComparer</span></td>
+        <td><p>An optional equality comparer, to check whether the cached value of <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> has been changed. Specify <code>null</code> to use default equality checks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Either <code data-dev-comment-type="paramref" class="paramref">rawConvert</code>, <code data-dev-comment-type="paramref" class="paramref">rawEquals</code> or <code data-dev-comment-type="paramref" class="paramref">rawReverseConvert</code> are <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__0__0_System_Boolean__System_Func__1__0__System_Func__1__1_System_Boolean__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.%23ctor(System.Func%7B%600%2C%601%7D%2CSystem.Func%7B%600%2C%600%2CSystem.Boolean%7D%2CSystem.Func%7B%601%2C%600%7D%2CSystem.Func%7B%601%2C%601%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L148">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2__ctor_" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__0__0_System_Boolean__System_Func__1__0__System_Func__1__1_System_Boolean__" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor(System.Func{`0,`1},System.Func{`0,`0,System.Boolean},System.Func{`1,`0},System.Func{`1,`1,System.Boolean})">DuplexConversionTuple(Func&lt;TRaw, TConvert&gt;, Func&lt;TRaw, TRaw, Boolean&gt;, Func&lt;TConvert, TRaw&gt;, Func&lt;TConvert, TConvert, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new duplex conversion tuple with the specified conversion functions for both directions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuplexConversionTuple(Func&lt;TRaw, TConvert&gt; rawConvert, Func&lt;TRaw, TRaw, bool&gt; rawEquals, Func&lt;TConvert, TRaw&gt; rawReverseConvert, Func&lt;TConvert, TConvert, bool&gt; convertedEquals)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">rawConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TRaw, TRaw, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="parametername">rawEquals</span></td>
+        <td><p>The equality comparison function to use to check whether the cached value of <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> has been changed. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TConvert, TRaw&gt;</td>
+        <td><span class="parametername">rawReverseConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TConvert, TConvert, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="parametername">convertedEquals</span></td>
+        <td><p>The equality comparison function to use to check whether the cached value of <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> has been changed. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Either <code data-dev-comment-type="paramref" class="paramref">rawConvert</code>, <code data-dev-comment-type="paramref" class="paramref">rawEquals</code>, <code data-dev-comment-type="paramref" class="paramref">rawReverseConvert</code> or <code data-dev-comment-type="paramref" class="paramref">convertedEquals</code> are <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__1__0__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.%23ctor(System.Func%7B%600%2C%601%7D%2CSystem.Func%7B%601%2C%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L59">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2__ctor_" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__1__0__" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor(System.Func{`0,`1},System.Func{`1,`0})">DuplexConversionTuple(Func&lt;TRaw, TConvert&gt;, Func&lt;TConvert, TRaw&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new duplex conversion tuple with the specified conversion functions for both directions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuplexConversionTuple(Func&lt;TRaw, TConvert&gt; rawConvert, Func&lt;TConvert, TRaw&gt; rawReverseConvert)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">rawConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TConvert, TRaw&gt;</td>
+        <td><span class="parametername">rawReverseConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Either <code data-dev-comment-type="paramref" class="paramref">rawConvert</code> or <code data-dev-comment-type="paramref" class="paramref">rawReverseConvert</code> are <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__1__0__System_Collections_Generic_IEqualityComparer__1__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.%23ctor(System.Func%7B%600%2C%601%7D%2CSystem.Func%7B%601%2C%600%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L89">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2__ctor_" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__1__0__System_Collections_Generic_IEqualityComparer__1__" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor(System.Func{`0,`1},System.Func{`1,`0},System.Collections.Generic.IEqualityComparer{`1})">DuplexConversionTuple(Func&lt;TRaw, TConvert&gt;, Func&lt;TConvert, TRaw&gt;, IEqualityComparer&lt;TConvert&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new duplex conversion tuple with the specified conversion functions for both directions. Uses the specified equality comparer to detect changes for the converted value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuplexConversionTuple(Func&lt;TRaw, TConvert&gt; rawConvert, Func&lt;TConvert, TRaw&gt; rawReverseConvert, IEqualityComparer&lt;TConvert&gt; convertedEqualityComparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">rawConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TConvert, TRaw&gt;</td>
+        <td><span class="parametername">rawReverseConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TConvert&gt;</td>
+        <td><span class="parametername">convertedEqualityComparer</span></td>
+        <td><p>An optional equality comparer, to check whether the cached value of <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> has been changed. Specify <code>null</code> to use default equality checks.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Either <code data-dev-comment-type="paramref" class="paramref">rawConvert</code> or <code data-dev-comment-type="paramref" class="paramref">rawReverseConvert</code> are <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__1__0__System_Func__1__1_System_Boolean__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.%23ctor(System.Func%7B%600%2C%601%7D%2CSystem.Func%7B%601%2C%600%7D%2CSystem.Func%7B%601%2C%601%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L99">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2__ctor_" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2__ctor_System_Func__0__1__System_Func__1__0__System_Func__1__1_System_Boolean__" data-uid="THNETII.Common.DuplexConversionTuple`2.#ctor(System.Func{`0,`1},System.Func{`1,`0},System.Func{`1,`1,System.Boolean})">DuplexConversionTuple(Func&lt;TRaw, TConvert&gt;, Func&lt;TConvert, TRaw&gt;, Func&lt;TConvert, TConvert, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new duplex conversion tuple with the specified conversion functions for both directions. Uses the specified equality comparison function to detect changes for the converted value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DuplexConversionTuple(Func&lt;TRaw, TConvert&gt; rawConvert, Func&lt;TConvert, TRaw&gt; rawReverseConvert, Func&lt;TConvert, TConvert, bool&gt; convertedEquals)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">rawConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TConvert, TRaw&gt;</td>
+        <td><span class="parametername">rawReverseConvert</span></td>
+        <td><p>The function to call to convert a value from <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code>. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;TConvert, TConvert, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><span class="parametername">convertedEquals</span></td>
+        <td><p>The equality comparison function to use to check whether the cached value of <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> has been changed. Must not be <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Either <code data-dev-comment-type="paramref" class="paramref">rawConvert</code>, <code data-dev-comment-type="paramref" class="paramref">rawReverseConvert</code> or <code data-dev-comment-type="paramref" class="paramref">convertedEquals</code> are <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2_ConvertedValue.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.ConvertedValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L31">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2_ConvertedValue_" data-uid="THNETII.Common.DuplexConversionTuple`2.ConvertedValue*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2_ConvertedValue" data-uid="THNETII.Common.DuplexConversionTuple`2.ConvertedValue">ConvertedValue</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the Converted value that represents the conversion from <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> to the <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TConvert ConvertedValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TConvert</span></td>
+        <td><p>The result of converting <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> from the <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> type to the <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code> type.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_DuplexConversionTuple_2_ConvertedValue_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Both concurrent set and get accesses to <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> can be considered thread-safe.</p>
+<p>The conversion from <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> is defined by the argument to the constructor of the <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html">DuplexConversionTuple&lt;TRaw, TConvert&gt;</a> class.</p>
+<p>The conversion to <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> is defined by the argument to the constructor of the <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html">DuplexConversionTuple&lt;TRaw, TConvert&gt;</a> class.</p>
+<p>The <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html">DuplexConversionTuple&lt;TRaw, TConvert&gt;</a> class caches the result of the conversion. The conversion function is only called if <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> has changed since <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> was last accessed.</p>
+<p>If neither the value of <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> nor <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> are changed, subsequent get accesses to <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> will return the exact same value or instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TConvert</code>.</p>
+<p>If the value of <a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html#THNETII_Common_DuplexConversionTuple_2_ConvertedValue">ConvertedValue</a> is changed by setting a new value, it is immediately converted to <code data-dev-comment-type="typeparamref" class="typeparamref">TRaw</code> and <a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_RawValue">RawValue</a> is set to the result of the conversion.</p>
+</div>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2_System_IEquatable_THNETII_Common_DuplexConversionTuple_TRaw_TConvert___Equals_THNETII_Common_DuplexConversionTuple__0__1__.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602.System%23IEquatable%7BTHNETII%23Common%23DuplexConversionTuple%7BTRaw%2CTConvert%7D%7D%23Equals(THNETII.Common.DuplexConversionTuple%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L162">View Source</a>
+  </span>
+  <a id="THNETII_Common_DuplexConversionTuple_2_System_IEquatable_THNETII_Common_DuplexConversionTuple_TRaw_TConvert___Equals_" data-uid="THNETII.Common.DuplexConversionTuple`2.System#IEquatable{THNETII#Common#DuplexConversionTuple{TRaw,TConvert}}#Equals*"></a>
+  <h4 id="THNETII_Common_DuplexConversionTuple_2_System_IEquatable_THNETII_Common_DuplexConversionTuple_TRaw_TConvert___Equals_THNETII_Common_DuplexConversionTuple__0__1__" data-uid="THNETII.Common.DuplexConversionTuple`2.System#IEquatable{THNETII#Common#DuplexConversionTuple{TRaw,TConvert}}#Equals(THNETII.Common.DuplexConversionTuple{`0,`1})">IEquatable&lt;DuplexConversionTuple&lt;TRaw, TConvert&gt;&gt;.Equals(DuplexConversionTuple&lt;TRaw, TConvert&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the current instance is logically equal to the specified conversion tuple instance.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IEquatable&lt;DuplexConversionTuple&lt;TRaw, TConvert&gt;&gt;.Equals(DuplexConversionTuple&lt;TRaw, TConvert&gt; other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.Common.DuplexConversionTuple-2.html">DuplexConversionTuple</a>&lt;TRaw, TConvert&gt;</td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The conversion tuple to check against.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><code>true</code> if the current instance is logically equal to <code data-dev-comment-type="paramref" class="paramref">other</code>; otherwise, <code>false</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_Common_DuplexConversionTuple_2_System_IEquatable_THNETII_Common_DuplexConversionTuple_TRaw_TConvert___Equals_THNETII_Common_DuplexConversionTuple__0__1___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.Common.ConversionTuple-2.html#THNETII_Common_ConversionTuple_2_Equals_THNETII_Common_ConversionTuple__0__1__">Equals</a>(<a class="xref" href="THNETII.Common.ConversionTuple-2.html">ConversionTuple</a>&lt;TRaw, TConvert&gt;)</div>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="THNETII.Common.ArgumentExtensions.html#THNETII_Common_ArgumentExtensions_ThrowIfNull__1___0_System_String_">ArgumentExtensions.ThrowIfNull&lt;T&gt;(T, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.Common.CommonExtensions.html#THNETII_Common_CommonExtensions_NotNull__1___0___0_">CommonExtensions.NotNull&lt;T&gt;(T, T)</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.Common.CommonExtensions.html#THNETII_Common_CommonExtensions_NotNull__1___0_System_Func___0__">CommonExtensions.NotNull&lt;T&gt;(T, Func&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="THNETII.Common.CommonExtensions.html#THNETII_Common_CommonExtensions_TryNotNull__1___0___0__">CommonExtensions.TryNotNull&lt;T&gt;(T, out T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/new/master/apiSpec/new?filename=THNETII_Common_DuplexConversionTuple_2.md&amp;value=---%0Auid%3A%20THNETII.Common.DuplexConversionTuple%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/thnetii/dotnet-common/blob/master/src/THNETII.Common/DuplexConversionTuple.cs/#L13" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
