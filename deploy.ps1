@@ -8,11 +8,12 @@ param (
 $ErrorActionPreference = "Stop"
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-$GitHubUser = Invoke-RestMethod -Uri "https://api.github.com/user?access_token=$AccessToken" -Method Get -Verbose
+$GitHubAuthorization = @{ Authorization = "token $($AccessToken)" }
+$GitHubUser = Invoke-RestMethod -Uri "https://api.github.com/user" `
+    -Method Get -Headers $GitHubAuthorization -Verbose
 $GitUserName = $GitHubUser.login
 $GitUserEmail = $GitHubUser.email
 
-[uri] $RepositoryUrl = "https://$($AccessToken):x-oauth-basic@github.com/$RepositoryOwner/$RepositoryName.git"
 $git = Get-Command -CommandType Application "git" | Select-Object -First 1
 
 if ($GitUserName -or $GitUserEmail) {
@@ -23,7 +24,7 @@ if ($GitUserName -or $GitUserEmail) {
 & "$git" checkout -b "$ArtifactName"
 & "$git" add -f .
 & "$git" commit --allow-empty -m "Artifact Deployment: $ArtifactName"
-& "$git" push -f "$RepositoryUrl" "$ArtifactName"
+& "$git" push -f "https://$($AccessToken):x-oauth-basic@github.com/$($RepositoryOwner)/$($RepositoryName).git" "$ArtifactName"
 
 $pullJson = @{
     title = "Merge $ArtifactName into $MergeTargetBranch"
@@ -33,12 +34,12 @@ $pullJson = @{
     maintainer_can_modify = $true
 } | ConvertTo-Json
 $pullBase = "https://api.github.com/repos/$RepositoryOwner/$RepositoryName/pulls"
-$pullUri = [uri] "$($pullBase)?access_token=$($AccessToken)"
+$pullUri = [uri] $pullBase
 $pullResponse = Invoke-RestMethod -Uri $pullUri -Method Post -ContentType "application/json" `
-    -Body $pullJson -Verbose
+    -Headers $GitHubAuthorization -Body $pullJson -Verbose
 $pullNumber = $pullResponse.number
-$pullMergeUri = [uri] "$($pullBase)/$($pullNumber)/merge?access_token=$($AccessToken)"
+$pullMergeUri = [uri] "$($pullBase)/$($pullNumber)/merge"
 $mergeJson = @{} | ConvertTo-Json
 $mergeResponse = Invoke-RestMethod -Uri $pullMergeUri -Method Put -ContentType "application/json" `
-    -Body $mergeJson -Verbose
+    -Headers $GitHubAuthorization -Body $mergeJson -Verbose
 $mergeResponse | Format-List
