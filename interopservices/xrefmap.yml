@@ -1,0 +1,1641 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: THNETII.InteropServices.Bitwise
+  name: THNETII.InteropServices.Bitwise
+  href: api/THNETII.InteropServices.Bitwise.html
+  commentId: N:THNETII.InteropServices.Bitwise
+  fullName: THNETII.InteropServices.Bitwise
+  nameWithType: THNETII.InteropServices.Bitwise
+- uid: THNETII.InteropServices.Bitwise.Bitfield32
+  name: Bitfield32
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html
+  commentId: T:THNETII.InteropServices.Bitwise.Bitfield32
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32
+  nameWithType: Bitfield32
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.Int32,System.Int32)
+  name: DefineFromMask(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineFromMask_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.Int32, System.Int32)
+  nameWithType: Bitfield32.DefineFromMask(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.UInt32,System.Int32)
+  name: DefineFromMask(UInt32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineFromMask_System_UInt32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.UInt32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask(System.UInt32, System.Int32)
+  nameWithType: Bitfield32.DefineFromMask(UInt32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask*
+  name: DefineFromMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineFromMask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineFromMask
+  nameWithType: Bitfield32.DefineFromMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineHigherBits(System.Int32)
+  name: DefineHigherBits(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineHigherBits_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.DefineHigherBits(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineHigherBits(System.Int32)
+  nameWithType: Bitfield32.DefineHigherBits(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineHigherBits*
+  name: DefineHigherBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineHigherBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.DefineHigherBits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineHigherBits
+  nameWithType: Bitfield32.DefineHigherBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineLowerBits(System.Int32)
+  name: DefineLowerBits(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineLowerBits_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.DefineLowerBits(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineLowerBits(System.Int32)
+  nameWithType: Bitfield32.DefineLowerBits(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineLowerBits*
+  name: DefineLowerBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineLowerBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.DefineLowerBits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineLowerBits
+  nameWithType: Bitfield32.DefineLowerBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineMiddleBits(System.Int32,System.Int32)
+  name: DefineMiddleBits(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineMiddleBits_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.DefineMiddleBits(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineMiddleBits(System.Int32, System.Int32)
+  nameWithType: Bitfield32.DefineMiddleBits(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineMiddleBits*
+  name: DefineMiddleBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineMiddleBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.DefineMiddleBits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineMiddleBits
+  nameWithType: Bitfield32.DefineMiddleBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineRemainingBits(System.Int32)
+  name: DefineRemainingBits(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineRemainingBits_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.DefineRemainingBits(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineRemainingBits(System.Int32)
+  nameWithType: Bitfield32.DefineRemainingBits(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineRemainingBits*
+  name: DefineRemainingBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineRemainingBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.DefineRemainingBits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineRemainingBits
+  nameWithType: Bitfield32.DefineRemainingBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineSingleBit(System.Int32)
+  name: DefineSingleBit(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineSingleBit_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.DefineSingleBit(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineSingleBit(System.Int32)
+  nameWithType: Bitfield32.DefineSingleBit(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.DefineSingleBit*
+  name: DefineSingleBit
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_DefineSingleBit_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.DefineSingleBit
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.DefineSingleBit
+  nameWithType: Bitfield32.DefineSingleBit
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.InverseMask
+  name: InverseMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_InverseMask
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield32.InverseMask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.InverseMask
+  nameWithType: Bitfield32.InverseMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.InverseMask*
+  name: InverseMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_InverseMask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.InverseMask
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.InverseMask
+  nameWithType: Bitfield32.InverseMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.Mask
+  name: Mask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield32.Mask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.Mask
+  nameWithType: Bitfield32.Mask
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.Mask*
+  name: Mask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Mask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.Mask
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.Mask
+  nameWithType: Bitfield32.Mask
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.MaximumBits
+  name: MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_MaximumBits
+  commentId: F:THNETII.InteropServices.Bitwise.Bitfield32.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.MaximumBits
+  nameWithType: Bitfield32.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.Read(System.Int32)
+  name: Read(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Read_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.Read(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.Read(System.Int32)
+  nameWithType: Bitfield32.Read(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.Read(System.UInt32)
+  name: Read(UInt32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Read_System_UInt32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.Read(System.UInt32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.Read(System.UInt32)
+  nameWithType: Bitfield32.Read(UInt32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.Read*
+  name: Read
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Read_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.Read
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.Read
+  nameWithType: Bitfield32.Read
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.ShiftAmount
+  name: ShiftAmount
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield32.ShiftAmount
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.ShiftAmount
+  nameWithType: Bitfield32.ShiftAmount
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.ShiftAmount*
+  name: ShiftAmount
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_ShiftAmount_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.ShiftAmount
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.ShiftAmount
+  nameWithType: Bitfield32.ShiftAmount
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#InverseMask
+  name: IBitfield<Int32>.InverseMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__InverseMask
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#InverseMask
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.InverseMask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.InverseMask
+  nameWithType: Bitfield32.IBitfield<Int32>.InverseMask
+  nameWithType.vb: Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.InverseMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#InverseMask*
+  name: IBitfield<Int32>.InverseMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__InverseMask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#InverseMask
+  isSpec: "True"
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.InverseMask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.InverseMask
+  nameWithType: Bitfield32.IBitfield<Int32>.InverseMask
+  nameWithType.vb: Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.InverseMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#Mask
+  name: IBitfield<Int32>.Mask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__Mask
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#Mask
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.Mask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.Mask
+  nameWithType: Bitfield32.IBitfield<Int32>.Mask
+  nameWithType.vb: Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.Mask
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#Mask*
+  name: IBitfield<Int32>.Mask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__Mask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#Mask
+  isSpec: "True"
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.Mask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.Mask
+  nameWithType: Bitfield32.IBitfield<Int32>.Mask
+  nameWithType.vb: Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.Mask
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#MaximumBits
+  name: IBitfield<Int32>.MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__MaximumBits
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#MaximumBits
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.MaximumBits
+  nameWithType: Bitfield32.IBitfield<Int32>.MaximumBits
+  nameWithType.vb: Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#MaximumBits*
+  name: IBitfield<Int32>.MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_Int32__MaximumBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#Int32}#MaximumBits
+  isSpec: "True"
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.MaximumBits
+  nameWithType: Bitfield32.IBitfield<Int32>.MaximumBits
+  nameWithType.vb: Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.Int32>.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#UInt32}#MaximumBits
+  name: IBitfield<UInt32>.MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_UInt32__MaximumBits
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#UInt32}#MaximumBits
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.UInt32>.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.UInt32>.MaximumBits
+  nameWithType: Bitfield32.IBitfield<UInt32>.MaximumBits
+  nameWithType.vb: Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.UInt32>.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#UInt32}#MaximumBits*
+  name: IBitfield<UInt32>.MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_THNETII_InteropServices_Bitwise_IBitfield_System_UInt32__MaximumBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.THNETII#InteropServices#Bitwise#IBitfield{System#UInt32}#MaximumBits
+  isSpec: "True"
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.UInt32>.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.UInt32>.MaximumBits
+  nameWithType: Bitfield32.IBitfield<UInt32>.MaximumBits
+  nameWithType.vb: Bitfield32.THNETII.InteropServices.Bitwise.IBitfield<System.UInt32>.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.Write(System.Int32@,System.Int32)
+  name: Write(ref Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Write_System_Int32__System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.Write(System.Int32@,System.Int32)
+  name.vb: Write(ByRef Int32, Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.Write(ref System.Int32, System.Int32)
+  fullName.vb: THNETII.InteropServices.Bitwise.Bitfield32.Write(ByRef System.Int32, System.Int32)
+  nameWithType: Bitfield32.Write(ref Int32, Int32)
+  nameWithType.vb: Bitfield32.Write(ByRef Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.Write(System.UInt32@,System.UInt32)
+  name: Write(ref UInt32, UInt32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Write_System_UInt32__System_UInt32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield32.Write(System.UInt32@,System.UInt32)
+  name.vb: Write(ByRef UInt32, UInt32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.Write(ref System.UInt32, System.UInt32)
+  fullName.vb: THNETII.InteropServices.Bitwise.Bitfield32.Write(ByRef System.UInt32, System.UInt32)
+  nameWithType: Bitfield32.Write(ref UInt32, UInt32)
+  nameWithType.vb: Bitfield32.Write(ByRef UInt32, UInt32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield32.Write*
+  name: Write
+  href: api/THNETII.InteropServices.Bitwise.Bitfield32.html#THNETII_InteropServices_Bitwise_Bitfield32_Write_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield32.Write
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield32.Write
+  nameWithType: Bitfield32.Write
+- uid: THNETII.InteropServices.Bitwise.Bitfield64
+  name: Bitfield64
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html
+  commentId: T:THNETII.InteropServices.Bitwise.Bitfield64
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64
+  nameWithType: Bitfield64
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineFromMask(System.Int64,System.Int32)
+  name: DefineFromMask(Int64, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineFromMask_System_Int64_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.DefineFromMask(System.Int64,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineFromMask(System.Int64, System.Int32)
+  nameWithType: Bitfield64.DefineFromMask(Int64, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineFromMask(System.UInt64,System.Int32)
+  name: DefineFromMask(UInt64, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineFromMask_System_UInt64_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.DefineFromMask(System.UInt64,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineFromMask(System.UInt64, System.Int32)
+  nameWithType: Bitfield64.DefineFromMask(UInt64, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineFromMask*
+  name: DefineFromMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineFromMask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.DefineFromMask
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineFromMask
+  nameWithType: Bitfield64.DefineFromMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineHigherBits(System.Int32)
+  name: DefineHigherBits(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineHigherBits_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.DefineHigherBits(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineHigherBits(System.Int32)
+  nameWithType: Bitfield64.DefineHigherBits(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineHigherBits*
+  name: DefineHigherBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineHigherBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.DefineHigherBits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineHigherBits
+  nameWithType: Bitfield64.DefineHigherBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineLowerBits(System.Int32)
+  name: DefineLowerBits(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineLowerBits_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.DefineLowerBits(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineLowerBits(System.Int32)
+  nameWithType: Bitfield64.DefineLowerBits(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineLowerBits*
+  name: DefineLowerBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineLowerBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.DefineLowerBits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineLowerBits
+  nameWithType: Bitfield64.DefineLowerBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineMiddleBits(System.Int32,System.Int32)
+  name: DefineMiddleBits(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineMiddleBits_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.DefineMiddleBits(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineMiddleBits(System.Int32, System.Int32)
+  nameWithType: Bitfield64.DefineMiddleBits(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineMiddleBits*
+  name: DefineMiddleBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineMiddleBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.DefineMiddleBits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineMiddleBits
+  nameWithType: Bitfield64.DefineMiddleBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineRemainingBits(System.Int32)
+  name: DefineRemainingBits(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineRemainingBits_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.DefineRemainingBits(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineRemainingBits(System.Int32)
+  nameWithType: Bitfield64.DefineRemainingBits(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineRemainingBits*
+  name: DefineRemainingBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineRemainingBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.DefineRemainingBits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineRemainingBits
+  nameWithType: Bitfield64.DefineRemainingBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineSingleBit(System.Int32)
+  name: DefineSingleBit(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineSingleBit_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.DefineSingleBit(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineSingleBit(System.Int32)
+  nameWithType: Bitfield64.DefineSingleBit(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.DefineSingleBit*
+  name: DefineSingleBit
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_DefineSingleBit_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.DefineSingleBit
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.DefineSingleBit
+  nameWithType: Bitfield64.DefineSingleBit
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.InverseMask
+  name: InverseMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_InverseMask
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield64.InverseMask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.InverseMask
+  nameWithType: Bitfield64.InverseMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.InverseMask*
+  name: InverseMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_InverseMask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.InverseMask
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.InverseMask
+  nameWithType: Bitfield64.InverseMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.Mask
+  name: Mask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_Mask
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield64.Mask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.Mask
+  nameWithType: Bitfield64.Mask
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.Mask*
+  name: Mask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_Mask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.Mask
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.Mask
+  nameWithType: Bitfield64.Mask
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.MaximumBits
+  name: MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_MaximumBits
+  commentId: F:THNETII.InteropServices.Bitwise.Bitfield64.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.MaximumBits
+  nameWithType: Bitfield64.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.Read(System.Int64)
+  name: Read(Int64)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_Read_System_Int64_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.Read(System.Int64)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.Read(System.Int64)
+  nameWithType: Bitfield64.Read(Int64)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.Read(System.UInt64)
+  name: Read(UInt64)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_Read_System_UInt64_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.Read(System.UInt64)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.Read(System.UInt64)
+  nameWithType: Bitfield64.Read(UInt64)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.Read*
+  name: Read
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_Read_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.Read
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.Read
+  nameWithType: Bitfield64.Read
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.ShiftAmount
+  name: ShiftAmount
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_ShiftAmount
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield64.ShiftAmount
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.ShiftAmount
+  nameWithType: Bitfield64.ShiftAmount
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.ShiftAmount*
+  name: ShiftAmount
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_ShiftAmount_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.ShiftAmount
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.ShiftAmount
+  nameWithType: Bitfield64.ShiftAmount
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#InverseMask
+  name: IBitfield<Int64>.InverseMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_THNETII_InteropServices_Bitwise_IBitfield_System_Int64__InverseMask
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#InverseMask
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.InverseMask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.InverseMask
+  nameWithType: Bitfield64.IBitfield<Int64>.InverseMask
+  nameWithType.vb: Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.InverseMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#InverseMask*
+  name: IBitfield<Int64>.InverseMask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_THNETII_InteropServices_Bitwise_IBitfield_System_Int64__InverseMask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#InverseMask
+  isSpec: "True"
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.InverseMask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.InverseMask
+  nameWithType: Bitfield64.IBitfield<Int64>.InverseMask
+  nameWithType.vb: Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.InverseMask
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#Mask
+  name: IBitfield<Int64>.Mask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_THNETII_InteropServices_Bitwise_IBitfield_System_Int64__Mask
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#Mask
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.Mask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.Mask
+  nameWithType: Bitfield64.IBitfield<Int64>.Mask
+  nameWithType.vb: Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.Mask
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#Mask*
+  name: IBitfield<Int64>.Mask
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_THNETII_InteropServices_Bitwise_IBitfield_System_Int64__Mask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#Mask
+  isSpec: "True"
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.Mask
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.Mask
+  nameWithType: Bitfield64.IBitfield<Int64>.Mask
+  nameWithType.vb: Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.Mask
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#MaximumBits
+  name: IBitfield<Int64>.MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_THNETII_InteropServices_Bitwise_IBitfield_System_Int64__MaximumBits
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#MaximumBits
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.MaximumBits
+  nameWithType: Bitfield64.IBitfield<Int64>.MaximumBits
+  nameWithType.vb: Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#MaximumBits*
+  name: IBitfield<Int64>.MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_THNETII_InteropServices_Bitwise_IBitfield_System_Int64__MaximumBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#Int64}#MaximumBits
+  isSpec: "True"
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.MaximumBits
+  nameWithType: Bitfield64.IBitfield<Int64>.MaximumBits
+  nameWithType.vb: Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.Int64>.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#UInt64}#MaximumBits
+  name: IBitfield<UInt64>.MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_THNETII_InteropServices_Bitwise_IBitfield_System_UInt64__MaximumBits
+  commentId: P:THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#UInt64}#MaximumBits
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.UInt64>.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.UInt64>.MaximumBits
+  nameWithType: Bitfield64.IBitfield<UInt64>.MaximumBits
+  nameWithType.vb: Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.UInt64>.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#UInt64}#MaximumBits*
+  name: IBitfield<UInt64>.MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_THNETII_InteropServices_Bitwise_IBitfield_System_UInt64__MaximumBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.THNETII#InteropServices#Bitwise#IBitfield{System#UInt64}#MaximumBits
+  isSpec: "True"
+  name.vb: THNETII.InteropServices.Bitwise.IBitfield<System.UInt64>.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.UInt64>.MaximumBits
+  nameWithType: Bitfield64.IBitfield<UInt64>.MaximumBits
+  nameWithType.vb: Bitfield64.THNETII.InteropServices.Bitwise.IBitfield<System.UInt64>.MaximumBits
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.Write(System.Int64@,System.Int64)
+  name: Write(ref Int64, Int64)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_Write_System_Int64__System_Int64_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.Write(System.Int64@,System.Int64)
+  name.vb: Write(ByRef Int64, Int64)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.Write(ref System.Int64, System.Int64)
+  fullName.vb: THNETII.InteropServices.Bitwise.Bitfield64.Write(ByRef System.Int64, System.Int64)
+  nameWithType: Bitfield64.Write(ref Int64, Int64)
+  nameWithType.vb: Bitfield64.Write(ByRef Int64, Int64)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.Write(System.UInt64@,System.UInt64)
+  name: Write(ref UInt64, UInt64)
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_Write_System_UInt64__System_UInt64_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitfield64.Write(System.UInt64@,System.UInt64)
+  name.vb: Write(ByRef UInt64, UInt64)
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.Write(ref System.UInt64, System.UInt64)
+  fullName.vb: THNETII.InteropServices.Bitwise.Bitfield64.Write(ByRef System.UInt64, System.UInt64)
+  nameWithType: Bitfield64.Write(ref UInt64, UInt64)
+  nameWithType.vb: Bitfield64.Write(ByRef UInt64, UInt64)
+- uid: THNETII.InteropServices.Bitwise.Bitfield64.Write*
+  name: Write
+  href: api/THNETII.InteropServices.Bitwise.Bitfield64.html#THNETII_InteropServices_Bitwise_Bitfield64_Write_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitfield64.Write
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitfield64.Write
+  nameWithType: Bitfield64.Write
+- uid: THNETII.InteropServices.Bitwise.Bitmask
+  name: Bitmask
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html
+  commentId: T:THNETII.InteropServices.Bitwise.Bitmask
+  fullName: THNETII.InteropServices.Bitwise.Bitmask
+  nameWithType: Bitmask
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt16(System.Int32)
+  name: HigherBitsInt16(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsInt16_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt16(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt16(System.Int32)
+  nameWithType: Bitmask.HigherBitsInt16(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt16*
+  name: HigherBitsInt16
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsInt16_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt16
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt16
+  nameWithType: Bitmask.HigherBitsInt16
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt32(System.Int32)
+  name: HigherBitsInt32(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsInt32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt32(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt32(System.Int32)
+  nameWithType: Bitmask.HigherBitsInt32(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt32*
+  name: HigherBitsInt32
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsInt32_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt32
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt32
+  nameWithType: Bitmask.HigherBitsInt32
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt64(System.Int32)
+  name: HigherBitsInt64(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsInt64_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt64(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt64(System.Int32)
+  nameWithType: Bitmask.HigherBitsInt64(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt64*
+  name: HigherBitsInt64
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsInt64_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt64
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt64
+  nameWithType: Bitmask.HigherBitsInt64
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt8(System.Int32)
+  name: HigherBitsInt8(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsInt8_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt8(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt8(System.Int32)
+  nameWithType: Bitmask.HigherBitsInt8(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt8*
+  name: HigherBitsInt8
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsInt8_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt8
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsInt8
+  nameWithType: Bitmask.HigherBitsInt8
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt16(System.Int32)
+  name: HigherBitsUInt16(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsUInt16_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt16(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt16(System.Int32)
+  nameWithType: Bitmask.HigherBitsUInt16(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt16*
+  name: HigherBitsUInt16
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsUInt16_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt16
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt16
+  nameWithType: Bitmask.HigherBitsUInt16
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt32(System.Int32)
+  name: HigherBitsUInt32(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsUInt32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt32(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt32(System.Int32)
+  nameWithType: Bitmask.HigherBitsUInt32(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt32*
+  name: HigherBitsUInt32
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsUInt32_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt32
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt32
+  nameWithType: Bitmask.HigherBitsUInt32
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt64(System.Int32)
+  name: HigherBitsUInt64(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsUInt64_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt64(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt64(System.Int32)
+  nameWithType: Bitmask.HigherBitsUInt64(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt64*
+  name: HigherBitsUInt64
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsUInt64_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt64
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt64
+  nameWithType: Bitmask.HigherBitsUInt64
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt8(System.Int32)
+  name: HigherBitsUInt8(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsUInt8_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt8(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt8(System.Int32)
+  nameWithType: Bitmask.HigherBitsUInt8(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt8*
+  name: HigherBitsUInt8
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_HigherBitsUInt8_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt8
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.HigherBitsUInt8
+  nameWithType: Bitmask.HigherBitsUInt8
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt16(System.Int32)
+  name: LowerBitsInt16(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsInt16_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt16(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt16(System.Int32)
+  nameWithType: Bitmask.LowerBitsInt16(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt16*
+  name: LowerBitsInt16
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsInt16_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt16
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt16
+  nameWithType: Bitmask.LowerBitsInt16
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt32(System.Int32)
+  name: LowerBitsInt32(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsInt32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt32(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt32(System.Int32)
+  nameWithType: Bitmask.LowerBitsInt32(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt32*
+  name: LowerBitsInt32
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsInt32_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt32
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt32
+  nameWithType: Bitmask.LowerBitsInt32
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt64(System.Int32)
+  name: LowerBitsInt64(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsInt64_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt64(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt64(System.Int32)
+  nameWithType: Bitmask.LowerBitsInt64(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt64*
+  name: LowerBitsInt64
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsInt64_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt64
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt64
+  nameWithType: Bitmask.LowerBitsInt64
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt8(System.Int32)
+  name: LowerBitsInt8(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsInt8_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt8(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt8(System.Int32)
+  nameWithType: Bitmask.LowerBitsInt8(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt8*
+  name: LowerBitsInt8
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsInt8_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt8
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsInt8
+  nameWithType: Bitmask.LowerBitsInt8
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt16(System.Int32)
+  name: LowerBitsUInt16(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsUInt16_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt16(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt16(System.Int32)
+  nameWithType: Bitmask.LowerBitsUInt16(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt16*
+  name: LowerBitsUInt16
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsUInt16_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt16
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt16
+  nameWithType: Bitmask.LowerBitsUInt16
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt32(System.Int32)
+  name: LowerBitsUInt32(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsUInt32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt32(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt32(System.Int32)
+  nameWithType: Bitmask.LowerBitsUInt32(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt32*
+  name: LowerBitsUInt32
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsUInt32_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt32
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt32
+  nameWithType: Bitmask.LowerBitsUInt32
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt64(System.Int32)
+  name: LowerBitsUInt64(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsUInt64_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt64(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt64(System.Int32)
+  nameWithType: Bitmask.LowerBitsUInt64(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt64*
+  name: LowerBitsUInt64
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsUInt64_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt64
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt64
+  nameWithType: Bitmask.LowerBitsUInt64
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt8(System.Int32)
+  name: LowerBitsUInt8(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsUInt8_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt8(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt8(System.Int32)
+  nameWithType: Bitmask.LowerBitsUInt8(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt8*
+  name: LowerBitsUInt8
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_LowerBitsUInt8_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt8
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.LowerBitsUInt8
+  nameWithType: Bitmask.LowerBitsUInt8
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt16(System.Int32,System.Int32)
+  name: OffsetBitsInt16(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsInt16_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt16(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt16(System.Int32, System.Int32)
+  nameWithType: Bitmask.OffsetBitsInt16(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt16*
+  name: OffsetBitsInt16
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsInt16_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt16
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt16
+  nameWithType: Bitmask.OffsetBitsInt16
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt32(System.Int32,System.Int32)
+  name: OffsetBitsInt32(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsInt32_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt32(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt32(System.Int32, System.Int32)
+  nameWithType: Bitmask.OffsetBitsInt32(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt32*
+  name: OffsetBitsInt32
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsInt32_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt32
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt32
+  nameWithType: Bitmask.OffsetBitsInt32
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt64(System.Int32,System.Int32)
+  name: OffsetBitsInt64(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsInt64_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt64(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt64(System.Int32, System.Int32)
+  nameWithType: Bitmask.OffsetBitsInt64(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt64*
+  name: OffsetBitsInt64
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsInt64_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt64
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt64
+  nameWithType: Bitmask.OffsetBitsInt64
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt8(System.Int32,System.Int32)
+  name: OffsetBitsInt8(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsInt8_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt8(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt8(System.Int32, System.Int32)
+  nameWithType: Bitmask.OffsetBitsInt8(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt8*
+  name: OffsetBitsInt8
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsInt8_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt8
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsInt8
+  nameWithType: Bitmask.OffsetBitsInt8
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt16(System.Int32,System.Int32)
+  name: OffsetBitsUInt16(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsUInt16_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt16(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt16(System.Int32, System.Int32)
+  nameWithType: Bitmask.OffsetBitsUInt16(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt16*
+  name: OffsetBitsUInt16
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsUInt16_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt16
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt16
+  nameWithType: Bitmask.OffsetBitsUInt16
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt32(System.Int32,System.Int32)
+  name: OffsetBitsUInt32(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsUInt32_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt32(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt32(System.Int32, System.Int32)
+  nameWithType: Bitmask.OffsetBitsUInt32(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt32*
+  name: OffsetBitsUInt32
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsUInt32_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt32
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt32
+  nameWithType: Bitmask.OffsetBitsUInt32
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt64(System.Int32,System.Int32)
+  name: OffsetBitsUInt64(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsUInt64_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt64(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt64(System.Int32, System.Int32)
+  nameWithType: Bitmask.OffsetBitsUInt64(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt64*
+  name: OffsetBitsUInt64
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsUInt64_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt64
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt64
+  nameWithType: Bitmask.OffsetBitsUInt64
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt8(System.Int32,System.Int32)
+  name: OffsetBitsUInt8(Int32, Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsUInt8_System_Int32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt8(System.Int32,System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt8(System.Int32, System.Int32)
+  nameWithType: Bitmask.OffsetBitsUInt8(Int32, Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt8*
+  name: OffsetBitsUInt8
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetBitsUInt8_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt8
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetBitsUInt8
+  nameWithType: Bitmask.OffsetBitsUInt8
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt16(System.Int32)
+  name: OffsetRemainingInt16(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingInt16_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt16(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt16(System.Int32)
+  nameWithType: Bitmask.OffsetRemainingInt16(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt16*
+  name: OffsetRemainingInt16
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingInt16_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt16
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt16
+  nameWithType: Bitmask.OffsetRemainingInt16
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt32(System.Int32)
+  name: OffsetRemainingInt32(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingInt32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt32(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt32(System.Int32)
+  nameWithType: Bitmask.OffsetRemainingInt32(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt32*
+  name: OffsetRemainingInt32
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingInt32_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt32
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt32
+  nameWithType: Bitmask.OffsetRemainingInt32
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt64(System.Int32)
+  name: OffsetRemainingInt64(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingInt64_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt64(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt64(System.Int32)
+  nameWithType: Bitmask.OffsetRemainingInt64(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt64*
+  name: OffsetRemainingInt64
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingInt64_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt64
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt64
+  nameWithType: Bitmask.OffsetRemainingInt64
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt8(System.Int32)
+  name: OffsetRemainingInt8(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingInt8_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt8(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt8(System.Int32)
+  nameWithType: Bitmask.OffsetRemainingInt8(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt8*
+  name: OffsetRemainingInt8
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingInt8_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt8
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingInt8
+  nameWithType: Bitmask.OffsetRemainingInt8
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt16(System.Int32)
+  name: OffsetRemainingUInt16(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingUInt16_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt16(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt16(System.Int32)
+  nameWithType: Bitmask.OffsetRemainingUInt16(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt16*
+  name: OffsetRemainingUInt16
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingUInt16_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt16
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt16
+  nameWithType: Bitmask.OffsetRemainingUInt16
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt32(System.Int32)
+  name: OffsetRemainingUInt32(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingUInt32_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt32(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt32(System.Int32)
+  nameWithType: Bitmask.OffsetRemainingUInt32(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt32*
+  name: OffsetRemainingUInt32
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingUInt32_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt32
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt32
+  nameWithType: Bitmask.OffsetRemainingUInt32
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt64(System.Int32)
+  name: OffsetRemainingUInt64(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingUInt64_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt64(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt64(System.Int32)
+  nameWithType: Bitmask.OffsetRemainingUInt64(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt64*
+  name: OffsetRemainingUInt64
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingUInt64_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt64
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt64
+  nameWithType: Bitmask.OffsetRemainingUInt64
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt8(System.Int32)
+  name: OffsetRemainingUInt8(Int32)
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingUInt8_System_Int32_
+  commentId: M:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt8(System.Int32)
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt8(System.Int32)
+  nameWithType: Bitmask.OffsetRemainingUInt8(Int32)
+- uid: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt8*
+  name: OffsetRemainingUInt8
+  href: api/THNETII.InteropServices.Bitwise.Bitmask.html#THNETII_InteropServices_Bitwise_Bitmask_OffsetRemainingUInt8_
+  commentId: Overload:THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt8
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.Bitmask.OffsetRemainingUInt8
+  nameWithType: Bitmask.OffsetRemainingUInt8
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1
+  name: IBitfield<T>
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html
+  commentId: T:THNETII.InteropServices.Bitwise.IBitfield`1
+  name.vb: IBitfield(Of T)
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T)
+  nameWithType: IBitfield<T>
+  nameWithType.vb: IBitfield(Of T)
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.InverseMask
+  name: InverseMask
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_InverseMask
+  commentId: P:THNETII.InteropServices.Bitwise.IBitfield`1.InverseMask
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.InverseMask
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).InverseMask
+  nameWithType: IBitfield<T>.InverseMask
+  nameWithType.vb: IBitfield(Of T).InverseMask
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.InverseMask*
+  name: InverseMask
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_InverseMask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.IBitfield`1.InverseMask
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.InverseMask
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).InverseMask
+  nameWithType: IBitfield<T>.InverseMask
+  nameWithType.vb: IBitfield(Of T).InverseMask
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.Mask
+  name: Mask
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_Mask
+  commentId: P:THNETII.InteropServices.Bitwise.IBitfield`1.Mask
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.Mask
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).Mask
+  nameWithType: IBitfield<T>.Mask
+  nameWithType.vb: IBitfield(Of T).Mask
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.Mask*
+  name: Mask
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_Mask_
+  commentId: Overload:THNETII.InteropServices.Bitwise.IBitfield`1.Mask
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.Mask
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).Mask
+  nameWithType: IBitfield<T>.Mask
+  nameWithType.vb: IBitfield(Of T).Mask
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.MaximumBits
+  name: MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_MaximumBits
+  commentId: P:THNETII.InteropServices.Bitwise.IBitfield`1.MaximumBits
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.MaximumBits
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).MaximumBits
+  nameWithType: IBitfield<T>.MaximumBits
+  nameWithType.vb: IBitfield(Of T).MaximumBits
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.MaximumBits*
+  name: MaximumBits
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_MaximumBits_
+  commentId: Overload:THNETII.InteropServices.Bitwise.IBitfield`1.MaximumBits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.MaximumBits
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).MaximumBits
+  nameWithType: IBitfield<T>.MaximumBits
+  nameWithType.vb: IBitfield(Of T).MaximumBits
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.Read(`0)
+  name: Read(T)
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_Read__0_
+  commentId: M:THNETII.InteropServices.Bitwise.IBitfield`1.Read(`0)
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.Read(T)
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).Read(T)
+  nameWithType: IBitfield<T>.Read(T)
+  nameWithType.vb: IBitfield(Of T).Read(T)
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.Read*
+  name: Read
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_Read_
+  commentId: Overload:THNETII.InteropServices.Bitwise.IBitfield`1.Read
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.Read
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).Read
+  nameWithType: IBitfield<T>.Read
+  nameWithType.vb: IBitfield(Of T).Read
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.ShiftAmount
+  name: ShiftAmount
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_ShiftAmount
+  commentId: P:THNETII.InteropServices.Bitwise.IBitfield`1.ShiftAmount
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.ShiftAmount
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).ShiftAmount
+  nameWithType: IBitfield<T>.ShiftAmount
+  nameWithType.vb: IBitfield(Of T).ShiftAmount
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.ShiftAmount*
+  name: ShiftAmount
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_ShiftAmount_
+  commentId: Overload:THNETII.InteropServices.Bitwise.IBitfield`1.ShiftAmount
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.ShiftAmount
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).ShiftAmount
+  nameWithType: IBitfield<T>.ShiftAmount
+  nameWithType.vb: IBitfield(Of T).ShiftAmount
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.Write(`0@,`0)
+  name: Write(ref T, T)
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_Write__0___0_
+  commentId: M:THNETII.InteropServices.Bitwise.IBitfield`1.Write(`0@,`0)
+  name.vb: Write(ByRef T, T)
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.Write(ref T, T)
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).Write(ByRef T, T)
+  nameWithType: IBitfield<T>.Write(ref T, T)
+  nameWithType.vb: IBitfield(Of T).Write(ByRef T, T)
+- uid: THNETII.InteropServices.Bitwise.IBitfield`1.Write*
+  name: Write
+  href: api/THNETII.InteropServices.Bitwise.IBitfield-1.html#THNETII_InteropServices_Bitwise_IBitfield_1_Write_
+  commentId: Overload:THNETII.InteropServices.Bitwise.IBitfield`1.Write
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Bitwise.IBitfield<T>.Write
+  fullName.vb: THNETII.InteropServices.Bitwise.IBitfield(Of T).Write
+  nameWithType: IBitfield<T>.Write
+  nameWithType.vb: IBitfield(Of T).Write
+- uid: THNETII.InteropServices.NativeMemory
+  name: THNETII.InteropServices.NativeMemory
+  href: api/THNETII.InteropServices.NativeMemory.html
+  commentId: N:THNETII.InteropServices.NativeMemory
+  fullName: THNETII.InteropServices.NativeMemory
+  nameWithType: THNETII.InteropServices.NativeMemory
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1
+  name: ArrayPtr<T>
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html
+  commentId: T:THNETII.InteropServices.NativeMemory.ArrayPtr`1
+  name.vb: ArrayPtr(Of T)
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T)
+  nameWithType: ArrayPtr<T>
+  nameWithType.vb: ArrayPtr(Of T)
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1.#ctor(System.IntPtr)
+  name: ArrayPtr(IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html#THNETII_InteropServices_NativeMemory_ArrayPtr_1__ctor_System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.ArrayPtr`1.#ctor(System.IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>.ArrayPtr(System.IntPtr)
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T).ArrayPtr(System.IntPtr)
+  nameWithType: ArrayPtr<T>.ArrayPtr(IntPtr)
+  nameWithType.vb: ArrayPtr(Of T).ArrayPtr(IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1.#ctor*
+  name: ArrayPtr
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html#THNETII_InteropServices_NativeMemory_ArrayPtr_1__ctor_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.ArrayPtr`1.#ctor
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>.ArrayPtr
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T).ArrayPtr
+  nameWithType: ArrayPtr<T>.ArrayPtr
+  nameWithType.vb: ArrayPtr(Of T).ArrayPtr
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1.AsSpan(System.Int32)
+  name: AsSpan(Int32)
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html#THNETII_InteropServices_NativeMemory_ArrayPtr_1_AsSpan_System_Int32_
+  commentId: M:THNETII.InteropServices.NativeMemory.ArrayPtr`1.AsSpan(System.Int32)
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>.AsSpan(System.Int32)
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T).AsSpan(System.Int32)
+  nameWithType: ArrayPtr<T>.AsSpan(Int32)
+  nameWithType.vb: ArrayPtr(Of T).AsSpan(Int32)
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1.AsSpan*
+  name: AsSpan
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html#THNETII_InteropServices_NativeMemory_ArrayPtr_1_AsSpan_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.ArrayPtr`1.AsSpan
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>.AsSpan
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T).AsSpan
+  nameWithType: ArrayPtr<T>.AsSpan
+  nameWithType.vb: ArrayPtr(Of T).AsSpan
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1.Pointer
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html#THNETII_InteropServices_NativeMemory_ArrayPtr_1_Pointer
+  commentId: P:THNETII.InteropServices.NativeMemory.ArrayPtr`1.Pointer
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>.Pointer
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T).Pointer
+  nameWithType: ArrayPtr<T>.Pointer
+  nameWithType.vb: ArrayPtr(Of T).Pointer
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1.Pointer*
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html#THNETII_InteropServices_NativeMemory_ArrayPtr_1_Pointer_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.ArrayPtr`1.Pointer
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>.Pointer
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T).Pointer
+  nameWithType: ArrayPtr<T>.Pointer
+  nameWithType.vb: ArrayPtr(Of T).Pointer
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1.ToString
+  name: ToString()
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html#THNETII_InteropServices_NativeMemory_ArrayPtr_1_ToString
+  commentId: M:THNETII.InteropServices.NativeMemory.ArrayPtr`1.ToString
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>.ToString()
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T).ToString()
+  nameWithType: ArrayPtr<T>.ToString()
+  nameWithType.vb: ArrayPtr(Of T).ToString()
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1.ToString(System.String)
+  name: ToString(String)
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html#THNETII_InteropServices_NativeMemory_ArrayPtr_1_ToString_System_String_
+  commentId: M:THNETII.InteropServices.NativeMemory.ArrayPtr`1.ToString(System.String)
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>.ToString(System.String)
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T).ToString(System.String)
+  nameWithType: ArrayPtr<T>.ToString(String)
+  nameWithType.vb: ArrayPtr(Of T).ToString(String)
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtr`1.ToString*
+  name: ToString
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtr-1.html#THNETII_InteropServices_NativeMemory_ArrayPtr_1_ToString_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.ArrayPtr`1.ToString
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtr<T>.ToString
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtr(Of T).ToString
+  nameWithType: ArrayPtr<T>.ToString
+  nameWithType.vb: ArrayPtr(Of T).ToString
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions
+  name: ArrayPtrOfTExtensions
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.html
+  commentId: T:THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions
+  nameWithType: ArrayPtrOfTExtensions
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.AsSpan*
+  name: AsSpan
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.html#THNETII_InteropServices_NativeMemory_ArrayPtrOfTExtensions_AsSpan_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.AsSpan
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.AsSpan
+  nameWithType: ArrayPtrOfTExtensions.AsSpan
+- uid: THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.AsSpan``1(THNETII.InteropServices.NativeMemory.IArrayPtr{``0},System.Int32)
+  name: AsSpan<T>(IArrayPtr<T>, Int32)
+  href: api/THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.html#THNETII_InteropServices_NativeMemory_ArrayPtrOfTExtensions_AsSpan__1_THNETII_InteropServices_NativeMemory_IArrayPtr___0__System_Int32_
+  commentId: M:THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.AsSpan``1(THNETII.InteropServices.NativeMemory.IArrayPtr{``0},System.Int32)
+  name.vb: AsSpan(Of T)(IArrayPtr(Of T), Int32)
+  fullName: THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.AsSpan<T>(THNETII.InteropServices.NativeMemory.IArrayPtr<T>, System.Int32)
+  fullName.vb: THNETII.InteropServices.NativeMemory.ArrayPtrOfTExtensions.AsSpan(Of T)(THNETII.InteropServices.NativeMemory.IArrayPtr(Of T), System.Int32)
+  nameWithType: ArrayPtrOfTExtensions.AsSpan<T>(IArrayPtr<T>, Int32)
+  nameWithType.vb: ArrayPtrOfTExtensions.AsSpan(Of T)(IArrayPtr(Of T), Int32)
+- uid: THNETII.InteropServices.NativeMemory.IArrayPtr`1
+  name: IArrayPtr<T>
+  href: api/THNETII.InteropServices.NativeMemory.IArrayPtr-1.html
+  commentId: T:THNETII.InteropServices.NativeMemory.IArrayPtr`1
+  name.vb: IArrayPtr(Of T)
+  fullName: THNETII.InteropServices.NativeMemory.IArrayPtr<T>
+  fullName.vb: THNETII.InteropServices.NativeMemory.IArrayPtr(Of T)
+  nameWithType: IArrayPtr<T>
+  nameWithType.vb: IArrayPtr(Of T)
+- uid: THNETII.InteropServices.NativeMemory.IIntPtr`1
+  name: IIntPtr<T>
+  href: api/THNETII.InteropServices.NativeMemory.IIntPtr-1.html
+  commentId: T:THNETII.InteropServices.NativeMemory.IIntPtr`1
+  name.vb: IIntPtr(Of T)
+  fullName: THNETII.InteropServices.NativeMemory.IIntPtr<T>
+  fullName.vb: THNETII.InteropServices.NativeMemory.IIntPtr(Of T)
+  nameWithType: IIntPtr<T>
+  nameWithType.vb: IIntPtr(Of T)
+- uid: THNETII.InteropServices.NativeMemory.IIntPtr`1.Pointer
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.IIntPtr-1.html#THNETII_InteropServices_NativeMemory_IIntPtr_1_Pointer
+  commentId: P:THNETII.InteropServices.NativeMemory.IIntPtr`1.Pointer
+  fullName: THNETII.InteropServices.NativeMemory.IIntPtr<T>.Pointer
+  fullName.vb: THNETII.InteropServices.NativeMemory.IIntPtr(Of T).Pointer
+  nameWithType: IIntPtr<T>.Pointer
+  nameWithType.vb: IIntPtr(Of T).Pointer
+- uid: THNETII.InteropServices.NativeMemory.IIntPtr`1.Pointer*
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.IIntPtr-1.html#THNETII_InteropServices_NativeMemory_IIntPtr_1_Pointer_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IIntPtr`1.Pointer
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IIntPtr<T>.Pointer
+  fullName.vb: THNETII.InteropServices.NativeMemory.IIntPtr(Of T).Pointer
+  nameWithType: IIntPtr<T>.Pointer
+  nameWithType.vb: IIntPtr(Of T).Pointer
+- uid: THNETII.InteropServices.NativeMemory.IntPtr`1
+  name: IntPtr<T>
+  href: api/THNETII.InteropServices.NativeMemory.IntPtr-1.html
+  commentId: T:THNETII.InteropServices.NativeMemory.IntPtr`1
+  name.vb: IntPtr(Of T)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtr<T>
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtr(Of T)
+  nameWithType: IntPtr<T>
+  nameWithType.vb: IntPtr(Of T)
+- uid: THNETII.InteropServices.NativeMemory.IntPtr`1.#ctor(System.IntPtr)
+  name: IntPtr(IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtr-1.html#THNETII_InteropServices_NativeMemory_IntPtr_1__ctor_System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtr`1.#ctor(System.IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtr<T>.IntPtr(System.IntPtr)
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtr(Of T).IntPtr(System.IntPtr)
+  nameWithType: IntPtr<T>.IntPtr(IntPtr)
+  nameWithType.vb: IntPtr(Of T).IntPtr(IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.IntPtr`1.#ctor*
+  name: IntPtr
+  href: api/THNETII.InteropServices.NativeMemory.IntPtr-1.html#THNETII_InteropServices_NativeMemory_IntPtr_1__ctor_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtr`1.#ctor
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtr<T>.IntPtr
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtr(Of T).IntPtr
+  nameWithType: IntPtr<T>.IntPtr
+  nameWithType.vb: IntPtr(Of T).IntPtr
+- uid: THNETII.InteropServices.NativeMemory.IntPtr`1.Pointer
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.IntPtr-1.html#THNETII_InteropServices_NativeMemory_IntPtr_1_Pointer
+  commentId: P:THNETII.InteropServices.NativeMemory.IntPtr`1.Pointer
+  fullName: THNETII.InteropServices.NativeMemory.IntPtr<T>.Pointer
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtr(Of T).Pointer
+  nameWithType: IntPtr<T>.Pointer
+  nameWithType.vb: IntPtr(Of T).Pointer
+- uid: THNETII.InteropServices.NativeMemory.IntPtr`1.Pointer*
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.IntPtr-1.html#THNETII_InteropServices_NativeMemory_IntPtr_1_Pointer_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtr`1.Pointer
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtr<T>.Pointer
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtr(Of T).Pointer
+  nameWithType: IntPtr<T>.Pointer
+  nameWithType.vb: IntPtr(Of T).Pointer
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions
+  name: IntPtrExtensions
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html
+  commentId: T:THNETII.InteropServices.NativeMemory.IntPtrExtensions
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions
+  nameWithType: IntPtrExtensions
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStruct*
+  name: AsRefStruct
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_AsRefStruct_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStruct
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStruct
+  nameWithType: IntPtrExtensions.AsRefStruct
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStruct``1(System.IntPtr)
+  name: AsRefStruct<T>(IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_AsRefStruct__1_System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStruct``1(System.IntPtr)
+  name.vb: AsRefStruct(Of T)(IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStruct<T>(System.IntPtr)
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStruct(Of T)(System.IntPtr)
+  nameWithType: IntPtrExtensions.AsRefStruct<T>(IntPtr)
+  nameWithType.vb: IntPtrExtensions.AsRefStruct(Of T)(IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStructSpan*
+  name: AsRefStructSpan
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_AsRefStructSpan_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStructSpan
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStructSpan
+  nameWithType: IntPtrExtensions.AsRefStructSpan
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStructSpan``1(System.IntPtr,System.Int32)
+  name: AsRefStructSpan<T>(IntPtr, Int32)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_AsRefStructSpan__1_System_IntPtr_System_Int32_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStructSpan``1(System.IntPtr,System.Int32)
+  name.vb: AsRefStructSpan(Of T)(IntPtr, Int32)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStructSpan<T>(System.IntPtr, System.Int32)
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtrExtensions.AsRefStructSpan(Of T)(System.IntPtr, System.Int32)
+  nameWithType: IntPtrExtensions.AsRefStructSpan<T>(IntPtr, Int32)
+  nameWithType.vb: IntPtrExtensions.AsRefStructSpan(Of T)(IntPtr, Int32)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAnsiString(System.IntPtr)
+  name: MarshalAsAnsiString(IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsAnsiString_System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAnsiString(System.IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAnsiString(System.IntPtr)
+  nameWithType: IntPtrExtensions.MarshalAsAnsiString(IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAnsiString(System.IntPtr,System.Int32)
+  name: MarshalAsAnsiString(IntPtr, Int32)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsAnsiString_System_IntPtr_System_Int32_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAnsiString(System.IntPtr,System.Int32)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAnsiString(System.IntPtr, System.Int32)
+  nameWithType: IntPtrExtensions.MarshalAsAnsiString(IntPtr, Int32)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAnsiString*
+  name: MarshalAsAnsiString
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsAnsiString_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAnsiString
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAnsiString
+  nameWithType: IntPtrExtensions.MarshalAsAnsiString
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAutoString(System.IntPtr)
+  name: MarshalAsAutoString(IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsAutoString_System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAutoString(System.IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAutoString(System.IntPtr)
+  nameWithType: IntPtrExtensions.MarshalAsAutoString(IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAutoString(System.IntPtr,System.Int32)
+  name: MarshalAsAutoString(IntPtr, Int32)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsAutoString_System_IntPtr_System_Int32_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAutoString(System.IntPtr,System.Int32)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAutoString(System.IntPtr, System.Int32)
+  nameWithType: IntPtrExtensions.MarshalAsAutoString(IntPtr, Int32)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAutoString*
+  name: MarshalAsAutoString
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsAutoString_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAutoString
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsAutoString
+  nameWithType: IntPtrExtensions.MarshalAsAutoString
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsBSTR(System.IntPtr)
+  name: MarshalAsBSTR(IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsBSTR_System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsBSTR(System.IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsBSTR(System.IntPtr)
+  nameWithType: IntPtrExtensions.MarshalAsBSTR(IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsBSTR*
+  name: MarshalAsBSTR
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsBSTR_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsBSTR
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsBSTR
+  nameWithType: IntPtrExtensions.MarshalAsBSTR
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsReferenceArray*
+  name: MarshalAsReferenceArray
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsReferenceArray_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsReferenceArray
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsReferenceArray
+  nameWithType: IntPtrExtensions.MarshalAsReferenceArray
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsReferenceArray``1(System.IntPtr,System.Int32)
+  name: MarshalAsReferenceArray<T>(IntPtr, Int32)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsReferenceArray__1_System_IntPtr_System_Int32_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsReferenceArray``1(System.IntPtr,System.Int32)
+  name.vb: MarshalAsReferenceArray(Of T)(IntPtr, Int32)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsReferenceArray<T>(System.IntPtr, System.Int32)
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsReferenceArray(Of T)(System.IntPtr, System.Int32)
+  nameWithType: IntPtrExtensions.MarshalAsReferenceArray<T>(IntPtr, Int32)
+  nameWithType.vb: IntPtrExtensions.MarshalAsReferenceArray(Of T)(IntPtr, Int32)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsUnicodeString(System.IntPtr)
+  name: MarshalAsUnicodeString(IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsUnicodeString_System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsUnicodeString(System.IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsUnicodeString(System.IntPtr)
+  nameWithType: IntPtrExtensions.MarshalAsUnicodeString(IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsUnicodeString(System.IntPtr,System.Int32)
+  name: MarshalAsUnicodeString(IntPtr, Int32)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsUnicodeString_System_IntPtr_System_Int32_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsUnicodeString(System.IntPtr,System.Int32)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsUnicodeString(System.IntPtr, System.Int32)
+  nameWithType: IntPtrExtensions.MarshalAsUnicodeString(IntPtr, Int32)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsUnicodeString*
+  name: MarshalAsUnicodeString
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsUnicodeString_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsUnicodeString
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsUnicodeString
+  nameWithType: IntPtrExtensions.MarshalAsUnicodeString
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsValueArray*
+  name: MarshalAsValueArray
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsValueArray_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsValueArray
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsValueArray
+  nameWithType: IntPtrExtensions.MarshalAsValueArray
+- uid: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsValueArray``1(System.IntPtr,System.Int32)
+  name: MarshalAsValueArray<T>(IntPtr, Int32)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrExtensions_MarshalAsValueArray__1_System_IntPtr_System_Int32_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsValueArray``1(System.IntPtr,System.Int32)
+  name.vb: MarshalAsValueArray(Of T)(IntPtr, Int32)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsValueArray<T>(System.IntPtr, System.Int32)
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtrExtensions.MarshalAsValueArray(Of T)(System.IntPtr, System.Int32)
+  nameWithType: IntPtrExtensions.MarshalAsValueArray<T>(IntPtr, Int32)
+  nameWithType.vb: IntPtrExtensions.MarshalAsValueArray(Of T)(IntPtr, Int32)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions
+  name: IntPtrOfTExtensions
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.html
+  commentId: T:THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions
+  nameWithType: IntPtrOfTExtensions
+- uid: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.AsRefStruct*
+  name: AsRefStruct
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrOfTExtensions_AsRefStruct_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.AsRefStruct
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.AsRefStruct
+  nameWithType: IntPtrOfTExtensions.AsRefStruct
+- uid: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.AsRefStruct``1(THNETII.InteropServices.NativeMemory.IIntPtr{``0})
+  name: AsRefStruct<T>(IIntPtr<T>)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrOfTExtensions_AsRefStruct__1_THNETII_InteropServices_NativeMemory_IIntPtr___0__
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.AsRefStruct``1(THNETII.InteropServices.NativeMemory.IIntPtr{``0})
+  name.vb: AsRefStruct(Of T)(IIntPtr(Of T))
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.AsRefStruct<T>(THNETII.InteropServices.NativeMemory.IIntPtr<T>)
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.AsRefStruct(Of T)(THNETII.InteropServices.NativeMemory.IIntPtr(Of T))
+  nameWithType: IntPtrOfTExtensions.AsRefStruct<T>(IIntPtr<T>)
+  nameWithType.vb: IntPtrOfTExtensions.AsRefStruct(Of T)(IIntPtr(Of T))
+- uid: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals*
+  name: Equals
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrOfTExtensions_Equals_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals
+  nameWithType: IntPtrOfTExtensions.Equals
+- uid: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals``1(THNETII.InteropServices.NativeMemory.IIntPtr{``0},System.IntPtr)
+  name: Equals<T>(IIntPtr<T>, IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrOfTExtensions_Equals__1_THNETII_InteropServices_NativeMemory_IIntPtr___0__System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals``1(THNETII.InteropServices.NativeMemory.IIntPtr{``0},System.IntPtr)
+  name.vb: Equals(Of T)(IIntPtr(Of T), IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals<T>(THNETII.InteropServices.NativeMemory.IIntPtr<T>, System.IntPtr)
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals(Of T)(THNETII.InteropServices.NativeMemory.IIntPtr(Of T), System.IntPtr)
+  nameWithType: IntPtrOfTExtensions.Equals<T>(IIntPtr<T>, IntPtr)
+  nameWithType.vb: IntPtrOfTExtensions.Equals(Of T)(IIntPtr(Of T), IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals``1(THNETII.InteropServices.NativeMemory.IIntPtr{``0},THNETII.InteropServices.NativeMemory.IIntPtr{``0})
+  name: Equals<T>(IIntPtr<T>, IIntPtr<T>)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrOfTExtensions_Equals__1_THNETII_InteropServices_NativeMemory_IIntPtr___0__THNETII_InteropServices_NativeMemory_IIntPtr___0__
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals``1(THNETII.InteropServices.NativeMemory.IIntPtr{``0},THNETII.InteropServices.NativeMemory.IIntPtr{``0})
+  name.vb: Equals(Of T)(IIntPtr(Of T), IIntPtr(Of T))
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals<T>(THNETII.InteropServices.NativeMemory.IIntPtr<T>, THNETII.InteropServices.NativeMemory.IIntPtr<T>)
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.Equals(Of T)(THNETII.InteropServices.NativeMemory.IIntPtr(Of T), THNETII.InteropServices.NativeMemory.IIntPtr(Of T))
+  nameWithType: IntPtrOfTExtensions.Equals<T>(IIntPtr<T>, IIntPtr<T>)
+  nameWithType.vb: IntPtrOfTExtensions.Equals(Of T)(IIntPtr(Of T), IIntPtr(Of T))
+- uid: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.IsNull*
+  name: IsNull
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrOfTExtensions_IsNull_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.IsNull
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.IsNull
+  nameWithType: IntPtrOfTExtensions.IsNull
+- uid: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.IsNull``1(THNETII.InteropServices.NativeMemory.IIntPtr{``0})
+  name: IsNull<T>(IIntPtr<T>)
+  href: api/THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.html#THNETII_InteropServices_NativeMemory_IntPtrOfTExtensions_IsNull__1_THNETII_InteropServices_NativeMemory_IIntPtr___0__
+  commentId: M:THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.IsNull``1(THNETII.InteropServices.NativeMemory.IIntPtr{``0})
+  name.vb: IsNull(Of T)(IIntPtr(Of T))
+  fullName: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.IsNull<T>(THNETII.InteropServices.NativeMemory.IIntPtr<T>)
+  fullName.vb: THNETII.InteropServices.NativeMemory.IntPtrOfTExtensions.IsNull(Of T)(THNETII.InteropServices.NativeMemory.IIntPtr(Of T))
+  nameWithType: IntPtrOfTExtensions.IsNull<T>(IIntPtr<T>)
+  nameWithType.vb: IntPtrOfTExtensions.IsNull(Of T)(IIntPtr(Of T))
+- uid: THNETII.InteropServices.NativeMemory.SizeOf`1
+  name: SizeOf<T>
+  href: api/THNETII.InteropServices.NativeMemory.SizeOf-1.html
+  commentId: T:THNETII.InteropServices.NativeMemory.SizeOf`1
+  name.vb: SizeOf(Of T)
+  fullName: THNETII.InteropServices.NativeMemory.SizeOf<T>
+  fullName.vb: THNETII.InteropServices.NativeMemory.SizeOf(Of T)
+  nameWithType: SizeOf<T>
+  nameWithType.vb: SizeOf(Of T)
+- uid: THNETII.InteropServices.NativeMemory.SizeOf`1.Bits
+  name: Bits
+  href: api/THNETII.InteropServices.NativeMemory.SizeOf-1.html#THNETII_InteropServices_NativeMemory_SizeOf_1_Bits
+  commentId: P:THNETII.InteropServices.NativeMemory.SizeOf`1.Bits
+  fullName: THNETII.InteropServices.NativeMemory.SizeOf<T>.Bits
+  fullName.vb: THNETII.InteropServices.NativeMemory.SizeOf(Of T).Bits
+  nameWithType: SizeOf<T>.Bits
+  nameWithType.vb: SizeOf(Of T).Bits
+- uid: THNETII.InteropServices.NativeMemory.SizeOf`1.Bits*
+  name: Bits
+  href: api/THNETII.InteropServices.NativeMemory.SizeOf-1.html#THNETII_InteropServices_NativeMemory_SizeOf_1_Bits_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.SizeOf`1.Bits
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.SizeOf<T>.Bits
+  fullName.vb: THNETII.InteropServices.NativeMemory.SizeOf(Of T).Bits
+  nameWithType: SizeOf<T>.Bits
+  nameWithType.vb: SizeOf(Of T).Bits
+- uid: THNETII.InteropServices.NativeMemory.SizeOf`1.Bytes
+  name: Bytes
+  href: api/THNETII.InteropServices.NativeMemory.SizeOf-1.html#THNETII_InteropServices_NativeMemory_SizeOf_1_Bytes
+  commentId: P:THNETII.InteropServices.NativeMemory.SizeOf`1.Bytes
+  fullName: THNETII.InteropServices.NativeMemory.SizeOf<T>.Bytes
+  fullName.vb: THNETII.InteropServices.NativeMemory.SizeOf(Of T).Bytes
+  nameWithType: SizeOf<T>.Bytes
+  nameWithType.vb: SizeOf(Of T).Bytes
+- uid: THNETII.InteropServices.NativeMemory.SizeOf`1.Bytes*
+  name: Bytes
+  href: api/THNETII.InteropServices.NativeMemory.SizeOf-1.html#THNETII_InteropServices_NativeMemory_SizeOf_1_Bytes_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.SizeOf`1.Bytes
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.SizeOf<T>.Bytes
+  fullName.vb: THNETII.InteropServices.NativeMemory.SizeOf(Of T).Bytes
+  nameWithType: SizeOf<T>.Bytes
+  nameWithType.vb: SizeOf(Of T).Bytes
+- uid: THNETII.InteropServices.NativeMemory.Specialized
+  name: THNETII.InteropServices.NativeMemory.Specialized
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.html
+  commentId: N:THNETII.InteropServices.NativeMemory.Specialized
+  fullName: THNETII.InteropServices.NativeMemory.Specialized
+  nameWithType: THNETII.InteropServices.NativeMemory.Specialized
+- uid: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr
+  name: ArrayOfIntPtr
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.html
+  commentId: T:THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr
+  nameWithType: ArrayOfIntPtr
+- uid: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.#ctor(System.IntPtr)
+  name: ArrayOfIntPtr(IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.html#THNETII_InteropServices_NativeMemory_Specialized_ArrayOfIntPtr__ctor_System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.#ctor(System.IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.ArrayOfIntPtr(System.IntPtr)
+  nameWithType: ArrayOfIntPtr.ArrayOfIntPtr(IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.#ctor*
+  name: ArrayOfIntPtr
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.html#THNETII_InteropServices_NativeMemory_Specialized_ArrayOfIntPtr__ctor_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.#ctor
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.ArrayOfIntPtr
+  nameWithType: ArrayOfIntPtr.ArrayOfIntPtr
+- uid: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.Pointer
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.html#THNETII_InteropServices_NativeMemory_Specialized_ArrayOfIntPtr_Pointer
+  commentId: P:THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.Pointer
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.Pointer
+  nameWithType: ArrayOfIntPtr.Pointer
+- uid: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.Pointer*
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.html#THNETII_InteropServices_NativeMemory_Specialized_ArrayOfIntPtr_Pointer_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.Pointer
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.ArrayOfIntPtr.Pointer
+  nameWithType: ArrayOfIntPtr.Pointer
+- uid: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr
+  name: WideStringPtr
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.html
+  commentId: T:THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr
+  nameWithType: WideStringPtr
+- uid: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.#ctor(System.IntPtr)
+  name: WideStringPtr(IntPtr)
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.html#THNETII_InteropServices_NativeMemory_Specialized_WideStringPtr__ctor_System_IntPtr_
+  commentId: M:THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.#ctor(System.IntPtr)
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.WideStringPtr(System.IntPtr)
+  nameWithType: WideStringPtr.WideStringPtr(IntPtr)
+- uid: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.#ctor*
+  name: WideStringPtr
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.html#THNETII_InteropServices_NativeMemory_Specialized_WideStringPtr__ctor_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.#ctor
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.WideStringPtr
+  nameWithType: WideStringPtr.WideStringPtr
+- uid: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.Pointer
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.html#THNETII_InteropServices_NativeMemory_Specialized_WideStringPtr_Pointer
+  commentId: P:THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.Pointer
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.Pointer
+  nameWithType: WideStringPtr.Pointer
+- uid: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.Pointer*
+  name: Pointer
+  href: api/THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.html#THNETII_InteropServices_NativeMemory_Specialized_WideStringPtr_Pointer_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.Pointer
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.Specialized.WideStringPtr.Pointer
+  nameWithType: WideStringPtr.Pointer
+- uid: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions
+  name: WideStringPtrExtensions
+  href: api/THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.html
+  commentId: T:THNETII.InteropServices.NativeMemory.WideStringPtrExtensions
+  fullName: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions
+  nameWithType: WideStringPtrExtensions
+- uid: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString(THNETII.InteropServices.NativeMemory.IArrayPtr{System.Char})
+  name: MarshalAsString(IArrayPtr<Char>)
+  href: api/THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.html#THNETII_InteropServices_NativeMemory_WideStringPtrExtensions_MarshalAsString_THNETII_InteropServices_NativeMemory_IArrayPtr_System_Char__
+  commentId: M:THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString(THNETII.InteropServices.NativeMemory.IArrayPtr{System.Char})
+  name.vb: MarshalAsString(IArrayPtr(Of Char))
+  fullName: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString(THNETII.InteropServices.NativeMemory.IArrayPtr<System.Char>)
+  fullName.vb: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString(THNETII.InteropServices.NativeMemory.IArrayPtr(Of System.Char))
+  nameWithType: WideStringPtrExtensions.MarshalAsString(IArrayPtr<Char>)
+  nameWithType.vb: WideStringPtrExtensions.MarshalAsString(IArrayPtr(Of Char))
+- uid: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString(THNETII.InteropServices.NativeMemory.IArrayPtr{System.Char},System.Int32)
+  name: MarshalAsString(IArrayPtr<Char>, Int32)
+  href: api/THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.html#THNETII_InteropServices_NativeMemory_WideStringPtrExtensions_MarshalAsString_THNETII_InteropServices_NativeMemory_IArrayPtr_System_Char__System_Int32_
+  commentId: M:THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString(THNETII.InteropServices.NativeMemory.IArrayPtr{System.Char},System.Int32)
+  name.vb: MarshalAsString(IArrayPtr(Of Char), Int32)
+  fullName: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString(THNETII.InteropServices.NativeMemory.IArrayPtr<System.Char>, System.Int32)
+  fullName.vb: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString(THNETII.InteropServices.NativeMemory.IArrayPtr(Of System.Char), System.Int32)
+  nameWithType: WideStringPtrExtensions.MarshalAsString(IArrayPtr<Char>, Int32)
+  nameWithType.vb: WideStringPtrExtensions.MarshalAsString(IArrayPtr(Of Char), Int32)
+- uid: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString*
+  name: MarshalAsString
+  href: api/THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.html#THNETII_InteropServices_NativeMemory_WideStringPtrExtensions_MarshalAsString_
+  commentId: Overload:THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString
+  isSpec: "True"
+  fullName: THNETII.InteropServices.NativeMemory.WideStringPtrExtensions.MarshalAsString
+  nameWithType: WideStringPtrExtensions.MarshalAsString
+- uid: THNETII.InteropServices.Runtime
+  name: THNETII.InteropServices.Runtime
+  href: api/THNETII.InteropServices.Runtime.html
+  commentId: N:THNETII.InteropServices.Runtime
+  fullName: THNETII.InteropServices.Runtime
+  nameWithType: THNETII.InteropServices.Runtime
+- uid: THNETII.InteropServices.Runtime.SpanOverRef
+  name: SpanOverRef
+  href: api/THNETII.InteropServices.Runtime.SpanOverRef.html
+  commentId: T:THNETII.InteropServices.Runtime.SpanOverRef
+  fullName: THNETII.InteropServices.Runtime.SpanOverRef
+  nameWithType: SpanOverRef
+- uid: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpan*
+  name: CopyOrSpan
+  href: api/THNETII.InteropServices.Runtime.SpanOverRef.html#THNETII_InteropServices_Runtime_SpanOverRef_CopyOrSpan_
+  commentId: Overload:THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpan
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpan
+  nameWithType: SpanOverRef.CopyOrSpan
+- uid: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpan``1(``0@,System.Boolean@)
+  name: CopyOrSpan<T>(ref T, out Boolean)
+  href: api/THNETII.InteropServices.Runtime.SpanOverRef.html#THNETII_InteropServices_Runtime_SpanOverRef_CopyOrSpan__1___0__System_Boolean__
+  commentId: M:THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpan``1(``0@,System.Boolean@)
+  name.vb: CopyOrSpan(Of T)(ByRef T, ByRef Boolean)
+  fullName: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpan<T>(ref T, out System.Boolean)
+  fullName.vb: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpan(Of T)(ByRef T, ByRef System.Boolean)
+  nameWithType: SpanOverRef.CopyOrSpan<T>(ref T, out Boolean)
+  nameWithType.vb: SpanOverRef.CopyOrSpan(Of T)(ByRef T, ByRef Boolean)
+- uid: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly*
+  name: CopyOrSpanReadOnly
+  href: api/THNETII.InteropServices.Runtime.SpanOverRef.html#THNETII_InteropServices_Runtime_SpanOverRef_CopyOrSpanReadOnly_
+  commentId: Overload:THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly
+  nameWithType: SpanOverRef.CopyOrSpanReadOnly
+- uid: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly``1(``0@,System.Boolean@)
+  name: CopyOrSpanReadOnly<T>(T, out Boolean)
+  href: api/THNETII.InteropServices.Runtime.SpanOverRef.html#THNETII_InteropServices_Runtime_SpanOverRef_CopyOrSpanReadOnly__1___0__System_Boolean__
+  commentId: M:THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly``1(``0@,System.Boolean@)
+  name.vb: CopyOrSpanReadOnly(Of T)(ByRef T, ByRef Boolean)
+  fullName: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly<T>(T, out System.Boolean)
+  fullName.vb: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly(Of T)(ByRef T, ByRef System.Boolean)
+  nameWithType: SpanOverRef.CopyOrSpanReadOnly<T>(T, out Boolean)
+  nameWithType.vb: SpanOverRef.CopyOrSpanReadOnly(Of T)(ByRef T, ByRef Boolean)
+- uid: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly``1(``0@,System.Boolean@,System.Span{``0}@)
+  name: CopyOrSpanReadOnly<T>(T, out Boolean, out Span<T>)
+  href: api/THNETII.InteropServices.Runtime.SpanOverRef.html#THNETII_InteropServices_Runtime_SpanOverRef_CopyOrSpanReadOnly__1___0__System_Boolean__System_Span___0___
+  commentId: M:THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly``1(``0@,System.Boolean@,System.Span{``0}@)
+  name.vb: CopyOrSpanReadOnly(Of T)(ByRef T, ByRef Boolean, ByRef Span(Of T))
+  fullName: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly<T>(T, out System.Boolean, out System.Span<T>)
+  fullName.vb: THNETII.InteropServices.Runtime.SpanOverRef.CopyOrSpanReadOnly(Of T)(ByRef T, ByRef System.Boolean, ByRef System.Span(Of T))
+  nameWithType: SpanOverRef.CopyOrSpanReadOnly<T>(T, out Boolean, out Span<T>)
+  nameWithType.vb: SpanOverRef.CopyOrSpanReadOnly(Of T)(ByRef T, ByRef Boolean, ByRef Span(Of T))
+- uid: THNETII.InteropServices.Runtime.SpanOverRef.IsCreateSpanSupported
+  name: IsCreateSpanSupported
+  href: api/THNETII.InteropServices.Runtime.SpanOverRef.html#THNETII_InteropServices_Runtime_SpanOverRef_IsCreateSpanSupported
+  commentId: P:THNETII.InteropServices.Runtime.SpanOverRef.IsCreateSpanSupported
+  fullName: THNETII.InteropServices.Runtime.SpanOverRef.IsCreateSpanSupported
+  nameWithType: SpanOverRef.IsCreateSpanSupported
+- uid: THNETII.InteropServices.Runtime.SpanOverRef.IsCreateSpanSupported*
+  name: IsCreateSpanSupported
+  href: api/THNETII.InteropServices.Runtime.SpanOverRef.html#THNETII_InteropServices_Runtime_SpanOverRef_IsCreateSpanSupported_
+  commentId: Overload:THNETII.InteropServices.Runtime.SpanOverRef.IsCreateSpanSupported
+  isSpec: "True"
+  fullName: THNETII.InteropServices.Runtime.SpanOverRef.IsCreateSpanSupported
+  nameWithType: SpanOverRef.IsCreateSpanSupported
