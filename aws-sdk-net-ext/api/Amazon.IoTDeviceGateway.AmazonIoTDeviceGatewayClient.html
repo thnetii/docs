@@ -1,0 +1,868 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AmazonIoTDeviceGatewayClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AmazonIoTDeviceGatewayClient
+   ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient">
+  
+  
+  <h1 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient" class="text-break">Class AmazonIoTDeviceGatewayClient
+  </h1>
+  <div class="markdown level0 summary"><p>Implementation for accessing IoT Device Gateway</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Amazon.Runtime.AmazonServiceClient</span></div>
+    <div class="level2"><span class="xref">AmazonIoTDeviceGatewayClient</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="Amazon.IoTDeviceGateway.IAmazonIoTDeviceGateway.html">IAmazonIoTDeviceGateway</a></div>
+    <div><span class="xref">Amazon.Runtime.IAmazonService</span></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.Initialize()</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.Invoke&lt;TRequest, TResponse&gt;(TRequest, Amazon.Runtime.Internal.Transform.IMarshaller&lt;Amazon.Runtime.Internal.IRequest, Amazon.Runtime.AmazonWebServiceRequest&gt;, Amazon.Runtime.Internal.Transform.ResponseUnmarshaller)</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.InvokeAsync&lt;TRequest, TResponse&gt;(TRequest, Amazon.Runtime.Internal.Transform.IMarshaller&lt;Amazon.Runtime.Internal.IRequest, Amazon.Runtime.AmazonWebServiceRequest&gt;, Amazon.Runtime.Internal.Transform.ResponseUnmarshaller, System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.ProcessPreRequestHandlers(Amazon.Runtime.IExecutionContext)</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.ProcessRequestHandlers(Amazon.Runtime.IExecutionContext)</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.ProcessResponseHandlers(Amazon.Runtime.IExecutionContext)</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.ProcessExceptionHandlers(Amazon.Runtime.IExecutionContext, System.Exception)</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.ComposeUrl(Amazon.Runtime.Internal.IRequest)</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.RuntimePipeline</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.Credentials</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.Config</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.SupportResponseLogging</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.Signer</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.BeforeRequestEvent</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.AfterResponseEvent</span>
+    </div>
+    <div>
+      <span class="xref">Amazon.Runtime.AmazonServiceClient.ExceptionEvent</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Amazon.IoTDeviceGateway.html">Amazon.IoTDeviceGateway</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.AWSSDK.IoTDeviceGateway.dll</h6>
+  <h5 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class AmazonIoTDeviceGatewayClient : AmazonServiceClient, IAmazonIoTDeviceGateway, IAmazonService, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L38">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor">AmazonIoTDeviceGatewayClient()</h4>
+  <div class="markdown level1 summary"><p>Constructs an <a class="xref" href="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.html">AmazonIoTDeviceGatewayClient</a> with the credentials loaded from the application's
+default configuration, and if unsuccessful from the Instance Profile service on an EC2 instance.</p>
+<p>
+Example App.config with credentials set. 
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?>
+&lt;configuration>
+    &lt;appSettings>
+        &lt;add key=&quot;AWSProfileName&quot; value=&quot;AWS Default&quot;/>
+    &lt;/appSettings>
+&lt;/configuration></code></pre>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayConfig_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L76">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayConfig_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig)">AmazonIoTDeviceGatewayClient(AmazonIoTDeviceGatewayConfig)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with the credentials loaded from the application's
+default configuration, and if unsuccessful from the Instance Profile service on an EC2 instance.</p>
+<p>
+Example App.config with credentials set. 
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?>
+&lt;configuration>
+    &lt;appSettings>
+        &lt;add key=&quot;AWSProfileName&quot; value=&quot;AWS Default&quot;/>
+    &lt;/appSettings>
+&lt;/configuration></code></pre>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(AmazonIoTDeviceGatewayConfig config)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig.html">AmazonIoTDeviceGatewayConfig</a></td>
+        <td><span class="parametername">config</span></td>
+        <td><p>The AmazonIoTDeviceGatewayClient Configuration Object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_RegionEndpoint_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(Amazon.RegionEndpoint)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L57">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_RegionEndpoint_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(Amazon.RegionEndpoint)">AmazonIoTDeviceGatewayClient(RegionEndpoint)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with the credentials loaded from the application's
+default configuration, and if unsuccessful from the Instance Profile service on an EC2 instance.</p>
+<p>
+Example App.config with credentials set. 
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?>
+&lt;configuration>
+    &lt;appSettings>
+        &lt;add key=&quot;AWSProfileName&quot; value=&quot;AWS Default&quot;/>
+    &lt;/appSettings>
+&lt;/configuration></code></pre>
+</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(RegionEndpoint region)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Amazon.RegionEndpoint</span></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>The region to connect.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_Runtime_AWSCredentials_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(Amazon.Runtime.AWSCredentials)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L83">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_Runtime_AWSCredentials_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(Amazon.Runtime.AWSCredentials)">AmazonIoTDeviceGatewayClient(AWSCredentials)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with AWS Credentials</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(AWSCredentials credentials)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Amazon.Runtime.AWSCredentials</span></td>
+        <td><span class="parametername">credentials</span></td>
+        <td><p>AWS Credentials</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_Runtime_AWSCredentials_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayConfig_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(Amazon.Runtime.AWSCredentials%2CAmazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L104">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_Runtime_AWSCredentials_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayConfig_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(Amazon.Runtime.AWSCredentials,Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig)">AmazonIoTDeviceGatewayClient(AWSCredentials, AmazonIoTDeviceGatewayConfig)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with AWS Credentials and an
+AmazonIoTDeviceGatewayClient Configuration object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(AWSCredentials credentials, AmazonIoTDeviceGatewayConfig clientConfig)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Amazon.Runtime.AWSCredentials</span></td>
+        <td><span class="parametername">credentials</span></td>
+        <td><p>AWS Credentials</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig.html">AmazonIoTDeviceGatewayConfig</a></td>
+        <td><span class="parametername">clientConfig</span></td>
+        <td><p>The AmazonIoTDeviceGatewayClient Configuration Object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_Runtime_AWSCredentials_Amazon_RegionEndpoint_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(Amazon.Runtime.AWSCredentials%2CAmazon.RegionEndpoint)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L93">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_Amazon_Runtime_AWSCredentials_Amazon_RegionEndpoint_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(Amazon.Runtime.AWSCredentials,Amazon.RegionEndpoint)">AmazonIoTDeviceGatewayClient(AWSCredentials, RegionEndpoint)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with AWS Credentials</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(AWSCredentials credentials, RegionEndpoint region)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Amazon.Runtime.AWSCredentials</span></td>
+        <td><span class="parametername">credentials</span></td>
+        <td><p>AWS Credentials</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Amazon.RegionEndpoint</span></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>The region to connect.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L114">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(System.String,System.String)">AmazonIoTDeviceGatewayClient(String, String)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with AWS Access Key ID and AWS Secret Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(string awsAccessKeyId, string awsSecretAccessKey)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsAccessKeyId</span></td>
+        <td><p>AWS Access Key ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsSecretAccessKey</span></td>
+        <td><p>AWS Secret Access Key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayConfig_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(System.String%2CSystem.String%2CAmazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L137">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayConfig_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(System.String,System.String,Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig)">AmazonIoTDeviceGatewayClient(String, String, AmazonIoTDeviceGatewayConfig)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with AWS Access Key ID, AWS Secret Key and an
+AmazonIoTDeviceGatewayClient Configuration object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(string awsAccessKeyId, string awsSecretAccessKey, AmazonIoTDeviceGatewayConfig clientConfig)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsAccessKeyId</span></td>
+        <td><p>AWS Access Key ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsSecretAccessKey</span></td>
+        <td><p>AWS Secret Access Key</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig.html">AmazonIoTDeviceGatewayConfig</a></td>
+        <td><span class="parametername">clientConfig</span></td>
+        <td><p>The AmazonIoTDeviceGatewayClient Configuration Object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_Amazon_RegionEndpoint_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(System.String%2CSystem.String%2CAmazon.RegionEndpoint)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L125">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_Amazon_RegionEndpoint_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(System.String,System.String,Amazon.RegionEndpoint)">AmazonIoTDeviceGatewayClient(String, String, RegionEndpoint)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with AWS Access Key ID and AWS Secret Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(string awsAccessKeyId, string awsSecretAccessKey, RegionEndpoint region)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsAccessKeyId</span></td>
+        <td><p>AWS Access Key ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsSecretAccessKey</span></td>
+        <td><p>AWS Secret Access Key</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Amazon.RegionEndpoint</span></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>The region to connect.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_System_String_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(System.String%2CSystem.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L148">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_System_String_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(System.String,System.String,System.String)">AmazonIoTDeviceGatewayClient(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with AWS Access Key ID and AWS Secret Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(string awsAccessKeyId, string awsSecretAccessKey, string awsSessionToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsAccessKeyId</span></td>
+        <td><p>AWS Access Key ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsSecretAccessKey</span></td>
+        <td><p>AWS Secret Access Key</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsSessionToken</span></td>
+        <td><p>AWS Session Token</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_System_String_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayConfig_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(System.String%2CSystem.String%2CSystem.String%2CAmazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L173">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_System_String_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayConfig_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(System.String,System.String,System.String,Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig)">AmazonIoTDeviceGatewayClient(String, String, String, AmazonIoTDeviceGatewayConfig)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with AWS Access Key ID, AWS Secret Key and an
+AmazonIoTDeviceGatewayClient Configuration object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(string awsAccessKeyId, string awsSecretAccessKey, string awsSessionToken, AmazonIoTDeviceGatewayConfig clientConfig)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsAccessKeyId</span></td>
+        <td><p>AWS Access Key ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsSecretAccessKey</span></td>
+        <td><p>AWS Secret Access Key</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsSessionToken</span></td>
+        <td><p>AWS Session Token</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig.html">AmazonIoTDeviceGatewayConfig</a></td>
+        <td><span class="parametername">clientConfig</span></td>
+        <td><p>The AmazonIoTDeviceGatewayClient Configuration Object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_System_String_Amazon_RegionEndpoint_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.%23ctor(System.String%2CSystem.String%2CSystem.String%2CAmazon.RegionEndpoint)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L160">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient__ctor_System_String_System_String_System_String_Amazon_RegionEndpoint_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.#ctor(System.String,System.String,System.String,Amazon.RegionEndpoint)">AmazonIoTDeviceGatewayClient(String, String, String, RegionEndpoint)</h4>
+  <div class="markdown level1 summary"><p>Constructs AmazonIoTDeviceGatewayClient with AWS Access Key ID and AWS Secret Key</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AmazonIoTDeviceGatewayClient(string awsAccessKeyId, string awsSecretAccessKey, string awsSessionToken, RegionEndpoint region)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsAccessKeyId</span></td>
+        <td><p>AWS Access Key ID</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsSecretAccessKey</span></td>
+        <td><p>AWS Secret Access Key</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">awsSessionToken</span></td>
+        <td><p>AWS Session Token</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Amazon.RegionEndpoint</span></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>The region to connect.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_CreateMqttWebSocketUriAsync_Amazon_IoTDeviceGateway_Model_CreateMqttWebSocketUriRequest_System_Threading_CancellationToken_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.CreateMqttWebSocketUriAsync(Amazon.IoTDeviceGateway.Model.CreateMqttWebSocketUriRequest%2CSystem.Threading.CancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L246">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_CreateMqttWebSocketUriAsync_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.CreateMqttWebSocketUriAsync*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_CreateMqttWebSocketUriAsync_Amazon_IoTDeviceGateway_Model_CreateMqttWebSocketUriRequest_System_Threading_CancellationToken_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.CreateMqttWebSocketUriAsync(Amazon.IoTDeviceGateway.Model.CreateMqttWebSocketUriRequest,System.Threading.CancellationToken)">CreateMqttWebSocketUriAsync(CreateMqttWebSocketUriRequest, CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual Task&lt;CreateMqttWebSocketUriResponse&gt; CreateMqttWebSocketUriAsync(CreateMqttWebSocketUriRequest request, CancellationToken cancelToken = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Amazon.IoTDeviceGateway.Model.CreateMqttWebSocketUriRequest.html">CreateMqttWebSocketUriRequest</a></td>
+        <td><span class="parametername">request</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></td>
+        <td><span class="parametername">cancelToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Amazon.IoTDeviceGateway.Model.CreateMqttWebSocketUriResponse.html">CreateMqttWebSocketUriResponse</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_CreateSigner.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.CreateSigner%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L183">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_CreateSigner_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.CreateSigner*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_CreateSigner" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.CreateSigner">CreateSigner()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override AbstractAWSSigner CreateSigner()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Amazon.Runtime.Internal.Auth.AbstractAWSSigner</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Amazon.Runtime.AmazonServiceClient.CreateSigner()</span></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_CustomizeRuntimePipeline_Amazon_Runtime_Internal_RuntimePipeline_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.CustomizeRuntimePipeline(Amazon.Runtime.Internal.RuntimePipeline)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L186">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_CustomizeRuntimePipeline_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.CustomizeRuntimePipeline*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_CustomizeRuntimePipeline_Amazon_Runtime_Internal_RuntimePipeline_" data-uid="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.CustomizeRuntimePipeline(Amazon.Runtime.Internal.RuntimePipeline)">CustomizeRuntimePipeline(RuntimePipeline)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void CustomizeRuntimePipeline(RuntimePipeline pipeline)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Amazon.Runtime.Internal.RuntimePipeline</span></td>
+        <td><span class="parametername">pipeline</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">Amazon.Runtime.AmazonServiceClient.CustomizeRuntimePipeline(Amazon.Runtime.Internal.RuntimePipeline)</span></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="Amazon.IoTDeviceGateway.IAmazonIoTDeviceGateway.html">IAmazonIoTDeviceGateway</a>
+  </div>
+  <div>
+      <span class="xref">Amazon.Runtime.IAmazonService</span>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClientMqttExtensions.html#Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClientMqttExtensions_CreateMqttWebSocketClientOptionsAsync_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_System_String_System_Threading_CancellationToken_">AmazonIoTDeviceGatewayClientMqttExtensions.CreateMqttWebSocketClientOptionsAsync(AmazonIoTDeviceGatewayClient, String, CancellationToken)</a>
+  </div>
+  <div>
+      <a class="xref" href="Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClientMqttExtensions.html#Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClientMqttExtensions_ConnectMqttWebSocketsClientAsync_Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient_System_String_MQTTnet_Client_IMqttClient_System_Threading_CancellationToken_">AmazonIoTDeviceGatewayClientMqttExtensions.ConnectMqttWebSocketsClientAsync(AmazonIoTDeviceGatewayClient, String, IMqttClient, CancellationToken)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_AmazonIoTDeviceGatewayClient.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/AmazonIoTDeviceGatewayClient.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
