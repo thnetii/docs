@@ -1,4 +1,3 @@
-$ErrorActionPreference = "Stop"
 param (
     [string]$AccessToken,
     [string]$RepositoryOwner = "thnetii",
@@ -6,6 +5,7 @@ param (
     [string]$ArtifactName = [System.Guid]::NewGuid().ToString(),
     [string]$MergeTargetBranch = "master"
 )
+$ErrorActionPreference = "Stop"
 
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 $GitHubUser = Invoke-RestMethod -Uri "https://api.github.com/user?access_token=$AccessToken" -Method Get -Verbose

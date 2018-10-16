@@ -1,9 +1,9 @@
-$ErrorActionPreference = "Stop"
 param (
     [string]$RepositoryOwner = "thnetii",
     [string]$RepositoryName = "docs",
     [string]$TargetFolder = "gh-pages"
 )
+$ErrorActionPreference = "Stop"
 
 [uri] $RepositorBaseUrl = "https://github.com/$RepositoryOwner/$RepositoryName.git"
 
