@@ -77,6 +77,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html",
+          "hash": "eTk84D4rzjlZiBkLgjo97Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.ErrorHandling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.ErrorHandling.html",
+          "hash": "MekZtf3yxb0yM+bOOf6DgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/THNETII.WinApi.Native.NTStatus.NTStatusConstants.yml",
       "output": {
         ".html": {
@@ -142,6 +166,66 @@
         ".html": {
           "relative_path": "api/THNETII.WinApi.Native.SdkVer.html",
           "hash": "Y4vvdMjWPkPSpxdeVuopsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinBase.FORMAT_MESSAGE_FLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.WinBase.FORMAT_MESSAGE_FLAGS.html",
+          "hash": "1l5DzVEYUlj7qQUZ0ec5Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinBase.FORMAT_MESSAGE_OPTIONS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.WinBase.FORMAT_MESSAGE_OPTIONS.html",
+          "hash": "uH/vms06GKGflJmRmZDULQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinBase.SYSTEM_ERRPR_MODE.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.WinBase.SYSTEM_ERRPR_MODE.html",
+          "hash": "I5MOTfpxMkZPEypP6XFqtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinBase.WinBaseConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.WinBase.WinBaseConstants.html",
+          "hash": "cL9q5V3+B3R4y3/9huEakg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.WinBase.html",
+          "hash": "EeJrrG7dJRN67L8z5ps5Cg=="
         }
       },
       "is_incremental": false,
@@ -461,6 +545,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinUser.FLASHWFLAGS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.WinUser.FLASHWFLAGS.html",
+          "hash": "eNh15O6QukdzZihqpL72zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinUser.FLASHWINFO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.WinUser.FLASHWINFO.html",
+          "hash": "lsQml18zGODJLE29NIdT4A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/THNETII.WinApi.Native.WinUser.GRAYSTRINGPROC.yml",
       "output": {
         ".html": {
@@ -497,11 +605,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinUser.WinUserConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.WinUser.WinUserConstants.html",
+          "hash": "Mg9H1gOgllJqegIeAfHBlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/THNETII.WinApi.Native.WinUser.yml",
       "output": {
         ".html": {
           "relative_path": "api/THNETII.WinApi.Native.WinUser.html",
-          "hash": "blP21UuUYsi3DvrVaMqQTA=="
+          "hash": "0ZxN+25h+EDGpvLpPrdZhA=="
         }
       },
       "is_incremental": false,
@@ -513,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.WinApi.NativeLibraryNames.html",
-          "hash": "8ankela5Q3ocROEVlaaaBA=="
+          "hash": "GLCvfROfiDPfgdvYhHWZ4Q=="
         }
       },
       "is_incremental": false,
@@ -561,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "cMpLk4wxt2+Xvsgn4LbDJw=="
+          "hash": "zGlsLhWtHrMRzdonokJPqw=="
         }
       },
       "is_incremental": false,
