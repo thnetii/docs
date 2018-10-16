@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.ArgumentExtensions.html",
-          "hash": "sOPXlUmCC0lCUEm+R1ECMQ=="
+          "hash": "Blu7I6csbqvodYzHYMKc6w=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Cli.ConsoleColorContext.html",
-          "hash": "yu4OXWj2jIojztyCk7RJiQ=="
+          "hash": "ykIpH42/yN93AmW0CI6AVQ=="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Cli.ConsoleUtils.html",
-          "hash": "zOE7EQ20RVHKaJGATWAwWw=="
+          "hash": "oeMw9Xzd12JXdpD07FBWJg=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Collections.Generic.KeyValuePairExtensions.html",
-          "hash": "v+Y0KfRPw34N/kmasBLbYw=="
+          "hash": "QD+hKYt3x16VSrCCtEcNSA=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Collections.Generic.ReferenceEqualityComparer-1.html",
-          "hash": "wjKr0+fBsKHI5Honnf33PA=="
+          "hash": "/L1B1cl5PyiSgecYeX/yTg=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Collections.Generic.WeakReferenceEqualityComparer-1.html",
-          "hash": "n1pDvxyb5U5lO0d+hXJHzw=="
+          "hash": "aPm8acIAF92A0Hs3+umVkw=="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.CommonExtensions.html",
-          "hash": "JdjZeqLaIxNl/7DqgkN2lg=="
+          "hash": "aROeqcBfrJ4GxBUu5r2z2Q=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.ConversionTuple-2.html",
-          "hash": "Ffo9hH7yHqcFhgmeH5wtXA=="
+          "hash": "GReXa44AZwcCyGG+kvQfpQ=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.DuplexConversionTuple-2.html",
-          "hash": "65jU4mtD47xJ25XT5rXkqQ=="
+          "hash": "eLV0zbdVjub0SegxYxxVHA=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.IO.CopyIOStream.html",
-          "hash": "bqHYoXAsf3yA7AGc3uVv/g=="
+          "hash": "/PJ0DpyzgZjmCS9f11V4KQ=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Linq.EnumerableExtensions.html",
-          "hash": "RyzxBKMo0J6vsknLRQoY0Q=="
+          "hash": "sk0yxZfkNuBLdFmIYdCSbQ=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Linq.SpanLinqExtensions.html",
-          "hash": "ibUG48oE0RWr9enhHcmRxA=="
+          "hash": "r/NOGdrv/aOS/jSdiTONtw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Linq.StringLinqExtensions.html",
-          "hash": "7XcRZwW9x0RvCEXyvhQCOQ=="
+          "hash": "zf15bJr2PYtz5dri8hzsXg=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Maybe-1.html",
-          "hash": "j5U1OHujRJLtdhFNhn91kg=="
+          "hash": "sDKDUZT2aYll0UTJd9A/jA=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Maybe.html",
-          "hash": "9LStiBBCLL9lNtivOIAUTg=="
+          "hash": "fXLS58a255aa0v+5jssXlw=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.ProcessExitCode.html",
-          "hash": "wg74PESs7HjszjEbfZzy6w=="
+          "hash": "ueymkMStIqjTAL2BTlt9Gg=="
         }
       },
       "is_incremental": false,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.RefFunc-1.html",
-          "hash": "Vup//pIl6QAgXo3wB5OVXA=="
+          "hash": "3DN0KX7AuCTVS6yHIJ6iow=="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.RefReadOnlyFunc-1.html",
-          "hash": "GoytNUKX15HM6PhLJVZ/xA=="
+          "hash": "zWqeukajvSxW22QVClkbrg=="
         }
       },
       "is_incremental": false,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Serialization.BooleanStringConverter.html",
-          "hash": "lDMtXphvhX89Xghi1yQ5vg=="
+          "hash": "T4syhq283Y+pKAN5oJmjHg=="
         }
       },
       "is_incremental": false,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Serialization.EnumStringConverter.html",
-          "hash": "LobgPmJTqK4mS/5tkU1HUw=="
+          "hash": "9XGKRp+ch1BCxBkXu/QLpg=="
         }
       },
       "is_incremental": false,
@@ -297,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.Serialization.XmlEnumStringConverter.html",
-          "hash": "dOmIifZ92ba5b2AA69N9jQ=="
+          "hash": "Onej8Uvw8cZJ19ApQ+VWTg=="
         }
       },
       "is_incremental": false,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.StringCommonExtensions.html",
-          "hash": "en6YFq/sR4o01v2bWhxl2A=="
+          "hash": "wB6Zp1cgsRY5NuEXHCEDMw=="
         }
       },
       "is_incremental": false,
@@ -333,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Common.StringEditDistanceExtensions.html",
-          "hash": "cGsHTSr9/GMQTJBPwJ59Ig=="
+          "hash": "J0jDo9m/573tMxDy9VDidA=="
         }
       },
       "is_incremental": false,
@@ -357,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Configuration.ConfigurationServiceCollectionExtensions.html",
-          "hash": "eYAtB0HpJn91erb7AIt2dA=="
+          "hash": "3VC2qt7zXmxZC8BFqWGneg=="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServiceCollection-1.html",
-          "hash": "/NK7bMvlNWPgYak1PJLV9w=="
+          "hash": "XMw2ukkkefhtP+N+IFt+gg=="
         }
       },
       "is_incremental": false,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServiceCollection-2.html",
-          "hash": "tDH9hRKPLYaa5cxQNDQJkw=="
+          "hash": "2+s+LCi677KOQOzUFp9ofw=="
         }
       },
       "is_incremental": false,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServiceCollection.html",
-          "hash": "ihRDGAHfnBgyxYWkb6QtnQ=="
+          "hash": "e0s8uxUju1ZukP10XyHYAg=="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.INestedServicesContainer-2.html",
-          "hash": "O50dukMP1wYoF3FGlI1lrQ=="
+          "hash": "q3Jw9DFnuwU9YXA+t3bc1Q=="
         }
       },
       "is_incremental": false,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedScopedServicesManager-2.html",
-          "hash": "G5rzWQceYljSRLqfHxg/DQ=="
+          "hash": "Soj2sdXiz2JpJP/xlBhBHw=="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServiceCollection-2.html",
-          "hash": "xlrOTZQ2uor1bFL0Wt1fSg=="
+          "hash": "glVzZhmqdtp8fGEmLHwb1w=="
         }
       },
       "is_incremental": false,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServiceCollectionExtensions.html",
-          "hash": "/zUE7oMRTnH3QxJzl9BRJQ=="
+          "hash": "sR9CUyuC67/FB8JYmSBcGw=="
         }
       },
       "is_incremental": false,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServicesServiceCollectionExtensions.html",
-          "hash": "csAusnjg4aNly5wuzmEwCg=="
+          "hash": "kRqFN88W2BPqyWvlvbRaVw=="
         }
       },
       "is_incremental": false,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedServicesServiceProviderExtensions.html",
-          "hash": "I4QGr7dofjDhrWWU4pyYMg=="
+          "hash": "dkErwAjFZLTCNLp1keagXw=="
         }
       },
       "is_incremental": false,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.NestedSingletonServicesManager-2.html",
-          "hash": "8SpVxWOAiZAB3wLyqSdjfQ=="
+          "hash": "HCbvz4SKZie6RRTk7Ox0IQ=="
         }
       },
       "is_incremental": false,
@@ -501,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.RootServiceProviderAccessor.html",
-          "hash": "c+1dbD0I63abKRsOPy0IKA=="
+          "hash": "8X10mMADy6TUTAIjMPKnDA=="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.Nesting.RootServicesAddBehavior.html",
-          "hash": "C8G6ULvd3HdXq0E8ZN4CmA=="
+          "hash": "ds3mDmViK1kGBjsUOwEd+Q=="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.DependencyInjection.ServiceCollectionServiceProviderExtensions.html",
-          "hash": "AtUQ053bd576+n/A377bnA=="
+          "hash": "re3JcrCAVUcw1n75tQEJWw=="
         }
       },
       "is_incremental": false,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Logging.EventSource.EventLevelExtensions.html",
-          "hash": "E+gZWTuXWBCDSQFNonrnNA=="
+          "hash": "q+jZsW2G3m4YA1x1OlIBHw=="
         }
       },
       "is_incremental": false,
@@ -573,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Logging.EventSource.LoggingEventSourceListener.html",
-          "hash": "ZGTV0PU6IwYU7AtRs+OeHA=="
+          "hash": "zSp9gPGUks7bGDbYsZ3qcA=="
         }
       },
       "is_incremental": false,
@@ -597,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Networking.Http.HttpContentExtensions.html",
-          "hash": "nlmtU+CbP1EcKHdpq8b2jA=="
+          "hash": "nAXrTq3xoTYYtkK8/TLI5Q=="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Networking.Http.HttpWellKnownMediaType.html",
-          "hash": "eTMIblx319NP8eqVfIHMlA=="
+          "hash": "vZ6AVgo+Tl/aGKYvnafgyw=="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Networking.Http.MediaTypeHeaderValueExtensions.html",
-          "hash": "ojmUyBpaY3PNUjZg4dPeMw=="
+          "hash": "04WMnv0qLFOHoBdlc/yJ7A=="
         }
       },
       "is_incremental": false,
@@ -645,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.Base64UrlEncoder.html",
-          "hash": "2k4SHhx9AbHZNOCtcj2jPQ=="
+          "hash": "Zpzb6vnLLNYBq42YS1AfLg=="
         }
       },
       "is_incremental": false,
@@ -657,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JoseEcDsaExtensions.html",
-          "hash": "c6Fwj1g9ZTmruT8yVTqpyA=="
+          "hash": "tFegRO0dH+BU3f1zHvAN8w=="
         }
       },
       "is_incremental": false,
@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JoseMediaTypes.html",
-          "hash": "kuu+BYVKxSDAGYEMR1ejqg=="
+          "hash": "NdZh90C0R9sm74Deu1HA7w=="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JoseRsaExtensions.html",
-          "hash": "pUeGsrWlLDfSTAyonG9qUg=="
+          "hash": "Ria5n3y7632QH8KawNoLgw=="
         }
       },
       "is_incremental": false,
@@ -693,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonEcWebKey.html",
-          "hash": "1iwzHTUAWvWk4MMrqG/Ebw=="
+          "hash": "V7QUaFmtLcWCVWZ4/SCYAg=="
         }
       },
       "is_incremental": false,
@@ -705,7 +705,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonOctWebKey.html",
-          "hash": "j4x/IYJ2YZcnVoV10skqDg=="
+          "hash": "DJ09OMQrW3AoB4cS2pVfbw=="
         }
       },
       "is_incremental": false,
@@ -717,7 +717,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonRsaWebKey.html",
-          "hash": "pHKjo5bDnvUT+OkMShC/dw=="
+          "hash": "8v6T0XgkI1NXsmKmkdBM+A=="
         }
       },
       "is_incremental": false,
@@ -729,7 +729,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonWebAlgorithm.html",
-          "hash": "bZMjex9gK/WosuFRYhRB/A=="
+          "hash": "9FlMc9ptfR7iSmzIpEFa6w=="
         }
       },
       "is_incremental": false,
@@ -741,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonWebKey.html",
-          "hash": "RJSGopcndhOWyu50A+VzKw=="
+          "hash": "FCPLcUP1naws3WvCOiW+Rg=="
         }
       },
       "is_incremental": false,
@@ -753,7 +753,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonWebKeyConverter.html",
-          "hash": "z+fRv9TD3JRXKlkI6f30lQ=="
+          "hash": "iEURZY7ywOffTBNcWzuLEQ=="
         }
       },
       "is_incremental": false,
@@ -765,7 +765,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonWebKeyType.html",
-          "hash": "GT/V0VREW127o9hmaPv40Q=="
+          "hash": "/Ml5YHLcJiWB5EOE6S1Lvg=="
         }
       },
       "is_incremental": false,
@@ -777,7 +777,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonWebKeyUse.html",
-          "hash": "L74d9QvMqR2S7vK2nfjhiA=="
+          "hash": "IOx5Cu5QZ/pM6IGC+yF0mg=="
         }
       },
       "is_incremental": false,
@@ -789,7 +789,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonWebOctExtensions.html",
-          "hash": "MIdVyWuJaYS1eKx5oL7A4A=="
+          "hash": "XQrvCmG7180HIXeTI4WFgg=="
         }
       },
       "is_incremental": false,
@@ -801,7 +801,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonWebSignature.html",
-          "hash": "t4nVq9zk2AaFqyaVnLsg1g=="
+          "hash": "ltVxDAmasOnIRmGTycewKw=="
         }
       },
       "is_incremental": false,
@@ -813,7 +813,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonWebSignatureFlat.html",
-          "hash": "oCRS5UU/vzgBWYcWMdA2xg=="
+          "hash": "M9ui9xgKE1mMgYbLmxnYjw=="
         }
       },
       "is_incremental": false,
@@ -825,7 +825,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.Security.JOSE.JsonWebSignatureHeader.html",
-          "hash": "pt2q1yLp42Rb1kb/hcXCRQ=="
+          "hash": "lc7Q2NbfglghZGoHCJQ4HA=="
         }
       },
       "is_incremental": false,
@@ -849,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "YCCODNQDQZ/ku39UU7SKVg=="
+          "hash": "ifWYa1SPKhgFpMEGYHwm8w=="
         }
       },
       "is_incremental": false,
@@ -873,7 +873,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "YYYxTrg+H+Sd3d6NQPgBCg=="
+          "hash": "uUg9PZ4fIXilL0bnZjd9Uw=="
         }
       },
       "is_incremental": false,
@@ -897,7 +897,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "EV93/uWdqAPfWzIrBv/rKw=="
+          "hash": "ySKYowk7nFePil2kV4pYHA=="
         }
       },
       "is_incremental": false,
@@ -924,17 +924,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
