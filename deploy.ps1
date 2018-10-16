@@ -8,7 +8,7 @@ param (
     [string]$GitUserEmail = "unknown@unknown.com"
 )
 
-Write-Host "AUTHORIZATION: basic $Authorization"
+Write-Host "AUTHORIZATION: bearer $Authorization"
 
 [uri] $RepositoryUrl = "https://github.com/$RepositoryOwner/$RepositoryName.git"
 $git = Get-Command -CommandType Application "git" | Select-Object -First 1
@@ -19,7 +19,7 @@ $git = Get-Command -CommandType Application "git" | Select-Object -First 1
 & "$git" checkout -b "$ArtifactName"
 & "$git" add -f .
 & "$git" commit --allow-empty -m "Artifact Deployment: $ArtifactName"
-& "$git" -c http.extraheader="AUTHORIZATION: basic $Authorization" push -f "$RepositoryUrl" "$ArtifactName"
+& "$git" -c http.extraheader="AUTHORIZATION: bearer $Authorization" push -f "$RepositoryUrl" "$ArtifactName"
 
 $pullJson = @{
     title = "Merge $ArtifactName into $MergeTargetBranch"
@@ -30,7 +30,7 @@ $pullJson = @{
 } | ConvertTo-Json
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 [uri] $pullUri = "https://api.github.com/repos/$RepositoryOwner/$RepositoryName/pulls"
-$githubAuthorizationHeader = @{ "Authorization" = "basic $Authorization" }
+$githubAuthorizationHeader = @{ "Authorization" = "bearer $Authorization" }
 $pullResponse = Invoke-RestMethod -Uri $pullUri  -Method Post -ContentType "application/json" `
     -Headers $githubAuthorizationHeader `
     -Body $pullJson -Verbose
