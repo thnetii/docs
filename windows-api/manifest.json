@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html",
-          "hash": "eTk84D4rzjlZiBkLgjo97Q=="
+          "hash": "p/UhOW/EJ1hdwivwp8rYoQ=="
         }
       },
       "is_incremental": false,
@@ -744,17 +744,17 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build"
         }
       }
