@@ -1,3 +1,4 @@
+$ErrorActionPreference = "Stop"
 param (
     [string]$RepositoryOwner = "thnetii",
     [string]$RepositoryName = "docs",
