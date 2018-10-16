@@ -1,0 +1,381 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/docfx/THNETII.AWSSDK.DocFx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClient.html",
+          "hash": "8z8LlGJ613iBy5dhK/L0IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClientMqttExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayClientMqttExtensions.html",
+          "hash": "BO4gNLRSWO+Qt7NJPT1tnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.AmazonIoTDeviceGatewayConfig.html",
+          "hash": "ao4v07HGeQvNb534fV/1jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.IAmazonIoTDeviceGateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.IAmazonIoTDeviceGateway.html",
+          "hash": "8yFT08istcOudE+DXITYPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Model.AmazonIoTDeviceGatewayRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Model.AmazonIoTDeviceGatewayRequest.html",
+          "hash": "ZZJsQueVAR2sYZ8NwNUO5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Model.AmazonIoTDeviceGatewayResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Model.AmazonIoTDeviceGatewayResponse.html",
+          "hash": "vVV/allReJGxQmHUs523TA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Model.CreateMqttWebSocketUriRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Model.CreateMqttWebSocketUriRequest.html",
+          "hash": "7zO6FrxlFuQ887gD+bWqPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Model.CreateMqttWebSocketUriResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Model.CreateMqttWebSocketUriResponse.html",
+          "hash": "Ik78LQo3h4yrikq9avSWsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Model.Internal.MarshallTransformations.CreateMqttWebSocketUriRequestMarshaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Model.Internal.MarshallTransformations.CreateMqttWebSocketUriRequestMarshaller.html",
+          "hash": "GHsNFqmdhml75SheyudCwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Model.Internal.MarshallTransformations.CreateMqttWebSocketUriResponseUnmarshaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Model.Internal.MarshallTransformations.CreateMqttWebSocketUriResponseUnmarshaller.html",
+          "hash": "2zQ6LAsPwbZTjYpIUKABNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Model.Internal.MarshallTransformations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Model.Internal.MarshallTransformations.html",
+          "hash": "j8Gpik7pVHrgPWnWCg9gkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Model.html",
+          "hash": "f5ZTl67tnPFSJ27wfMRCWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Auth.MqttWebSocketAWS4Signer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Auth.MqttWebSocketAWS4Signer.html",
+          "hash": "9wXc/yD+oBz1KV/zl5HgrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Auth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Auth.html",
+          "hash": "i8gAr1SAQqRQMsrEM3sVsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.NonHttpHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.NonHttpHandler.html",
+          "hash": "t1rsVLR+VDBpl6IRzmDU9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.NonHttpRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.NonHttpRequest.html",
+          "hash": "iCo5Ri1sCbKIgWmRKj7GKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.html",
+          "hash": "3DnHhdMZ10hv9rldjCUBvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseUnmarshaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseUnmarshaller.html",
+          "hash": "YaUw/caeNz2PAqKi+cu83Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpUnmarshallerContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpUnmarshallerContext.html",
+          "hash": "eJPq/2ftnQ5YBwdO5d34Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Transform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.Transform.html",
+          "hash": "dUQhdI/Bi7lja1BVqr3P7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.Runtime.Internal.html",
+          "hash": "kK9MBEFrYPV0oOvbVxlZhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Amazon.IoTDeviceGateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Amazon.IoTDeviceGateway.html",
+          "hash": "Xe702ZmCQwRmwZPhpR8e5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "3ozUJQcX1GEO2trwWIJxcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "/YOhbUg9cA7fktdOBUXUnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "3OJTOGzhHybjkepTKV9Zgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Lm/KRuTPqIykRJiNax65NQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

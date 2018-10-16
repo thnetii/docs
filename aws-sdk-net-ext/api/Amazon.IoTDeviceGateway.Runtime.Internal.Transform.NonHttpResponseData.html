@@ -1,0 +1,600 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NonHttpResponseData
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NonHttpResponseData
+   ">
+    <meta name="generator" content="docfx 2.39.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData">
+  
+  
+  <h1 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData" class="text-break">Class NonHttpResponseData
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">NonHttpResponseData</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">Amazon.Runtime.Internal.Transform.IWebResponseData</span></div>
+    <div><span class="xref">Amazon.Runtime.Internal.Transform.IHttpResponseBody</span></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.html">Amazon.IoTDeviceGateway.Runtime.Internal.Transform</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.AWSSDK.IoTDeviceGateway.dll</h6>
+  <h5 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class NonHttpResponseData : IWebResponseData, IHttpResponseBody, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData__ctor.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L14">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData__ctor_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.#ctor*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData__ctor" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.#ctor">NonHttpResponseData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NonHttpResponseData()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_ContentLength.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.ContentLength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L16">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_ContentLength_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.ContentLength*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_ContentLength" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.ContentLength">ContentLength</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long ContentLength { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_ContentType.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.ContentType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L18">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_ContentType_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.ContentType*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_ContentType" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.ContentType">ContentType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ContentType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_Headers.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.Headers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L26">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_Headers_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.Headers*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_Headers" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.Headers">Headers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IDictionary&lt;string, string&gt; Headers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.idictionary-2">IDictionary</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_IsSuccessStatusCode.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.IsSuccessStatusCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L22">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_IsSuccessStatusCode_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.IsSuccessStatusCode*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_IsSuccessStatusCode" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.IsSuccessStatusCode">IsSuccessStatusCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSuccessStatusCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_OriginalRequest.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.OriginalRequest%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L28">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_OriginalRequest_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.OriginalRequest*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_OriginalRequest" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.OriginalRequest">OriginalRequest</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IRequest OriginalRequest { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Amazon.Runtime.Internal.IRequest</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_ResponseBody.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.ResponseBody%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L24">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_ResponseBody_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.ResponseBody*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_ResponseBody" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.ResponseBody">ResponseBody</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IHttpResponseBody ResponseBody { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Amazon.Runtime.Internal.Transform.IHttpResponseBody</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_StatusCode.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.StatusCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L20">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_StatusCode_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.StatusCode*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_StatusCode" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.StatusCode">StatusCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HttpStatusCode StatusCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.net.httpstatuscode">HttpStatusCode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_Dispose.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L30">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_Dispose_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.Dispose*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_Dispose" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_GetHeaderNames.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.GetHeaderNames%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L32">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_GetHeaderNames_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.GetHeaderNames*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_GetHeaderNames" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.GetHeaderNames">GetHeaderNames()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] GetHeaderNames()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_GetHeaderValue_System_String_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.GetHeaderValue(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L39">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_GetHeaderValue_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.GetHeaderValue*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_GetHeaderValue_System_String_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.GetHeaderValue(System.String)">GetHeaderValue(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetHeaderValue(string headerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">headerName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_IsHeaderPresent_System_String_.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.IsHeaderPresent(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L46">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_IsHeaderPresent_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.IsHeaderPresent*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_IsHeaderPresent_System_String_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.IsHeaderPresent(System.String)">IsHeaderPresent(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsHeaderPresent(string headerName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">headerName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_OpenResponse.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.OpenResponse%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L49">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_OpenResponse_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.OpenResponse*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_OpenResponse" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.OpenResponse">OpenResponse()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Stream OpenResponse()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_OpenResponseAsync.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.OpenResponseAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L51">View Source</a>
+  </span>
+  <a id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_OpenResponseAsync_" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.OpenResponseAsync*"></a>
+  <h4 id="Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData_OpenResponseAsync" data-uid="Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData.OpenResponseAsync">OpenResponseAsync()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;Stream&gt; OpenResponseAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">Amazon.Runtime.Internal.Transform.IWebResponseData</span>
+  </div>
+  <div>
+      <span class="xref">Amazon.Runtime.Internal.Transform.IHttpResponseBody</span>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/thnetii/aws-sdk-net-ext/new/master/apiSpec/new?filename=Amazon_IoTDeviceGateway_Runtime_Internal_Transform_NonHttpResponseData.md&amp;value=---%0Auid%3A%20Amazon.IoTDeviceGateway.Runtime.Internal.Transform.NonHttpResponseData%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/thnetii/aws-sdk-net-ext/blob/master/src/THNETII.AWSSDK.IoTDeviceGateway/Runtime.Internal/Transform/NonHttpResponseData.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
