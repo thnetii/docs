@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html",
-          "hash": "p/UhOW/EJ1hdwivwp8rYoQ=="
+          "hash": "4HQ/CKoEdifXUa2HiC+Tiw=="
         }
       },
       "is_incremental": false,
@@ -197,11 +197,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/THNETII.WinApi.Native.WinBase.SYSTEM_ERRPR_MODE.yml",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.yml",
       "output": {
         ".html": {
-          "relative_path": "api/THNETII.WinApi.Native.WinBase.SYSTEM_ERRPR_MODE.html",
-          "hash": "I5MOTfpxMkZPEypP6XFqtQ=="
+          "relative_path": "api/THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html",
+          "hash": "uJUwPNbEHmlWi9X4AgRUKw=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.WinApi.Native.WinBase.html",
-          "hash": "EeJrrG7dJRN67L8z5ps5Cg=="
+          "hash": "0iY/aMqTGQs78h6Hutruww=="
         }
       },
       "is_incremental": false,
@@ -581,6 +581,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/THNETII.WinApi.Native.WinUser.MB_ICON.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/THNETII.WinApi.Native.WinUser.MB_ICON.html",
+          "hash": "R+/dtLfYi81Yq309w60COg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/THNETII.WinApi.Native.WinUser.TIMERPROC.yml",
       "output": {
         ".html": {
@@ -609,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.WinApi.Native.WinUser.WinUserConstants.html",
-          "hash": "Mg9H1gOgllJqegIeAfHBlw=="
+          "hash": "o5i9cZMiTgZZFISdeuckOQ=="
         }
       },
       "is_incremental": false,
@@ -621,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/THNETII.WinApi.Native.WinUser.html",
-          "hash": "0ZxN+25h+EDGpvLpPrdZhA=="
+          "hash": "NRDvATF7u79iL35EjaatKg=="
         }
       },
       "is_incremental": false,
@@ -681,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "zGlsLhWtHrMRzdonokJPqw=="
+          "hash": "MruYjjIGgJssGoDXuHnSxw=="
         }
       },
       "is_incremental": false,
@@ -744,11 +756,11 @@
         "incrementalPhase": "build"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
-        "ConceptualDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build"
         },
