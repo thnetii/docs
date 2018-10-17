@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum SYSTEM_ERRPR_MODE
+    <title>Enum MB_ICON
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum SYSTEM_ERRPR_MODE
+    <meta name="title" content="Enum MB_ICON
    ">
     <meta name="generator" content="docfx 2.39.2.0">
     
@@ -68,19 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="THNETII.WinApi.Native.WinBase.SYSTEM_ERRPR_MODE">
+            <article class="content wrap" id="_content" data-uid="THNETII.WinApi.Native.WinUser.MB_ICON">
   
   
-  <h1 id="THNETII_WinApi_Native_WinBase_SYSTEM_ERRPR_MODE" data-uid="THNETII.WinApi.Native.WinBase.SYSTEM_ERRPR_MODE" class="text-break">Enum SYSTEM_ERRPR_MODE
+  <h1 id="THNETII_WinApi_Native_WinUser_MB_ICON" data-uid="THNETII.WinApi.Native.WinUser.MB_ICON" class="text-break">Enum MB_ICON
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="THNETII.WinApi.Native.WinBase.html">THNETII.WinApi.Native.WinBase</a></h6>
-  <h6><strong>Assembly</strong>: THNETII.WinApi.Headers.WinBase.dll</h6>
-  <h5 id="THNETII_WinApi_Native_WinBase_SYSTEM_ERRPR_MODE_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="THNETII.WinApi.Native.WinUser.html">THNETII.WinApi.Native.WinUser</a></h6>
+  <h6><strong>Assembly</strong>: THNETII.WinApi.Headers.WinUser.dll</h6>
+  <h5 id="THNETII_WinApi_Native_WinUser_MB_ICON_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Flags]
-public enum SYSTEM_ERRPR_MODE</code></pre>
+    <pre><code class="lang-csharp hljs">public enum MB_ICON</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -93,27 +92,40 @@ public enum SYSTEM_ERRPR_MODE</code></pre>
     <thead>
     <tbody>
       <tr>
-        <td id="THNETII_WinApi_Native_WinBase_SYSTEM_ERRPR_MODE_SEM_FAILCRITICALERRORS">SEM_FAILCRITICALERRORS</td>
-        <td><p>The system does not display the critical-error-handler message box. Instead, the system sends the error to the calling thread.</p>
-<p>Best practice is that all applications call the process-wide <see cref="!:SetErrorMode"></see> function with a parameter of <a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERRPR_MODE.html#THNETII_WinApi_Native_WinBase_SYSTEM_ERRPR_MODE_SEM_FAILCRITICALERRORS">SEM_FAILCRITICALERRORS</a> at startup. This is to prevent error mode dialogs from hanging the application.</p>
-</td>
+        <td id="THNETII_WinApi_Native_WinUser_MB_ICON_MB_ICONASTERISK">MB_ICONASTERISK</td>
+        <td></td>
       </tr>
       <tr>
-        <td id="THNETII_WinApi_Native_WinBase_SYSTEM_ERRPR_MODE_SEM_NOALIGNMENTFAULTEXCEPT">SEM_NOALIGNMENTFAULTEXCEPT</td>
-        <td><p>The system automatically fixes memory alignment faults and makes them invisible to the application.
-It does this for the calling process and any descendant processes.
-This feature is only supported by certain processor architectures. For more information, see <see cref="!:SetErrorMode"></see>.</p>
-</td>
+        <td id="THNETII_WinApi_Native_WinUser_MB_ICON_MB_ICONERROR">MB_ICONERROR</td>
+        <td></td>
       </tr>
       <tr>
-        <td id="THNETII_WinApi_Native_WinBase_SYSTEM_ERRPR_MODE_SEM_NOGPFAULTERRORBOX">SEM_NOGPFAULTERRORBOX</td>
-        <td><p>The system does not display the Windows Error Reporting dialog.</p>
-</td>
+        <td id="THNETII_WinApi_Native_WinUser_MB_ICON_MB_ICONEXCLAMATION">MB_ICONEXCLAMATION</td>
+        <td></td>
       </tr>
       <tr>
-        <td id="THNETII_WinApi_Native_WinBase_SYSTEM_ERRPR_MODE_SEM_NOOPENFILEERRORBOX">SEM_NOOPENFILEERRORBOX</td>
-        <td><p>The <span class="xref">THNETII.WinApiNative.FileManagement.FileManagementFunctions.OpenFile</span> function does not display a message box when it fails to find a file. Instead, the error is returned to the caller. This error mode overrides the <see cref="!:OF_PROMPT"></see> flag.</p>
-</td>
+        <td id="THNETII_WinApi_Native_WinUser_MB_ICON_MB_ICONHAND">MB_ICONHAND</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td id="THNETII_WinApi_Native_WinUser_MB_ICON_MB_ICONINFORMATION">MB_ICONINFORMATION</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td id="THNETII_WinApi_Native_WinUser_MB_ICON_MB_ICONQUESTION">MB_ICONQUESTION</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td id="THNETII_WinApi_Native_WinUser_MB_ICON_MB_ICONSTOP">MB_ICONSTOP</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td id="THNETII_WinApi_Native_WinUser_MB_ICON_MB_ICONWARNING">MB_ICONWARNING</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td id="THNETII_WinApi_Native_WinUser_MB_ICON_MB_USERICON">MB_USERICON</td>
+        <td></td>
       </tr>
     </tbody>
   </thead></thead></table>
@@ -125,10 +137,10 @@ This feature is only supported by certain processor architectures. For more info
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WinApi_Native_WinBase_SYSTEM_ERRPR_MODE.md&amp;value=---%0Auid%3A%20THNETII.WinApi.Native.WinBase.SYSTEM_ERRPR_MODE%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/thnetii/windows-api/new/master/apiSpec/new?filename=THNETII_WinApi_Native_WinUser_MB_ICON.md&amp;value=---%0Auid%3A%20THNETII.WinApi.Native.WinUser.MB_ICON%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WinApi.Headers.WinBase/SYSTEM_ERRPR_MODE.cs/#L5" class="contribution-link">View Source</a>
+                    <a href="https://github.com/thnetii/windows-api/blob/master/src/THNETII.WinApi.Headers.WinUser/MB_ICON.cs/#L3" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
