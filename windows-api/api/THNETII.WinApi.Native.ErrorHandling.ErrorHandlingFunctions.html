@@ -1264,7 +1264,7 @@ public static int GetLastError()</code></pre>
     </tbody>
   </table>
   <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetLastError_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Functions executed by the calling thread set this value by calling the <see cref="!:SetLastError"></see> function. You should call the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetLastError">GetLastError()</a> function immediately when a function&apos;s return value indicates that such a call will return useful data. That is because some functions call <see cref="!:SetLastError"></see> with a zero when they succeed, wiping out the error code set by the most recently failed function.</p>
+  <div class="markdown level1 remarks"><p>Functions executed by the calling thread set this value by calling the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> function. You should call the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetLastError">GetLastError()</a> function immediately when a function&apos;s return value indicates that such a call will return useful data. That is because some functions call <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> with a zero when they succeed, wiping out the error code set by the most recently failed function.</p>
 <p>To obtain an error string for system error codes, use the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_FormatMessage_THNETII_WinApi_Native_WinBase_FORMAT_MESSAGE_OPTIONS_System_IntPtr_System_Int32_System_Int32_System_Text_StringBuilder_System_Int32_System_IntPtr_">FormatMessage(FORMAT_MESSAGE_OPTIONS, IntPtr, Int32, Int32, StringBuilder, Int32, IntPtr)</a> function. For a complete list of error codes provided by the operating system, see <a href="https://msdn.microsoft.com/en-us/library/ms681381.aspx">System Error Codes</a>.</p>
 <p>The error codes returned by a function are not part of the Windows API specification and can vary by operating system or device driver. For this reason, we cannot provide the complete list of error codes that can be returned by each function. There are also many functions whose documentation does not include even a partial list of error codes that can be returned.</p>
 <p>Error codes are 32-bit values (bit 31 is the most significant bit). Bit 29 is reserved for application-defined error codes; no system error code has this bit set. If you are defining an error code for your application, set this bit to one. That indicates that the error code has been defined by an application, and ensures that your error code does not conflict with any error codes defined by the system.</p>
@@ -1299,6 +1299,7 @@ public static int GetLastError()</code></pre>
   <div class="seealso">
       <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_FormatMessage_THNETII_WinApi_Native_WinBase_FORMAT_MESSAGE_OPTIONS_System_IntPtr_System_Int32_System_Int32_System_Text_StringBuilder_System_Int32_System_IntPtr_">FormatMessage(FORMAT_MESSAGE_OPTIONS, IntPtr, Int32, Int32, StringBuilder, Int32, IntPtr)</a></div>
       <div><span class="xref">THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.FromWin32(System.Int32)</span></div>
+      <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a></div>
   </div>
   
   
@@ -1617,6 +1618,70 @@ This parameter can be one of the following values.
   <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE__seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetErrorMode">GetErrorMode()</a></div>
+  </div>
+  
+  
+  <a id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_" data-uid="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.SetLastError*"></a>
+  <h4 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_" data-uid="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.SetLastError(System.Int32)">SetLastError(Int32)</h4>
+  <div class="markdown level1 summary"><p>Sets the last-error code for the calling thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLastError(int dwErrCode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">dwErrCode</span></td>
+        <td><p>The last-error code for the thread.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The last-error code is kept in thread local storage so that multiple threads do not overwrite each other&apos;s values.</p>
+<p>Most functions call <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> or <see cref="!:SetLastErrorEx"></see> only when they fail. However, some system functions call <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> or <see cref="!:SetLastErrorEx"></see> under conditions of success; those cases are noted in each function&apos;s documentation.</p>
+<p>Applications can optionally retrieve the value set by this function by using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.getlastwin32error#System_Runtime_InteropServices_Marshal_GetLastWin32Error">GetLastWin32Error()</a> function immediately after a function fails.</p>
+<p>Error codes are 32-bit values (bit 31 is the most significant bit). Bit 29 is reserved for application-defined error codes; no system error code has this bit set. If you are defining an error code for your application, set this bit to indicate that the error code has been defined by your application and to ensure that your error code does not conflict with any system-defined error codes.</p>
+<p>
+<table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows XP [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2003 [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported phone:</strong></td><td>Windows Phone 8.1</td></tr></tbody></table>
+</p>
+<p>Microsoft Docs page: <a href="https://msdn.microsoft.com/en-us/library/ms680627.aspx">SetLastError function</a></p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.dllnotfoundexception">DllNotFoundException</a></td>
+        <td><p>The native library containg the function could not be found.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.entrypointnotfoundexception">EntryPointNotFoundException</a></td>
+        <td><p>Unable to find the entry point for the function in the native library.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.getlastwin32error#System_Runtime_InteropServices_Marshal_GetLastWin32Error">GetLastWin32Error()</a></div>
   </div>
 </article>
           </div>
