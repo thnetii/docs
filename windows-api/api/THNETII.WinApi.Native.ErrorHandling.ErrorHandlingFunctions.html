@@ -667,7 +667,7 @@ If this function is called without <a class="xref" href="THNETII.WinApi.Native.W
 <p>
 <table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows XP [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2003 [desktop apps | UWP apps]</td></tr></tbody></table>
 </p>
-<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/Winuser/nf-winuser-formatmessagew">FormatMessageW function</a></p>
+<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/WinBase/nf-winbase-formatmessagew">FormatMessageW function</a></p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -828,7 +828,7 @@ If this function is called without <a class="xref" href="THNETII.WinApi.Native.W
 <p>
 <table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows XP [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2003 [desktop apps | UWP apps]</td></tr></tbody></table>
 </p>
-<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/Winuser/nf-winuser-formatmessagew">FormatMessageW function</a></p>
+<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/WinBase/nf-winbase-formatmessagew">FormatMessageW function</a></p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -986,7 +986,7 @@ If this function is called without <a class="xref" href="THNETII.WinApi.Native.W
 <p>
 <table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows XP [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2003 [desktop apps | UWP apps]</td></tr></tbody></table>
 </p>
-<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/Winuser/nf-winuser-formatmessagew">FormatMessageW function</a></p>
+<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/WinBase/nf-winbase-formatmessagew">FormatMessageW function</a></p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1146,7 +1146,7 @@ If this function is called without <a class="xref" href="THNETII.WinApi.Native.W
 <p>
 <table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows XP [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2003 [desktop apps | UWP apps]</td></tr></tbody></table>
 </p>
-<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/Winuser/nf-winuser-formatmessagew">FormatMessageW function</a></p>
+<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/WinBase/nf-winbase-formatmessagew">FormatMessageW function</a></p>
 </div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1201,7 +1201,7 @@ If this function is called without <a class="xref" href="THNETII.WinApi.Native.W
 <p>To change the error mode for the process, use the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_">SetErrorMode(SYSTEM_ERROR_MODE)</a> function.</p>
 <p>
 <strong>Windows 7:</strong><br>
-Callers should favor <see cref="!:SetThreadErrorMode"></see> over <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_">SetErrorMode(SYSTEM_ERROR_MODE)</a> since it is less disruptive to the normal behavior of the system. <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetThreadErrorMode">GetThreadErrorMode()</a> is the call function that corresponds to <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetErrorMode">GetErrorMode()</a>.
+Callers should favor <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetThreadErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE__">SetThreadErrorMode(SYSTEM_ERROR_MODE, out SYSTEM_ERROR_MODE)</a> over <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_">SetErrorMode(SYSTEM_ERROR_MODE)</a> since it is less disruptive to the normal behavior of the system. <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetThreadErrorMode">GetThreadErrorMode()</a> is the call function that corresponds to <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetErrorMode">GetErrorMode()</a>.
 </p>
 <p>
 <table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows Vista [desktop apps only]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2008 [desktop apps only]</td></tr></tbody></table>
@@ -1300,6 +1300,7 @@ public static int GetLastError()</code></pre>
       <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_FormatMessage_THNETII_WinApi_Native_WinBase_FORMAT_MESSAGE_OPTIONS_System_IntPtr_System_Int32_System_Int32_System_Text_StringBuilder_System_Int32_System_IntPtr_">FormatMessage(FORMAT_MESSAGE_OPTIONS, IntPtr, Int32, Int32, StringBuilder, Int32, IntPtr)</a></div>
       <div><span class="xref">THNETII.WindowsProtocols.WindowsErrorCodes.HRESULT.FromWin32(System.Int32)</span></div>
       <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a></div>
+      <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_System_Int32_THNETII_WinApi_Native_WinUser_SLE_TYPE_">SetLastErrorEx(Int32, SLE_TYPE)</a></div>
   </div>
   
   
@@ -1329,7 +1330,7 @@ public static int GetLastError()</code></pre>
     </tbody>
   </table>
   <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetThreadErrorMode_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>A thread inherits the error mode of the process in which it is running. To change the error mode for the thread, use the <see cref="!:SetThreadErrorMode"></see> function.</p>
+  <div class="markdown level1 remarks"><p>A thread inherits the error mode of the process in which it is running. To change the error mode for the thread, use the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetThreadErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE__">SetThreadErrorMode(SYSTEM_ERROR_MODE, out SYSTEM_ERROR_MODE)</a> function.</p>
 <p>
 <table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows 7 [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2008 R2 [desktop apps | UWP apps]</td></tr></tbody></table>
 </p>
@@ -1359,6 +1360,7 @@ public static int GetLastError()</code></pre>
   <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetThreadErrorMode_seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetErrorMode">GetErrorMode()</a></div>
+      <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetThreadErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE__">SetThreadErrorMode(SYSTEM_ERROR_MODE, out SYSTEM_ERROR_MODE)</a></div>
   </div>
   
   
@@ -1588,7 +1590,7 @@ This parameter can be one of the following values.
   <div class="markdown level1 remarks"><p>Each process has an associated error mode that indicates to the system how the application is going to respond to serious errors. A child process inherits the error mode of its parent process. To retrieve the process error mode, use the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetErrorMode">GetErrorMode()</a> function.</p>
 <p>Because the error mode is set for the entire process, you must ensure that multi-threaded applications do not set different error-mode flags. Doing so can lead to inconsistent error handling.</p>
 <p>The system does not make alignment faults visible to an application on all processor architectures. Therefore, specifying <a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html#THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_SEM_NOALIGNMENTFAULTEXCEPT">SEM_NOALIGNMENTFAULTEXCEPT</a> is not an error on such architectures, but the system is free to silently ignore the request.</p>
-<p><strong>Windows 7:</strong><br>Callers should favor <see cref="!:SetThreadErrorMode"></see> over <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_">SetErrorMode(SYSTEM_ERROR_MODE)</a> since it is less disruptive to the normal behavior of the system. </p>
+<p><strong>Windows 7:</strong><br>Callers should favor <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetThreadErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE__">SetThreadErrorMode(SYSTEM_ERROR_MODE, out SYSTEM_ERROR_MODE)</a> over <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_">SetErrorMode(SYSTEM_ERROR_MODE)</a> since it is less disruptive to the normal behavior of the system. </p>
 <p>
 <table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows XP [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2003 [desktop apps | UWP apps]</td></tr></tbody></table>
 </p>
@@ -1618,6 +1620,7 @@ This parameter can be one of the following values.
   <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE__seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetErrorMode">GetErrorMode()</a></div>
+      <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetThreadErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE__">SetThreadErrorMode(SYSTEM_ERROR_MODE, out SYSTEM_ERROR_MODE)</a></div>
   </div>
   
   
@@ -1650,11 +1653,11 @@ This parameter can be one of the following values.
   </table>
   <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>The last-error code is kept in thread local storage so that multiple threads do not overwrite each other&apos;s values.</p>
-<p>Most functions call <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> or <see cref="!:SetLastErrorEx"></see> only when they fail. However, some system functions call <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> or <see cref="!:SetLastErrorEx"></see> under conditions of success; those cases are noted in each function&apos;s documentation.</p>
+<p>Most functions call <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> or <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_System_Int32_THNETII_WinApi_Native_WinUser_SLE_TYPE_">SetLastErrorEx(Int32, SLE_TYPE)</a> only when they fail. However, some system functions call <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> or <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_System_Int32_THNETII_WinApi_Native_WinUser_SLE_TYPE_">SetLastErrorEx(Int32, SLE_TYPE)</a> under conditions of success; those cases are noted in each function&apos;s documentation.</p>
 <p>Applications can optionally retrieve the value set by this function by using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.getlastwin32error#System_Runtime_InteropServices_Marshal_GetLastWin32Error">GetLastWin32Error()</a> function immediately after a function fails.</p>
 <p>Error codes are 32-bit values (bit 31 is the most significant bit). Bit 29 is reserved for application-defined error codes; no system error code has this bit set. If you are defining an error code for your application, set this bit to indicate that the error code has been defined by your application and to ensure that your error code does not conflict with any system-defined error codes.</p>
 <p>
-<table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows XP [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2003 [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported phone:</strong></td><td>Windows Phone 8.1</td></tr></tbody></table>
+<table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows XP [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2003 [desktop apps | UWP apps]</td></tr></tbody></table>
 </p>
 <p>Microsoft Docs page: <a href="https://msdn.microsoft.com/en-us/library/ms680627.aspx">SetLastError function</a></p>
 </div>
@@ -1682,6 +1685,164 @@ This parameter can be one of the following values.
   <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32__seealso">See Also</h5>
   <div class="seealso">
       <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.getlastwin32error#System_Runtime_InteropServices_Marshal_GetLastWin32Error">GetLastWin32Error()</a></div>
+      <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_System_Int32_THNETII_WinApi_Native_WinUser_SLE_TYPE_">SetLastErrorEx(Int32, SLE_TYPE)</a></div>
+  </div>
+  
+  
+  <a id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_" data-uid="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.SetLastErrorEx*"></a>
+  <h4 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_System_Int32_THNETII_WinApi_Native_WinUser_SLE_TYPE_" data-uid="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.SetLastErrorEx(System.Int32,THNETII.WinApi.Native.WinUser.SLE_TYPE)">SetLastErrorEx(Int32, SLE_TYPE)</h4>
+  <div class="markdown level1 summary"><p>Sets the last-error code.</p>
+<p>Currently, this function is identical to the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> function. The second parameter is ignored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetLastErrorEx(int dwErrCode, SLE_TYPE dwType)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">dwErrCode</span></td>
+        <td><p>The last-error code for the thread.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="THNETII.WinApi.Native.WinUser.SLE_TYPE.html">SLE_TYPE</a></td>
+        <td><span class="parametername">dwType</span></td>
+        <td><p>This parameter is ignored.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_System_Int32_THNETII_WinApi_Native_WinUser_SLE_TYPE__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The last-error code is kept in thread local storage so that multiple threads do not overwrite each other&apos;s values.</p>
+<p>Most functions call <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> or <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_System_Int32_THNETII_WinApi_Native_WinUser_SLE_TYPE_">SetLastErrorEx(Int32, SLE_TYPE)</a> only when they fail. However, some system functions call <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastError_System_Int32_">SetLastError(Int32)</a> or <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_System_Int32_THNETII_WinApi_Native_WinUser_SLE_TYPE_">SetLastErrorEx(Int32, SLE_TYPE)</a> under conditions of success; those cases are noted in each function&apos;s documentation.</p>
+<p>Applications can optionally retrieve the value set by this function by using the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.getlastwin32error#System_Runtime_InteropServices_Marshal_GetLastWin32Error">GetLastWin32Error()</a> function immediately after a function fails.</p>
+<p>Error codes are 32-bit values (bit 31 is the most significant bit). Bit 29 is reserved for application-defined error codes; no system error code has this bit set. If you are defining an error code for your application, set this bit to indicate that the error code has been defined by your application and to ensure that your error code does not conflict with any system-defined error codes.</p>
+<p>
+<table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows XP [desktop apps only]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2003 [desktop apps only]</td></tr></tbody></table>
+</p>
+<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/Winuser/nf-winuser-setlasterrorex">SetLastErrorEx function</a></p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.dllnotfoundexception">DllNotFoundException</a></td>
+        <td><p>The native library containg the function could not be found.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.entrypointnotfoundexception">EntryPointNotFoundException</a></td>
+        <td><p>Unable to find the entry point for the function in the native library.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetLastErrorEx_System_Int32_THNETII_WinApi_Native_WinUser_SLE_TYPE__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.getlastwin32error#System_Runtime_InteropServices_Marshal_GetLastWin32Error">GetLastWin32Error()</a></div>
+  </div>
+  
+  
+  <a id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetThreadErrorMode_" data-uid="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.SetThreadErrorMode*"></a>
+  <h4 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetThreadErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE__" data-uid="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.SetThreadErrorMode(THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE,THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE@)">SetThreadErrorMode(SYSTEM_ERROR_MODE, out SYSTEM_ERROR_MODE)</h4>
+  <div class="markdown level1 summary"><p>Controls whether the system will handle the specified types of serious errors or whether the calling thread will handle them.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool SetThreadErrorMode(SYSTEM_ERROR_MODE dwNewMode, out SYSTEM_ERROR_MODE lpOldMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html">SYSTEM_ERROR_MODE</a></td>
+        <td><span class="parametername">dwNewMode</span></td>
+        <td><p>The process error mode. This parameter can be one or more of the following values.</p>
+<table><thead><tr><th>Value</th><th>Meaning</th></tr></thead><tbody><tr><td><code>0</code> (zero)<br><code>default(<a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html">SYSTEM_ERROR_MODE</a>)</code></td><td>Use the system default, which is to display all error dialog boxes.</td></tr><tr><td><a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html#THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_SEM_FAILCRITICALERRORS">SEM_FAILCRITICALERRORS</a></td><td><p>The system does not display the critical-error-handler message box. Instead, the system sends the error to the calling process.</p>Best practice is that all applications call the process-wide <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_">SetErrorMode(SYSTEM_ERROR_MODE)</a> function with a parameter of <a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html#THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_SEM_FAILCRITICALERRORS">SEM_FAILCRITICALERRORS</a> at startup. This is to prevent error mode dialogs from hanging the application.<p></td></tr><tr><td><a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html#THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_SEM_NOALIGNMENTFAULTEXCEPT">SEM_NOALIGNMENTFAULTEXCEPT</a></td><td><p>The system automatically fixes memory alignment faults and makes them invisible to the application. It does this for the calling process and any descendant processes. This feature is only supported by certain processor architectures. For more information, see the Remarks section. </p>After this value is set for a process, subsequent attempts to clear the value are ignored.<p></td></tr><tr><td><a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html#THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_SEM_NOGPFAULTERRORBOX">SEM_NOGPFAULTERRORBOX</a></td><td>The system does not display the Windows Error Reporting dialog.</td></tr><tr><td><a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html#THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_SEM_NOOPENFILEERRORBOX">SEM_NOOPENFILEERRORBOX</a></td><td>The <see cref="!:OpenFile"></see> function does not display a message box when it fails to find a file. Instead, the error is returned to the caller. This error mode overrides the <see cref="!:OF_PROMPT"></see> flag.</td></tr></tbody></table>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="THNETII.WinApi.Native.WinBase.SYSTEM_ERROR_MODE.html">SYSTEM_ERROR_MODE</a></td>
+        <td><span class="parametername">lpOldMode</span></td>
+        <td><p>If the function succeeds, this parameter is set to the thread's previous error mode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p>If the function succeeds, the return value is <code>true</code>.</p>
+<p>If the function fails, the return value is <code>false</code>. To get extended error information, call <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.marshal.getlastwin32error#System_Runtime_InteropServices_Marshal_GetLastWin32Error">GetLastWin32Error()</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetThreadErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Each process has an associated error mode that indicates to the system how the application is going to respond to serious errors. A thread inherits the error mode of the process in which it is running. To retrieve the process error mode, use the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetErrorMode">GetErrorMode()</a> function. To retrieve the error mode of the calling thread, use the <a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetThreadErrorMode">GetThreadErrorMode()</a> function.</p>
+<p>
+<table><thead><tr><th>Requirements</th><th></th></tr></thead><tbody><tr><td><strong>Minimum supported client:</strong></td><td>Windows 7 [desktop apps | UWP apps]</td></tr><tr><td><strong>Minimum supported server:</strong></td><td>Windows Server 2008 R2 [desktop apps | UWP apps]</td></tr></tbody></table>
+</p>
+<p>Microsoft Docs page: <a href="https://docs.microsoft.com/en-us/windows/desktop/api/Winuser/nf-winuser-setlasterrorex">SetLastErrorEx function</a></p>
+</div>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.dllnotfoundexception">DllNotFoundException</a></td>
+        <td><p>The native library containg the function could not be found.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.entrypointnotfoundexception">EntryPointNotFoundException</a></td>
+        <td><p>Unable to find the entry point for the function in the native library.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetThreadErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE___seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_GetThreadErrorMode">GetThreadErrorMode()</a></div>
+      <div><a class="xref" href="THNETII.WinApi.Native.ErrorHandling.ErrorHandlingFunctions.html#THNETII_WinApi_Native_ErrorHandling_ErrorHandlingFunctions_SetErrorMode_THNETII_WinApi_Native_WinBase_SYSTEM_ERROR_MODE_">SetErrorMode(SYSTEM_ERROR_MODE)</a></div>
   </div>
 </article>
           </div>
